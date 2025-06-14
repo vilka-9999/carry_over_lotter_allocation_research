@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import os
-
+import time
 
 TEAM_RANK_BASE_URL = 'https://www.basketball-reference.com/leagues/NBA'
 
@@ -11,75 +11,75 @@ TEAM_RANK_BASE_URL = 'https://www.basketball-reference.com/leagues/NBA'
 def scrape_teams(start_year, end_year):
 
     # set up db
-    columns = ['year', 'rank', 'team']
+    columns = ['year', 'team', 'rank']
     rows = []
 
+    # get the general team data
     for year in range(start_year, end_year + 1):
+        time.sleep(4)
 
+        # finding all teams
         url = f'{TEAM_RANK_BASE_URL}_{year}_standings.html'
         response = requests.get(url)
         html = response.text
         html = html.replace('<!--', '').replace('-->', '')
         soup = BeautifulSoup(html, 'html.parser')
 
-        # Table for east conference
+        # Table for teams conference
         table = soup.find('table', id='expanded_standings')
         for tr in table.find('tbody').find_all('tr'):
-            rank = tr.find('th', {'data-stat': 'ranker'}).get_text()
             team_name = tr.find('td', {'data-stat': 'team_name'}).get_text()
             team_name = ''.join(ch for ch in team_name if ch.isalpha() or ch.isspace()).strip()
-            rows.append([year, rank, team_name])
+            rows.append([year, team_name, -1])
 
-
+    # save initial data to df
     df = pd.DataFrame(rows, columns=columns)
-    df.to_csv(f'data/TeamsRank_{start_year}-{end_year}.csv')
-    return df
 
-
-# table for the payoff final teams
-def scrape_playoff(start_year, end_year):
-
-    # set up db
-    columns = ['year', 'place', 'team']
-    rows = []
-
+    # find the ranks based on playoffs
     for year in range(start_year, end_year + 1):
-
+        time.sleep(4)
+        
+        # Playoff info
         url = f'{TEAM_RANK_BASE_URL}_{year}.html'
         response = requests.get(url)
         html = response.text
         html = html.replace('<!--', '').replace('-->', '')
         soup = BeautifulSoup(html, 'html.parser')
+        
+        # Table for playoffs
+        playoff_rows = soup.find('table', id='all_playoffs').find_all('tr')
+        for tr in playoff_rows:
 
-        # find final teams row
-        table_playoff = soup.find('table', id='all_playoffs')
-        finals_row = table_playoff.find("tr")
-        teams = finals_row.find_all("a", href=True)
+            # extract data from tr
+            tds = tr.find_all('td')
 
-        # Extract the team names
-        team1 = teams[0].text.strip()
-        rows.append([year, 1, team1])
-        team2 = teams[1].text.strip()
-        rows.append([year, 2, team2])
+            # make sure we select rows with team names
+            if not tds[0].find('span', class_='tooltip opener'):
+                continue
 
-    df = pd.DataFrame(rows, columns=columns)
-    df.to_csv(f'data/PlayOff_{start_year}-{end_year}.csv')
+            # get teams
+            first_td_text = tds[0].get_text(strip=True)
+            teams = tds[1].find_all('a')
+            winner = teams[0].get_text(strip=True)
+            loser = teams[1].get_text(strip=True)
+
+            # add 1 to the winner team rank
+            df.loc[(df['team'] == winner) & (df['year'] == year), 'rank'] += 1
+            # make sure we add 1 to both teams rank since they made it to playoff
+            if 'First Round' in first_td_text:
+                df.loc[((df['team'] == loser) | (df['team'] == winner)) & (df['year'] == year), 'rank'] += 1
+            
+    # save df
+    df.to_csv(f'data/TeamsRank_{start_year}-{end_year}.csv')
     return df
 
-
-
-
-
-
-from docx import Document
 
 def main():
 
     folder = 'data'
     if not os.path.exists(folder):
         os.makedirs(folder)
-    scrape_teams(2023, 2025)
-    scrape_playoff(2023, 2025)
+    scrape_teams(1980, 2024)
 
 
 if __name__ == "__main__":
