@@ -1,0 +1,6 @@
+Rank: -1 - Didn't make to playoffs
+       0 - lost in 1st round
+       1 - lost in a 2nd round
+       2 - lost in a 3rd
+       3 - lost in the final
+       4 - won the final
