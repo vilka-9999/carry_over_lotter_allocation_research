@@ -1,0 +1,9 @@
+,year,pick,pick_team,player,draft_team,extra_check
+0,2023,1,San Antonio Spurs,Victor Wembanyama,San Antonio Spurs,False
+1,2023,2,Charlotte Hornets,Brandon Miller,Charlotte Hornets,False
+2,2023,3,Portland Trail Blazers,Scoot Henderson,Portland Trail Blazers,False
+3,2023,4,Houston Rockets,Amen Thompson,Houston Rockets,False
+4,2024,1,Atlanta Hawks,Zaccharie Risacher,Atlanta Hawks,False
+5,2024,2,Washington Wizards,Alex Sarr,Washington Wizards,False
+6,2024,3,Brooklyn Nets,Reed Sheppard,Houston Rockets,True
+7,2024,4,San Antonio Spurs,Stephon Castle,San Antonio Spurs,False

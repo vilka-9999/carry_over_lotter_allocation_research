@@ -5,6 +5,7 @@ import os
 import time
 
 TEAM_RANK_BASE_URL = 'https://www.basketball-reference.com/leagues/NBA'
+DRAFT_PICK_BASE_URL = 'https://basketball.realgm.com/nba/draft/lottery_results/'
 
 
 # Data for team rankings
@@ -74,12 +75,51 @@ def scrape_teams(start_year, end_year):
     return df
 
 
+# Data for draft picks
+def scrape_draft_picks(start_year, end_year):
+    columns = ['year', 'pick', 'pick_team', 'player', 'draft_team', 'extra_check']
+    rows = []
+
+    for year in range(start_year, end_year + 1):
+
+        # finding all teams
+        url = f'{DRAFT_PICK_BASE_URL}{year}'
+        response = requests.get(url)
+        html = response.text
+        html = html.replace('<!--', '').replace('-->', '')
+        soup = BeautifulSoup(html, 'html.parser')
+
+        # Table for draft picks
+        table = soup.find('table')
+        pick = 0
+        for tr in table.find('tbody').find_all('tr'):
+            pick += 1
+            data = tr.find_all('td')
+            # only for 1st 4 teams
+            if pick > 4:
+                break
+            rows.append([year, 
+                         data[0].get_text(strip=True), 
+                         data[1].get_text(strip=True),
+                         data[7].get_text(strip=True),
+                         data[8].get_text(strip=True),
+                         data[1].get_text(strip=True) != data[8].get_text(strip=True)])
+            
+    # save initial data to df
+    df = pd.DataFrame(rows, columns=columns)
+
+    # save df
+    df.to_csv(f'data/DraftPicks_{start_year}-{end_year}.csv')
+    return df
+
+
 def main():
 
     folder = 'data'
     if not os.path.exists(folder):
         os.makedirs(folder)
-    scrape_teams(1980, 2024)
+    #scrape_teams(1980, 2024)
+    scrape_draft_picks(1985, 2024)
 
 
 if __name__ == "__main__":
