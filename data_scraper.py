@@ -12,7 +12,7 @@ DRAFT_PICK_BASE_URL = 'https://basketball.realgm.com/nba/draft/lottery_results/'
 def scrape_teams(start_year, end_year):
 
     # set up db
-    columns = ['year', 'team', 'rank']
+    columns = ['year', 'team', 'rank_regular', 'rank_playoffs']
     rows = []
 
     # get the general team data
@@ -29,9 +29,10 @@ def scrape_teams(start_year, end_year):
         # Table for teams conference
         table = soup.find('table', id='expanded_standings')
         for tr in table.find('tbody').find_all('tr'):
+            rank_regular = tr.find('th', {'data-stat': 'ranker'}).get_text()
             team_name = tr.find('td', {'data-stat': 'team_name'}).get_text()
             team_name = ''.join(ch for ch in team_name if ch.isalpha() or ch.isspace()).strip()
-            rows.append([year, team_name, -1])
+            rows.append([year, team_name, rank_regular, -1])
 
     # save initial data to df
     df = pd.DataFrame(rows, columns=columns)
@@ -65,10 +66,10 @@ def scrape_teams(start_year, end_year):
             loser = teams[1].get_text(strip=True)
 
             # add 1 to the winner team rank
-            df.loc[(df['team'] == winner) & (df['year'] == year), 'rank'] += 1
+            df.loc[(df['team'] == winner) & (df['year'] == year), 'rank_playoffs'] += 1
             # make sure we add 1 to both teams rank since they made it to playoff
             if 'First Round' in first_td_text:
-                df.loc[((df['team'] == loser) | (df['team'] == winner)) & (df['year'] == year), 'rank'] += 1
+                df.loc[((df['team'] == loser) | (df['team'] == winner)) & (df['year'] == year), 'rank_playoffs'] += 1
             
     # save df
     df.to_csv(f'data/TeamsRank_{start_year}-{end_year}.csv')
@@ -118,8 +119,8 @@ def main():
     folder = 'data'
     if not os.path.exists(folder):
         os.makedirs(folder)
-    #scrape_teams(1980, 2024)
-    scrape_draft_picks(1985, 2024)
+    scrape_teams(1985, 2024)
+    #scrape_draft_picks(1985, 2024)
 
 
 if __name__ == "__main__":
