@@ -1,0 +1,161 @@
+,year,pick,pick_team,player,draft_team,extra_check
+0,1985,1,New York Knicks,Patrick Ewing,New York Knicks,False
+1,1985,2,Indiana Pacers,Wayman Tisdale,Indiana Pacers,False
+2,1985,3,Los Angeles Clippers,Benoit Benjamin,Los Angeles Clippers,False
+3,1985,4,Seattle SuperSonics,Xavier McDaniel,Seattle SuperSonics,False
+4,1986,1,Philadelphia Sixers,Brad Daugherty,Cleveland Cavaliers,True
+5,1986,2,Boston Celtics,Len Bias,Boston Celtics,False
+6,1986,3,Golden State Warriors,Chris Washburn,Golden State Warriors,False
+7,1986,4,Indiana Pacers,Chuck Person,Indiana Pacers,False
+8,1987,1,San Antonio Spurs,David Robinson,San Antonio Spurs,False
+9,1987,2,Phoenix Suns,Armen Gilliam,Phoenix Suns,False
+10,1987,3,New Jersey Nets,Dennis Hopson,New Jersey Nets,False
+11,1987,4,Los Angeles Clippers,Reggie Williams,Los Angeles Clippers,False
+12,1988,1,Los Angeles Clippers,Danny Manning,Los Angeles Clippers,False
+13,1988,2,Indiana Pacers,Rik Smits,Indiana Pacers,False
+14,1988,3,Philadelphia Sixers,Charles Daniel Smith,Philadelphia Sixers,False
+15,1988,4,New Jersey Nets,Chris Morris,New Jersey Nets,False
+16,1989,1,Sacramento Kings,Pervis Ellison,Sacramento Kings,False
+17,1989,2,Los Angeles Clippers,Danny Ferry,Los Angeles Clippers,False
+18,1989,3,San Antonio Spurs,Sean Elliott,San Antonio Spurs,False
+19,1989,4,Miami Heat,Glen Rice,Miami Heat,False
+20,1990,1,New Jersey Nets,Derrick Coleman,New Jersey Nets,False
+21,1990,2,Seattle SuperSonics,Gary Payton,Seattle SuperSonics,False
+22,1990,3,Miami Heat,Mahmoud Abdul-Rauf,Denver Nuggets,True
+23,1990,4,Orlando Magic,Dennis Scott,Orlando Magic,False
+24,1991,1,Charlotte Hornets,Larry Johnson,Charlotte Hornets,False
+25,1991,2,New Jersey Nets,Kenny Anderson,New Jersey Nets,False
+26,1991,3,Sacramento Kings,Billy Owens,Sacramento Kings,False
+27,1991,4,Denver Nuggets,Dikembe Mutombo,Denver Nuggets,False
+28,1992,1,Orlando Magic,Shaquille O'Neal,Orlando Magic,False
+29,1992,2,Charlotte Hornets,Alonzo Mourning,Charlotte Hornets,False
+30,1992,3,Minnesota Timberwolves,Christian Laettner,Minnesota Timberwolves,False
+31,1992,4,Dallas Mavericks,Jim Jackson,Dallas Mavericks,False
+32,1993,1,Orlando Magic,Chris Webber,Orlando Magic,False
+33,1993,2,Philadelphia Sixers,Shawn Bradley,Philadelphia Sixers,False
+34,1993,3,Golden State Warriors,Penny Hardaway,Golden State Warriors,False
+35,1993,4,Dallas Mavericks,Jamal Mashburn,Dallas Mavericks,False
+36,1994,1,Milwaukee Bucks,Glenn Robinson,Milwaukee Bucks,False
+37,1994,2,Dallas Mavericks,Jason Kidd,Dallas Mavericks,False
+38,1994,3,Detroit Pistons,Grant Hill,Detroit Pistons,False
+39,1994,4,Minnesota Timberwolves,Donyell Marshall,Minnesota Timberwolves,False
+40,1995,1,Golden State Warriors,Joe Smith,Golden State Warriors,False
+41,1995,2,Los Angeles Clippers,Antonio McDyess,Los Angeles Clippers,False
+42,1995,3,Philadelphia Sixers,Jerry Stackhouse,Philadelphia Sixers,False
+43,1995,4,Washington Bullets,Rasheed Wallace,Washington Bullets,False
+44,1996,1,Philadelphia Sixers,Allen Iverson,Philadelphia Sixers,False
+45,1996,2,Toronto Raptors,Marcus Camby,Toronto Raptors,False
+46,1996,3,Vancouver Grizzlies,Shareef Abdur-Rahim,Vancouver Grizzlies,False
+47,1996,4,Milwaukee Bucks,Stephon Marbury,Milwaukee Bucks,False
+48,1997,1,San Antonio Spurs,Tim Duncan,San Antonio Spurs,False
+49,1997,2,Philadelphia Sixers,Keith Van Horn,Philadelphia Sixers,False
+50,1997,3,Boston Celtics,Chauncey Billups,Boston Celtics,False
+51,1997,4,Vancouver Grizzlies,Antonio Daniels,Vancouver Grizzlies,False
+52,1998,1,Los Angeles Clippers,Michael Olowokandi,Los Angeles Clippers,False
+53,1998,2,Vancouver Grizzlies,Mike Bibby,Vancouver Grizzlies,False
+54,1998,3,Denver Nuggets,Raef LaFrentz,Denver Nuggets,False
+55,1998,4,Toronto Raptors,Antawn Jamison,Toronto Raptors,False
+56,1999,1,Chicago Bulls,Elton Brand,Chicago Bulls,False
+57,1999,2,Vancouver Grizzlies,Steve Francis,Vancouver Grizzlies,False
+58,1999,3,Charlotte Hornets,Baron Davis,Charlotte Hornets,False
+59,1999,4,Los Angeles Clippers,Lamar Odom,Los Angeles Clippers,False
+60,2000,1,New Jersey Nets,Kenyon Martin,New Jersey Nets,False
+61,2000,2,Vancouver Grizzlies,Stromile Swift,Vancouver Grizzlies,False
+62,2000,3,Los Angeles Clippers,Darius Miles,Los Angeles Clippers,False
+63,2000,4,Chicago Bulls,Marcus Fizer,Chicago Bulls,False
+64,2001,1,Washington Wizards,Kwame Brown,Washington Wizards,False
+65,2001,2,Los Angeles Clippers,Tyson Chandler,Los Angeles Clippers,False
+66,2001,3,Atlanta Hawks,Pau Gasol,Atlanta Hawks,False
+67,2001,4,Chicago Bulls,Eddy Curry,Chicago Bulls,False
+68,2002,1,Houston Rockets,Yao Ming,Houston Rockets,False
+69,2002,2,Chicago Bulls,Jay Williams,Chicago Bulls,False
+70,2002,3,Golden State Warriors,Mike Dunleavy,Golden State Warriors,False
+71,2002,4,Memphis Grizzlies,Drew Gooden,Memphis Grizzlies,False
+72,2003,1,Cleveland Cavaliers,LeBron James,Cleveland Cavaliers,False
+73,2003,2,Memphis Grizzlies,Darko Milicic,Detroit Pistons,True
+74,2003,3,Denver Nuggets,Carmelo Anthony,Denver Nuggets,False
+75,2003,4,Toronto Raptors,Chris Bosh,Toronto Raptors,False
+76,2004,1,Orlando Magic,Dwight Howard,Orlando Magic,False
+77,2004,2,Los Angeles Clippers,Emeka Okafor,Charlotte Bobcats,True
+78,2004,3,Chicago Bulls,Ben Gordon,Chicago Bulls,False
+79,2004,4,Charlotte Bobcats,Shaun Livingston,Los Angeles Clippers,True
+80,2005,1,Milwaukee Bucks,Andrew Bogut,Milwaukee Bucks,False
+81,2005,2,Atlanta Hawks,Marvin Williams,Atlanta Hawks,False
+82,2005,3,Portland Trail Blazers,Deron Williams,Utah Jazz,True
+83,2005,4,New Orleans Hornets,Chris Paul,New Orleans Hornets,False
+84,2006,1,Toronto Raptors,Andrea Bargnani,Toronto Raptors,False
+85,2006,2,New York Knicks,LaMarcus Aldridge,Chicago Bulls,True
+86,2006,3,Charlotte Bobcats,Adam Morrison,Charlotte Bobcats,False
+87,2006,4,Portland Trail Blazers,Tyrus Thomas,Portland Trail Blazers,False
+88,2007,1,Portland Trail Blazers,Greg Oden,Portland Trail Blazers,False
+89,2007,2,Seattle SuperSonics,Kevin Durant,Seattle SuperSonics,False
+90,2007,3,Atlanta Hawks,Al Horford,Atlanta Hawks,False
+91,2007,4,Memphis Grizzlies,Mike Conley,Memphis Grizzlies,False
+92,2008,1,Chicago Bulls,Derrick Rose,Chicago Bulls,False
+93,2008,2,Miami Heat,Michael Beasley,Miami Heat,False
+94,2008,3,Minnesota Timberwolves,O.J. Mayo,Minnesota Timberwolves,False
+95,2008,4,Seattle SuperSonics,Russell Westbrook,Seattle SuperSonics,False
+96,2009,1,Los Angeles Clippers,Blake Griffin,Los Angeles Clippers,False
+97,2009,2,Memphis Grizzlies,Hasheem Thabeet,Memphis Grizzlies,False
+98,2009,3,Oklahoma City Thunder,James Harden,Oklahoma City Thunder,False
+99,2009,4,Sacramento Kings,Tyreke Evans,Sacramento Kings,False
+100,2010,1,Washington Wizards,John Wall,Washington Wizards,False
+101,2010,2,Philadelphia Sixers,Evan Turner,Philadelphia Sixers,False
+102,2010,3,New Jersey Nets,Derrick Favors,New Jersey Nets,False
+103,2010,4,Minnesota Timberwolves,Wesley Johnson,Minnesota Timberwolves,False
+104,2011,1,Los Angeles Clippers,Kyrie Irving,Cleveland Cavaliers,True
+105,2011,2,Minnesota Timberwolves,Derrick Williams,Minnesota Timberwolves,False
+106,2011,3,New Jersey Nets,Enes Freedom,Utah Jazz,True
+107,2011,4,Cleveland Cavaliers,Tristan Thompson,Cleveland Cavaliers,False
+108,2012,1,New Orleans Hornets,Anthony Davis,New Orleans Hornets,False
+109,2012,2,Charlotte Bobcats,Michael Kidd-Gilchrist,Charlotte Bobcats,False
+110,2012,3,Washington Wizards,Bradley Beal,Washington Wizards,False
+111,2012,4,Cleveland Cavaliers,Dion Waiters,Cleveland Cavaliers,False
+112,2013,1,Cleveland Cavaliers,Anthony Bennett,Cleveland Cavaliers,False
+113,2013,2,Orlando Magic,Victor Oladipo,Orlando Magic,False
+114,2013,3,Washington Wizards,Otto Porter,Washington Wizards,False
+115,2013,4,Charlotte Bobcats,Cody Zeller,Charlotte Bobcats,False
+116,2014,1,Cleveland Cavaliers,Andrew Wiggins,Cleveland Cavaliers,False
+117,2014,2,Milwaukee Bucks,Jabari Parker,Milwaukee Bucks,False
+118,2014,3,Philadelphia Sixers,Joel Embiid,Philadelphia Sixers,False
+119,2014,4,Orlando Magic,Aaron Gordon,Orlando Magic,False
+120,2015,1,Minnesota Timberwolves,Karl-Anthony Towns,Minnesota Timberwolves,False
+121,2015,2,Los Angeles Lakers,D'Angelo Russell,Los Angeles Lakers,False
+122,2015,3,Philadelphia Sixers,Jahlil Okafor,Philadelphia Sixers,False
+123,2015,4,New York Knicks,Kristaps Porzingis,New York Knicks,False
+124,2016,1,Philadelphia Sixers,Ben Simmons,Philadelphia Sixers,False
+125,2016,2,Los Angeles Lakers,Brandon Ingram,Los Angeles Lakers,False
+126,2016,3,Brooklyn Nets,Jaylen Brown,Boston Celtics,True
+127,2016,4,Phoenix Suns,Dragan Bender,Phoenix Suns,False
+128,2017,1,Brooklyn Nets,Markelle Fultz,Philadelphia Sixers,True
+129,2017,2,Los Angeles Lakers,Lonzo Ball,Los Angeles Lakers,False
+130,2017,3,Sacramento Kings,Jayson Tatum,Boston Celtics,True
+131,2017,4,Phoenix Suns,Josh Jackson,Phoenix Suns,False
+132,2018,1,Phoenix Suns,Deandre Ayton,Phoenix Suns,False
+133,2018,2,Sacramento Kings,Marvin Bagley III,Sacramento Kings,False
+134,2018,3,Atlanta Hawks,Luka Doncic,Atlanta Hawks,False
+135,2018,4,Memphis Grizzlies,"Jaren Jackson, Jr.",Memphis Grizzlies,False
+136,2019,1,New Orleans Pelicans,Zion Williamson,New Orleans Pelicans,False
+137,2019,2,Memphis Grizzlies,Ja Morant,Memphis Grizzlies,False
+138,2019,3,New York Knicks,R.J. Barrett,New York Knicks,False
+139,2019,4,Los Angeles Lakers,De'Andre Hunter,Los Angeles Lakers,False
+140,2020,1,Minnesota Timberwolves,Anthony Edwards,Minnesota Timberwolves,False
+141,2020,2,Golden State Warriors,James Wiseman,Golden State Warriors,False
+142,2020,3,Charlotte Hornets,LaMelo Ball,Charlotte Hornets,False
+143,2020,4,Chicago Bulls,Patrick Williams,Chicago Bulls,False
+144,2021,1,Detroit Pistons,Cade Cunningham,Detroit Pistons,False
+145,2021,2,Houston Rockets,Jalen Green,Houston Rockets,False
+146,2021,3,Cleveland Cavaliers,Evan Mobley,Cleveland Cavaliers,False
+147,2021,4,Toronto Raptors,Scottie Barnes,Toronto Raptors,False
+148,2022,1,Orlando Magic,Paolo Banchero,Orlando Magic,False
+149,2022,2,Oklahoma City Thunder,Chet Holmgren,Oklahoma City Thunder,False
+150,2022,3,Houston Rockets,"Jabari Smith, Jr.",Houston Rockets,False
+151,2022,4,Sacramento Kings,Keegan Murray,Sacramento Kings,False
+152,2023,1,San Antonio Spurs,Victor Wembanyama,San Antonio Spurs,False
+153,2023,2,Charlotte Hornets,Brandon Miller,Charlotte Hornets,False
+154,2023,3,Portland Trail Blazers,Scoot Henderson,Portland Trail Blazers,False
+155,2023,4,Houston Rockets,Amen Thompson,Houston Rockets,False
+156,2024,1,Atlanta Hawks,Zaccharie Risacher,Atlanta Hawks,False
+157,2024,2,Washington Wizards,Alex Sarr,Washington Wizards,False
+158,2024,3,Brooklyn Nets,Reed Sheppard,Houston Rockets,True
+159,2024,4,San Antonio Spurs,Stephon Castle,San Antonio Spurs,False

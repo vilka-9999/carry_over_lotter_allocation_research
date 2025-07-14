@@ -1,0 +1,1141 @@
+,year,team_normalized,coins
+0,1985,atlanta hawks,1.0
+1,1986,atlanta hawks,0.75
+2,1987,atlanta hawks,0.56
+3,1988,atlanta hawks,0.42
+4,1989,atlanta hawks,0.42
+5,1990,atlanta hawks,1.42
+6,1991,atlanta hawks,1.42
+7,1992,atlanta hawks,2.42
+8,1993,atlanta hawks,2.42
+9,1994,atlanta hawks,1.82
+10,1995,atlanta hawks,1.82
+11,1996,atlanta hawks,1.36
+12,1997,atlanta hawks,1.02
+13,1998,atlanta hawks,1.02
+14,1999,atlanta hawks,0.77
+15,2000,atlanta hawks,1.77
+16,2001,atlanta hawks,1.38
+17,2002,atlanta hawks,2.38
+18,2003,atlanta hawks,3.38
+19,2004,atlanta hawks,4.38
+20,2005,atlanta hawks,1.35
+21,2006,atlanta hawks,2.35
+22,2007,atlanta hawks,1.67
+23,2008,atlanta hawks,1.67
+24,2009,atlanta hawks,1.25
+25,2010,atlanta hawks,0.94
+26,2011,atlanta hawks,0.71
+27,2012,atlanta hawks,0.71
+28,2013,atlanta hawks,0.71
+29,2014,atlanta hawks,0.71
+30,2015,atlanta hawks,0.35
+31,2016,atlanta hawks,0.26
+32,2017,atlanta hawks,0.26
+33,2018,atlanta hawks,0.63
+34,2019,atlanta hawks,1.63
+35,2020,atlanta hawks,2.63
+36,2021,atlanta hawks,1.32
+37,2022,atlanta hawks,1.32
+38,2023,atlanta hawks,1.32
+39,2024,atlanta hawks,0.0
+40,1985,boston celtics,0.0
+41,1986,boston celtics,0.0
+42,1987,boston celtics,0.0
+43,1988,boston celtics,0.0
+44,1989,boston celtics,0.0
+45,1990,boston celtics,0.0
+46,1991,boston celtics,0.0
+47,1992,boston celtics,0.0
+48,1993,boston celtics,0.0
+49,1994,boston celtics,1.0
+50,1995,boston celtics,1.0
+51,1996,boston celtics,2.0
+52,1997,boston celtics,1.5
+53,1998,boston celtics,2.5
+54,1999,boston celtics,3.5
+55,2000,boston celtics,4.5
+56,2001,boston celtics,5.5
+57,2002,boston celtics,2.75
+58,2003,boston celtics,2.06
+59,2004,boston celtics,2.06
+60,2005,boston celtics,2.06
+61,2006,boston celtics,3.06
+62,2007,boston celtics,4.06
+63,2008,boston celtics,0.0
+64,2009,boston celtics,0.0
+65,2010,boston celtics,0.0
+66,2011,boston celtics,0.0
+67,2012,boston celtics,0.0
+68,2013,boston celtics,0.0
+69,2014,boston celtics,1.0
+70,2015,boston celtics,1.0
+71,2016,boston celtics,1.0
+72,2017,boston celtics,0.5
+73,2018,boston celtics,0.25
+74,2019,boston celtics,0.19
+75,2020,boston celtics,0.09
+76,2021,boston celtics,0.09
+77,2022,boston celtics,0.02
+78,2023,boston celtics,0.01
+79,2024,boston celtics,0.0
+80,1985,brooklyn nets,0.0
+81,1986,brooklyn nets,0.0
+82,1987,brooklyn nets,0.5
+83,1988,brooklyn nets,1.12
+84,1989,brooklyn nets,2.12
+85,1990,brooklyn nets,0.0
+86,1991,brooklyn nets,0.25
+87,1992,brooklyn nets,0.25
+88,1993,brooklyn nets,0.25
+89,1994,brooklyn nets,0.25
+90,1995,brooklyn nets,1.25
+91,1996,brooklyn nets,2.25
+92,1997,brooklyn nets,3.25
+93,1998,brooklyn nets,3.25
+94,1999,brooklyn nets,4.25
+95,2000,brooklyn nets,0.0
+96,2001,brooklyn nets,1.0
+97,2002,brooklyn nets,0.25
+98,2003,brooklyn nets,0.06
+99,2004,brooklyn nets,0.05
+100,2005,brooklyn nets,0.05
+101,2006,brooklyn nets,0.04
+102,2007,brooklyn nets,0.03
+103,2008,brooklyn nets,1.03
+104,2009,brooklyn nets,2.03
+105,2010,brooklyn nets,1.51
+106,2011,brooklyn nets,1.26
+107,2012,brooklyn nets,2.26
+108,2013,brooklyn nets,2.26
+109,2014,brooklyn nets,1.69
+110,2015,brooklyn nets,1.69
+111,2016,brooklyn nets,1.35
+112,2017,brooklyn nets,0.0
+113,2018,brooklyn nets,1.0
+114,2019,brooklyn nets,1.0
+115,2020,brooklyn nets,1.0
+116,2021,brooklyn nets,0.75
+117,2022,brooklyn nets,0.75
+118,2023,brooklyn nets,0.75
+119,2024,brooklyn nets,0.88
+120,1989,charlotte hornets,1.0
+121,1990,charlotte hornets,2.0
+122,1991,charlotte hornets,0.0
+123,1992,charlotte hornets,0.25
+124,1993,charlotte hornets,0.19
+125,1994,charlotte hornets,1.19
+126,1995,charlotte hornets,1.19
+127,1996,charlotte hornets,2.19
+128,1997,charlotte hornets,2.19
+129,1998,charlotte hornets,1.64
+130,1999,charlotte hornets,1.32
+131,2000,charlotte hornets,1.32
+132,2001,charlotte hornets,0.99
+133,2002,charlotte hornets,0.74
+134,2005,charlotte hornets,1.74
+135,2006,charlotte hornets,1.37
+136,2007,charlotte hornets,2.37
+137,2008,charlotte hornets,3.37
+138,2009,charlotte hornets,4.37
+139,2010,charlotte hornets,4.37
+140,2011,charlotte hornets,5.37
+141,2012,charlotte hornets,1.59
+142,2013,charlotte hornets,1.94
+143,2014,charlotte hornets,1.94
+144,2015,charlotte hornets,2.94
+145,2016,charlotte hornets,2.94
+146,2017,charlotte hornets,3.94
+147,2018,charlotte hornets,4.94
+148,2019,charlotte hornets,5.94
+149,2020,charlotte hornets,3.47
+150,2021,charlotte hornets,4.47
+151,2022,charlotte hornets,5.47
+152,2023,charlotte hornets,1.62
+153,2024,charlotte hornets,2.62
+154,1985,chicago bulls,0.0
+155,1986,chicago bulls,0.0
+156,1987,chicago bulls,0.0
+157,1988,chicago bulls,0.0
+158,1989,chicago bulls,0.0
+159,1990,chicago bulls,0.0
+160,1991,chicago bulls,0.0
+161,1992,chicago bulls,0.0
+162,1993,chicago bulls,0.0
+163,1994,chicago bulls,0.0
+164,1995,chicago bulls,0.0
+165,1996,chicago bulls,0.0
+166,1997,chicago bulls,0.0
+167,1998,chicago bulls,0.0
+168,1999,chicago bulls,0.0
+169,2000,chicago bulls,0.75
+170,2001,chicago bulls,1.31
+171,2002,chicago bulls,0.58
+172,2003,chicago bulls,1.58
+173,2004,chicago bulls,1.29
+174,2005,chicago bulls,1.29
+175,2006,chicago bulls,1.29
+176,2007,chicago bulls,0.97
+177,2008,chicago bulls,0.0
+178,2009,chicago bulls,0.0
+179,2010,chicago bulls,0.0
+180,2011,chicago bulls,0.0
+181,2012,chicago bulls,0.0
+182,2013,chicago bulls,0.0
+183,2014,chicago bulls,0.0
+184,2015,chicago bulls,0.0
+185,2016,chicago bulls,1.0
+186,2017,chicago bulls,1.0
+187,2018,chicago bulls,2.0
+188,2019,chicago bulls,3.0
+189,2020,chicago bulls,3.0
+190,2021,chicago bulls,4.0
+191,2022,chicago bulls,4.0
+192,2023,chicago bulls,5.0
+193,2024,chicago bulls,6.0
+194,1985,cleveland cavaliers,0.0
+195,1986,cleveland cavaliers,1.0
+196,1987,cleveland cavaliers,2.0
+197,1988,cleveland cavaliers,2.0
+198,1989,cleveland cavaliers,2.0
+199,1990,cleveland cavaliers,2.0
+200,1991,cleveland cavaliers,3.0
+201,1992,cleveland cavaliers,1.5
+202,1993,cleveland cavaliers,1.12
+203,1994,cleveland cavaliers,1.12
+204,1995,cleveland cavaliers,1.12
+205,1996,cleveland cavaliers,1.12
+206,1997,cleveland cavaliers,2.12
+207,1998,cleveland cavaliers,2.12
+208,1999,cleveland cavaliers,3.12
+209,2000,cleveland cavaliers,4.12
+210,2001,cleveland cavaliers,5.12
+211,2002,cleveland cavaliers,6.12
+212,2003,cleveland cavaliers,0.0
+213,2004,cleveland cavaliers,1.0
+214,2005,cleveland cavaliers,2.0
+215,2006,cleveland cavaliers,1.5
+216,2007,cleveland cavaliers,0.38
+217,2008,cleveland cavaliers,0.28
+218,2009,cleveland cavaliers,0.14
+219,2010,cleveland cavaliers,0.11
+220,2011,cleveland cavaliers,0.83
+221,2012,cleveland cavaliers,1.37
+222,2013,cleveland cavaliers,0.0
+223,2014,cleveland cavaliers,0.0
+224,2015,cleveland cavaliers,0.0
+225,2016,cleveland cavaliers,0.0
+226,2017,cleveland cavaliers,0.0
+227,2018,cleveland cavaliers,0.0
+228,2019,cleveland cavaliers,1.0
+229,2020,cleveland cavaliers,2.0
+230,2021,cleveland cavaliers,1.5
+231,2022,cleveland cavaliers,2.5
+232,2023,cleveland cavaliers,2.5
+233,2024,cleveland cavaliers,1.88
+234,1985,dallas mavericks,0.0
+235,1986,dallas mavericks,0.0
+236,1987,dallas mavericks,0.0
+237,1988,dallas mavericks,0.0
+238,1989,dallas mavericks,1.0
+239,1990,dallas mavericks,1.0
+240,1991,dallas mavericks,2.0
+241,1992,dallas mavericks,2.25
+242,1993,dallas mavericks,2.44
+243,1994,dallas mavericks,0.86
+244,1995,dallas mavericks,1.86
+245,1996,dallas mavericks,2.86
+246,1997,dallas mavericks,3.86
+247,1998,dallas mavericks,4.86
+248,1999,dallas mavericks,5.86
+249,2000,dallas mavericks,6.86
+250,2001,dallas mavericks,5.14
+251,2002,dallas mavericks,3.86
+252,2003,dallas mavericks,1.93
+253,2004,dallas mavericks,1.93
+254,2005,dallas mavericks,1.45
+255,2006,dallas mavericks,0.36
+256,2007,dallas mavericks,0.36
+257,2008,dallas mavericks,0.36
+258,2009,dallas mavericks,0.27
+259,2010,dallas mavericks,0.27
+260,2011,dallas mavericks,0.0
+261,2012,dallas mavericks,0.0
+262,2013,dallas mavericks,1.0
+263,2014,dallas mavericks,1.0
+264,2015,dallas mavericks,1.0
+265,2016,dallas mavericks,1.0
+266,2017,dallas mavericks,2.0
+267,2018,dallas mavericks,3.0
+268,2019,dallas mavericks,4.0
+269,2020,dallas mavericks,4.0
+270,2021,dallas mavericks,4.0
+271,2022,dallas mavericks,2.0
+272,2023,dallas mavericks,3.0
+273,2024,dallas mavericks,0.75
+274,1985,denver nuggets,0.0
+275,1986,denver nuggets,0.0
+276,1987,denver nuggets,0.0
+277,1988,denver nuggets,0.0
+278,1989,denver nuggets,0.0
+279,1990,denver nuggets,0.0
+280,1991,denver nuggets,0.75
+281,1992,denver nuggets,1.75
+282,1993,denver nuggets,2.75
+283,1994,denver nuggets,2.06
+284,1995,denver nuggets,2.06
+285,1996,denver nuggets,3.06
+286,1997,denver nuggets,4.06
+287,1998,denver nuggets,2.53
+288,1999,denver nuggets,3.53
+289,2000,denver nuggets,4.53
+290,2001,denver nuggets,5.53
+291,2002,denver nuggets,6.53
+292,2003,denver nuggets,3.77
+293,2004,denver nuggets,3.77
+294,2005,denver nuggets,3.77
+295,2006,denver nuggets,3.77
+296,2007,denver nuggets,3.77
+297,2008,denver nuggets,3.77
+298,2009,denver nuggets,1.88
+299,2010,denver nuggets,1.88
+300,2011,denver nuggets,1.88
+301,2012,denver nuggets,1.88
+302,2013,denver nuggets,1.88
+303,2014,denver nuggets,2.88
+304,2015,denver nuggets,3.88
+305,2016,denver nuggets,4.88
+306,2017,denver nuggets,5.88
+307,2018,denver nuggets,6.88
+308,2019,denver nuggets,5.16
+309,2020,denver nuggets,2.58
+310,2021,denver nuggets,1.94
+311,2022,denver nuggets,1.94
+312,2023,denver nuggets,0.0
+313,2024,denver nuggets,0.0
+314,1985,detroit pistons,0.0
+315,1986,detroit pistons,0.0
+316,1987,detroit pistons,0.0
+317,1988,detroit pistons,0.0
+318,1989,detroit pistons,0.0
+319,1990,detroit pistons,0.0
+320,1991,detroit pistons,0.0
+321,1992,detroit pistons,0.0
+322,1993,detroit pistons,1.0
+323,1994,detroit pistons,1.0
+324,1995,detroit pistons,2.0
+325,1996,detroit pistons,2.0
+326,1997,detroit pistons,2.0
+327,1998,detroit pistons,3.0
+328,1999,detroit pistons,3.0
+329,2000,detroit pistons,3.0
+330,2001,detroit pistons,4.0
+331,2002,detroit pistons,3.0
+332,2003,detroit pistons,1.5
+333,2004,detroit pistons,0.0
+334,2005,detroit pistons,0.0
+335,2006,detroit pistons,0.0
+336,2007,detroit pistons,0.0
+337,2008,detroit pistons,0.0
+338,2009,detroit pistons,0.0
+339,2010,detroit pistons,1.0
+340,2011,detroit pistons,2.0
+341,2012,detroit pistons,3.0
+342,2013,detroit pistons,4.0
+343,2014,detroit pistons,5.0
+344,2015,detroit pistons,6.0
+345,2016,detroit pistons,6.0
+346,2017,detroit pistons,7.0
+347,2018,detroit pistons,8.0
+348,2019,detroit pistons,8.0
+349,2020,detroit pistons,9.0
+350,2021,detroit pistons,0.0
+351,2022,detroit pistons,1.0
+352,2023,detroit pistons,2.0
+353,2024,detroit pistons,3.0
+354,1985,golden state warriors,1.0
+355,1986,golden state warriors,1.0
+356,1987,golden state warriors,0.75
+357,1988,golden state warriors,1.75
+358,1989,golden state warriors,1.31
+359,1990,golden state warriors,2.31
+360,1991,golden state warriors,1.73
+361,1992,golden state warriors,1.73
+362,1993,golden state warriors,1.37
+363,1994,golden state warriors,1.37
+364,1995,golden state warriors,0.0
+365,1996,golden state warriors,1.0
+366,1997,golden state warriors,2.0
+367,1998,golden state warriors,3.0
+368,1999,golden state warriors,4.0
+369,2000,golden state warriors,5.0
+370,2001,golden state warriors,6.0
+371,2002,golden state warriors,3.5
+372,2003,golden state warriors,4.5
+373,2004,golden state warriors,5.5
+374,2005,golden state warriors,6.5
+375,2006,golden state warriors,7.5
+376,2007,golden state warriors,5.62
+377,2008,golden state warriors,6.62
+378,2009,golden state warriors,7.62
+379,2010,golden state warriors,8.62
+380,2011,golden state warriors,9.62
+381,2012,golden state warriors,10.62
+382,2013,golden state warriors,7.97
+383,2014,golden state warriors,7.97
+384,2015,golden state warriors,0.0
+385,2016,golden state warriors,0.0
+386,2017,golden state warriors,0.0
+387,2018,golden state warriors,0.0
+388,2019,golden state warriors,0.0
+389,2020,golden state warriors,0.25
+390,2021,golden state warriors,1.25
+391,2022,golden state warriors,0.0
+392,2023,golden state warriors,0.0
+393,2024,golden state warriors,1.0
+394,1985,houston rockets,0.0
+395,1986,houston rockets,0.0
+396,1987,houston rockets,0.0
+397,1988,houston rockets,0.0
+398,1989,houston rockets,0.0
+399,1990,houston rockets,0.0
+400,1991,houston rockets,0.0
+401,1992,houston rockets,1.0
+402,1993,houston rockets,0.75
+403,1994,houston rockets,0.0
+404,1995,houston rockets,0.0
+405,1996,houston rockets,0.0
+406,1997,houston rockets,0.0
+407,1998,houston rockets,0.0
+408,1999,houston rockets,0.0
+409,2000,houston rockets,1.0
+410,2001,houston rockets,2.0
+411,2002,houston rockets,0.0
+412,2003,houston rockets,1.0
+413,2004,houston rockets,1.0
+414,2005,houston rockets,1.0
+415,2006,houston rockets,2.0
+416,2007,houston rockets,2.0
+417,2008,houston rockets,2.0
+418,2009,houston rockets,1.5
+419,2010,houston rockets,2.5
+420,2011,houston rockets,3.5
+421,2012,houston rockets,4.5
+422,2013,houston rockets,4.5
+423,2014,houston rockets,4.5
+424,2015,houston rockets,2.25
+425,2016,houston rockets,2.25
+426,2017,houston rockets,1.69
+427,2018,houston rockets,0.84
+428,2019,houston rockets,0.63
+429,2020,houston rockets,0.47
+430,2021,houston rockets,0.37
+431,2022,houston rockets,0.68
+432,2023,houston rockets,1.26
+433,2024,houston rockets,2.26
+434,1985,indiana pacers,0.25
+435,1986,indiana pacers,0.94
+436,1987,indiana pacers,0.94
+437,1988,indiana pacers,0.48
+438,1989,indiana pacers,1.48
+439,1990,indiana pacers,1.48
+440,1991,indiana pacers,1.48
+441,1992,indiana pacers,1.48
+442,1993,indiana pacers,1.48
+443,1994,indiana pacers,0.74
+444,1995,indiana pacers,0.37
+445,1996,indiana pacers,0.37
+446,1997,indiana pacers,1.37
+447,1998,indiana pacers,0.69
+448,1999,indiana pacers,0.34
+449,2000,indiana pacers,0.09
+450,2001,indiana pacers,0.09
+451,2002,indiana pacers,0.09
+452,2003,indiana pacers,0.09
+453,2004,indiana pacers,0.04
+454,2005,indiana pacers,0.03
+455,2006,indiana pacers,0.03
+456,2007,indiana pacers,1.03
+457,2008,indiana pacers,2.03
+458,2009,indiana pacers,3.03
+459,2010,indiana pacers,4.03
+460,2011,indiana pacers,4.03
+461,2012,indiana pacers,3.02
+462,2013,indiana pacers,1.51
+463,2014,indiana pacers,0.76
+464,2015,indiana pacers,1.76
+465,2016,indiana pacers,1.76
+466,2017,indiana pacers,1.76
+467,2018,indiana pacers,1.76
+468,2019,indiana pacers,1.76
+469,2020,indiana pacers,1.76
+470,2021,indiana pacers,2.76
+471,2022,indiana pacers,3.76
+472,2023,indiana pacers,4.76
+473,2024,indiana pacers,2.38
+474,1985,los angeles clippers,0.5
+475,1986,los angeles clippers,1.5
+476,1987,los angeles clippers,1.88
+477,1988,los angeles clippers,0.0
+478,1989,los angeles clippers,0.25
+479,1990,los angeles clippers,1.25
+480,1991,los angeles clippers,2.25
+481,1992,los angeles clippers,2.25
+482,1993,los angeles clippers,2.25
+483,1994,los angeles clippers,3.25
+484,1995,los angeles clippers,1.06
+485,1996,los angeles clippers,2.06
+486,1997,los angeles clippers,2.06
+487,1998,los angeles clippers,0.0
+488,1999,los angeles clippers,0.75
+489,2000,los angeles clippers,0.88
+490,2001,los angeles clippers,0.47
+491,2002,los angeles clippers,1.47
+492,2003,los angeles clippers,2.47
+493,2004,los angeles clippers,0.87
+494,2005,los angeles clippers,1.87
+495,2006,los angeles clippers,1.4
+496,2007,los angeles clippers,2.4
+497,2008,los angeles clippers,3.4
+498,2009,los angeles clippers,0.0
+499,2010,los angeles clippers,1.0
+500,2011,los angeles clippers,0.0
+501,2012,los angeles clippers,0.0
+502,2013,los angeles clippers,0.0
+503,2014,los angeles clippers,0.0
+504,2015,los angeles clippers,0.0
+505,2016,los angeles clippers,0.0
+506,2017,los angeles clippers,0.0
+507,2018,los angeles clippers,1.0
+508,2019,los angeles clippers,1.0
+509,2020,los angeles clippers,0.75
+510,2021,los angeles clippers,0.38
+511,2022,los angeles clippers,1.38
+512,2023,los angeles clippers,1.38
+513,2024,los angeles clippers,1.38
+514,1985,los angeles lakers,0.0
+515,1986,los angeles lakers,0.0
+516,1987,los angeles lakers,0.0
+517,1988,los angeles lakers,0.0
+518,1989,los angeles lakers,0.0
+519,1990,los angeles lakers,0.0
+520,1991,los angeles lakers,0.0
+521,1992,los angeles lakers,0.0
+522,1993,los angeles lakers,0.0
+523,1994,los angeles lakers,1.0
+524,1995,los angeles lakers,0.75
+525,1996,los angeles lakers,0.75
+526,1997,los angeles lakers,0.56
+527,1998,los angeles lakers,0.28
+528,1999,los angeles lakers,0.21
+529,2000,los angeles lakers,0.0
+530,2001,los angeles lakers,0.0
+531,2002,los angeles lakers,0.0
+532,2003,los angeles lakers,0.0
+533,2004,los angeles lakers,0.0
+534,2005,los angeles lakers,1.0
+535,2006,los angeles lakers,1.0
+536,2007,los angeles lakers,1.0
+537,2008,los angeles lakers,0.25
+538,2009,los angeles lakers,0.0
+539,2010,los angeles lakers,0.0
+540,2011,los angeles lakers,0.0
+541,2012,los angeles lakers,0.0
+542,2013,los angeles lakers,0.0
+543,2014,los angeles lakers,1.0
+544,2015,los angeles lakers,0.5
+545,2016,los angeles lakers,0.38
+546,2017,los angeles lakers,0.34
+547,2018,los angeles lakers,1.34
+548,2019,los angeles lakers,1.76
+549,2020,los angeles lakers,0.0
+550,2021,los angeles lakers,0.0
+551,2022,los angeles lakers,1.0
+552,2023,los angeles lakers,0.5
+553,2024,los angeles lakers,0.5
+554,1996,memphis grizzlies,0.5
+555,1997,memphis grizzlies,1.12
+556,1998,memphis grizzlies,0.53
+557,1999,memphis grizzlies,0.38
+558,2000,memphis grizzlies,0.35
+559,2001,memphis grizzlies,1.35
+560,2002,memphis grizzlies,1.76
+561,2003,memphis grizzlies,0.69
+562,2004,memphis grizzlies,0.69
+563,2005,memphis grizzlies,0.69
+564,2006,memphis grizzlies,0.69
+565,2007,memphis grizzlies,1.27
+566,2008,memphis grizzlies,2.27
+567,2009,memphis grizzlies,0.82
+568,2010,memphis grizzlies,1.82
+569,2011,memphis grizzlies,1.36
+570,2012,memphis grizzlies,1.36
+571,2013,memphis grizzlies,0.68
+572,2014,memphis grizzlies,0.68
+573,2015,memphis grizzlies,0.51
+574,2016,memphis grizzlies,0.51
+575,2017,memphis grizzlies,0.51
+576,2018,memphis grizzlies,1.13
+577,2019,memphis grizzlies,0.53
+578,2020,memphis grizzlies,1.53
+579,2021,memphis grizzlies,1.53
+580,2022,memphis grizzlies,1.15
+581,2023,memphis grizzlies,1.15
+582,2024,memphis grizzlies,2.15
+583,1989,miami heat,0.75
+584,1990,miami heat,0.88
+585,1991,miami heat,1.88
+586,1992,miami heat,1.88
+587,1993,miami heat,2.88
+588,1994,miami heat,2.88
+589,1995,miami heat,3.88
+590,1996,miami heat,3.88
+591,1997,miami heat,1.94
+592,1998,miami heat,1.94
+593,1999,miami heat,1.94
+594,2000,miami heat,1.45
+595,2001,miami heat,1.45
+596,2002,miami heat,2.45
+597,2003,miami heat,3.45
+598,2004,miami heat,2.59
+599,2005,miami heat,1.29
+600,2006,miami heat,0.0
+601,2007,miami heat,0.0
+602,2008,miami heat,0.25
+603,2009,miami heat,0.25
+604,2010,miami heat,0.25
+605,2011,miami heat,0.06
+606,2012,miami heat,0.0
+607,2013,miami heat,0.0
+608,2014,miami heat,0.0
+609,2015,miami heat,1.0
+610,2016,miami heat,0.75
+611,2017,miami heat,1.75
+612,2018,miami heat,1.75
+613,2019,miami heat,2.75
+614,2020,miami heat,0.69
+615,2021,miami heat,0.69
+616,2022,miami heat,0.34
+617,2023,miami heat,0.09
+618,2024,miami heat,0.09
+619,1985,milwaukee bucks,0.0
+620,1986,milwaukee bucks,0.0
+621,1987,milwaukee bucks,0.0
+622,1988,milwaukee bucks,0.0
+623,1989,milwaukee bucks,0.0
+624,1990,milwaukee bucks,0.0
+625,1991,milwaukee bucks,0.0
+626,1992,milwaukee bucks,1.0
+627,1993,milwaukee bucks,2.0
+628,1994,milwaukee bucks,0.0
+629,1995,milwaukee bucks,1.0
+630,1996,milwaukee bucks,1.5
+631,1997,milwaukee bucks,2.5
+632,1998,milwaukee bucks,3.5
+633,1999,milwaukee bucks,3.5
+634,2000,milwaukee bucks,3.5
+635,2001,milwaukee bucks,1.75
+636,2002,milwaukee bucks,2.75
+637,2003,milwaukee bucks,2.75
+638,2004,milwaukee bucks,2.75
+639,2005,milwaukee bucks,0.0
+640,2006,milwaukee bucks,0.0
+641,2007,milwaukee bucks,1.0
+642,2008,milwaukee bucks,2.0
+643,2009,milwaukee bucks,3.0
+644,2010,milwaukee bucks,3.0
+645,2011,milwaukee bucks,4.0
+646,2012,milwaukee bucks,5.0
+647,2013,milwaukee bucks,5.0
+648,2014,milwaukee bucks,1.5
+649,2015,milwaukee bucks,1.5
+650,2016,milwaukee bucks,2.5
+651,2017,milwaukee bucks,2.5
+652,2018,milwaukee bucks,2.5
+653,2019,milwaukee bucks,1.25
+654,2020,milwaukee bucks,0.94
+655,2021,milwaukee bucks,0.0
+656,2022,milwaukee bucks,0.0
+657,2023,milwaukee bucks,0.0
+658,2024,milwaukee bucks,0.0
+659,1990,minnesota timberwolves,1.0
+660,1991,minnesota timberwolves,2.0
+661,1992,minnesota timberwolves,1.5
+662,1993,minnesota timberwolves,2.5
+663,1994,minnesota timberwolves,2.62
+664,1995,minnesota timberwolves,3.62
+665,1996,minnesota timberwolves,4.62
+666,1997,minnesota timberwolves,4.62
+667,1998,minnesota timberwolves,4.62
+668,1999,minnesota timberwolves,4.62
+669,2000,minnesota timberwolves,4.62
+670,2001,minnesota timberwolves,4.62
+671,2002,minnesota timberwolves,4.62
+672,2003,minnesota timberwolves,4.62
+673,2004,minnesota timberwolves,2.31
+674,2005,minnesota timberwolves,3.31
+675,2006,minnesota timberwolves,4.31
+676,2007,minnesota timberwolves,5.31
+677,2008,minnesota timberwolves,3.16
+678,2009,minnesota timberwolves,4.16
+679,2010,minnesota timberwolves,3.87
+680,2011,minnesota timberwolves,1.22
+681,2012,minnesota timberwolves,2.22
+682,2013,minnesota timberwolves,3.22
+683,2014,minnesota timberwolves,4.22
+684,2015,minnesota timberwolves,0.0
+685,2016,minnesota timberwolves,1.0
+686,2017,minnesota timberwolves,2.0
+687,2018,minnesota timberwolves,2.0
+688,2019,minnesota timberwolves,3.0
+689,2020,minnesota timberwolves,0.0
+690,2021,minnesota timberwolves,1.0
+691,2022,minnesota timberwolves,1.0
+692,2023,minnesota timberwolves,1.0
+693,2024,minnesota timberwolves,0.5
+694,2003,new orleans pelicans,0.0
+695,2004,new orleans pelicans,0.0
+696,2005,new orleans pelicans,0.75
+697,2006,new orleans pelicans,1.75
+698,2007,new orleans pelicans,2.75
+699,2008,new orleans pelicans,2.06
+700,2009,new orleans pelicans,2.06
+701,2010,new orleans pelicans,3.06
+702,2011,new orleans pelicans,3.06
+703,2012,new orleans pelicans,0.0
+704,2013,new orleans pelicans,1.0
+705,2014,new orleans pelicans,2.0
+706,2015,new orleans pelicans,2.0
+707,2016,new orleans pelicans,3.0
+708,2017,new orleans pelicans,4.0
+709,2018,new orleans pelicans,3.0
+710,2019,new orleans pelicans,0.0
+711,2020,new orleans pelicans,1.0
+712,2021,new orleans pelicans,2.0
+713,2022,new orleans pelicans,2.0
+714,2023,new orleans pelicans,3.0
+715,2024,new orleans pelicans,3.0
+716,1985,new york knicks,0.0
+717,1986,new york knicks,1.0
+718,1987,new york knicks,2.0
+719,1988,new york knicks,2.0
+720,1989,new york knicks,1.5
+721,1990,new york knicks,1.12
+722,1991,new york knicks,1.12
+723,1992,new york knicks,0.84
+724,1993,new york knicks,0.42
+725,1994,new york knicks,0.11
+726,1995,new york knicks,0.08
+727,1996,new york knicks,0.06
+728,1997,new york knicks,0.04
+729,1998,new york knicks,0.03
+730,1999,new york knicks,0.01
+731,2000,new york knicks,0.0
+732,2001,new york knicks,0.0
+733,2002,new york knicks,1.0
+734,2003,new york knicks,2.0
+735,2004,new york knicks,2.0
+736,2005,new york knicks,3.0
+737,2006,new york knicks,1.0
+738,2007,new york knicks,2.0
+739,2008,new york knicks,3.0
+740,2009,new york knicks,4.0
+741,2010,new york knicks,5.0
+742,2011,new york knicks,5.0
+743,2012,new york knicks,5.0
+744,2013,new york knicks,3.75
+745,2014,new york knicks,4.75
+746,2015,new york knicks,4.31
+747,2016,new york knicks,5.31
+748,2017,new york knicks,6.31
+749,2018,new york knicks,7.31
+750,2019,new york knicks,4.16
+751,2020,new york knicks,5.16
+752,2021,new york knicks,5.16
+753,2022,new york knicks,6.16
+754,2023,new york knicks,4.62
+755,2024,new york knicks,3.46
+756,1985,oklahoma city thunder,0.75
+757,1986,oklahoma city thunder,1.75
+758,1987,oklahoma city thunder,0.88
+759,1988,oklahoma city thunder,0.88
+760,1989,oklahoma city thunder,0.66
+761,1990,oklahoma city thunder,0.41
+762,1991,oklahoma city thunder,0.41
+763,1992,oklahoma city thunder,0.31
+764,1993,oklahoma city thunder,0.16
+765,1994,oklahoma city thunder,0.16
+766,1995,oklahoma city thunder,0.16
+767,1996,oklahoma city thunder,0.04
+768,1997,oklahoma city thunder,0.03
+769,1998,oklahoma city thunder,0.02
+770,1999,oklahoma city thunder,1.02
+771,2000,oklahoma city thunder,1.02
+772,2001,oklahoma city thunder,2.02
+773,2002,oklahoma city thunder,2.02
+774,2003,oklahoma city thunder,3.02
+775,2004,oklahoma city thunder,4.02
+776,2005,oklahoma city thunder,3.02
+777,2006,oklahoma city thunder,4.02
+778,2007,oklahoma city thunder,1.25
+779,2008,oklahoma city thunder,1.69
+780,2009,oklahoma city thunder,1.35
+781,2010,oklahoma city thunder,1.35
+782,2011,oklahoma city thunder,0.67
+783,2012,oklahoma city thunder,0.17
+784,2013,oklahoma city thunder,0.13
+785,2014,oklahoma city thunder,0.06
+786,2015,oklahoma city thunder,1.06
+787,2016,oklahoma city thunder,0.53
+788,2017,oklahoma city thunder,0.53
+789,2018,oklahoma city thunder,0.53
+790,2019,oklahoma city thunder,0.53
+791,2020,oklahoma city thunder,0.53
+792,2021,oklahoma city thunder,1.53
+793,2022,oklahoma city thunder,0.63
+794,2023,oklahoma city thunder,1.63
+795,2024,oklahoma city thunder,1.22
+796,1990,orlando magic,0.75
+797,1991,orlando magic,1.75
+798,1992,orlando magic,0.0
+799,1993,orlando magic,0.0
+800,1994,orlando magic,0.0
+801,1995,orlando magic,0.0
+802,1996,orlando magic,0.0
+803,1997,orlando magic,0.0
+804,1998,orlando magic,1.0
+805,1999,orlando magic,1.0
+806,2000,orlando magic,2.0
+807,2001,orlando magic,2.0
+808,2002,orlando magic,2.0
+809,2003,orlando magic,2.0
+810,2004,orlando magic,0.0
+811,2005,orlando magic,1.0
+812,2006,orlando magic,2.0
+813,2007,orlando magic,2.0
+814,2008,orlando magic,1.5
+815,2009,orlando magic,0.38
+816,2010,orlando magic,0.19
+817,2011,orlando magic,0.19
+818,2012,orlando magic,0.19
+819,2013,orlando magic,0.3
+820,2014,orlando magic,0.97
+821,2015,orlando magic,1.97
+822,2016,orlando magic,2.97
+823,2017,orlando magic,3.97
+824,2018,orlando magic,4.97
+825,2019,orlando magic,4.97
+826,2020,orlando magic,4.97
+827,2021,orlando magic,5.97
+828,2022,orlando magic,0.0
+829,2023,orlando magic,1.0
+830,2024,orlando magic,1.0
+831,1985,philadelphia 76ers,0.0
+832,1986,philadelphia 76ers,0.0
+833,1987,philadelphia 76ers,0.0
+834,1988,philadelphia 76ers,0.5
+835,1989,philadelphia 76ers,0.5
+836,1990,philadelphia 76ers,0.38
+837,1991,philadelphia 76ers,0.28
+838,1992,philadelphia 76ers,1.28
+839,1993,philadelphia 76ers,0.57
+840,1994,philadelphia 76ers,1.57
+841,1995,philadelphia 76ers,1.29
+842,1996,philadelphia 76ers,0.0
+843,1997,philadelphia 76ers,0.25
+844,1998,philadelphia 76ers,1.25
+845,1999,philadelphia 76ers,0.94
+846,2000,philadelphia 76ers,0.7
+847,2001,philadelphia 76ers,0.18
+848,2002,philadelphia 76ers,0.18
+849,2003,philadelphia 76ers,0.13
+850,2004,philadelphia 76ers,1.13
+851,2005,philadelphia 76ers,1.13
+852,2006,philadelphia 76ers,2.13
+853,2007,philadelphia 76ers,3.13
+854,2008,philadelphia 76ers,3.13
+855,2009,philadelphia 76ers,3.13
+856,2010,philadelphia 76ers,1.03
+857,2011,philadelphia 76ers,1.03
+858,2012,philadelphia 76ers,0.77
+859,2013,philadelphia 76ers,1.77
+860,2014,philadelphia 76ers,1.39
+861,2015,philadelphia 76ers,1.19
+862,2016,philadelphia 76ers,0.0
+863,2017,philadelphia 76ers,1.0
+864,2018,philadelphia 76ers,0.75
+865,2019,philadelphia 76ers,0.56
+866,2020,philadelphia 76ers,0.56
+867,2021,philadelphia 76ers,0.42
+868,2022,philadelphia 76ers,0.32
+869,2023,philadelphia 76ers,0.24
+870,2024,philadelphia 76ers,0.24
+871,1985,phoenix suns,0.0
+872,1986,phoenix suns,1.0
+873,1987,phoenix suns,0.5
+874,1988,phoenix suns,1.5
+875,1989,phoenix suns,0.75
+876,1990,phoenix suns,0.38
+877,1991,phoenix suns,0.38
+878,1992,phoenix suns,0.28
+879,1993,phoenix suns,0.07
+880,1994,phoenix suns,0.05
+881,1995,phoenix suns,0.04
+882,1996,phoenix suns,0.04
+883,1997,phoenix suns,0.04
+884,1998,phoenix suns,0.04
+885,1999,phoenix suns,0.04
+886,2000,phoenix suns,0.03
+887,2001,phoenix suns,0.03
+888,2002,phoenix suns,1.03
+889,2003,phoenix suns,1.03
+890,2004,phoenix suns,2.03
+891,2005,phoenix suns,1.01
+892,2006,phoenix suns,0.51
+893,2007,phoenix suns,0.38
+894,2008,phoenix suns,0.38
+895,2009,phoenix suns,1.38
+896,2010,phoenix suns,0.69
+897,2011,phoenix suns,1.69
+898,2012,phoenix suns,2.69
+899,2013,phoenix suns,3.69
+900,2014,phoenix suns,4.69
+901,2015,phoenix suns,5.69
+902,2016,phoenix suns,5.02
+903,2017,phoenix suns,4.51
+904,2018,phoenix suns,0.0
+905,2019,phoenix suns,1.0
+906,2020,phoenix suns,2.0
+907,2021,phoenix suns,0.5
+908,2022,phoenix suns,0.38
+909,2023,phoenix suns,0.28
+910,2024,phoenix suns,0.28
+911,1985,portland trail blazers,0.0
+912,1986,portland trail blazers,0.0
+913,1987,portland trail blazers,0.0
+914,1988,portland trail blazers,0.0
+915,1989,portland trail blazers,0.0
+916,1990,portland trail blazers,0.0
+917,1991,portland trail blazers,0.0
+918,1992,portland trail blazers,0.0
+919,1993,portland trail blazers,0.0
+920,1994,portland trail blazers,0.0
+921,1995,portland trail blazers,0.0
+922,1996,portland trail blazers,0.0
+923,1997,portland trail blazers,0.0
+924,1998,portland trail blazers,0.0
+925,1999,portland trail blazers,0.0
+926,2000,portland trail blazers,0.0
+927,2001,portland trail blazers,0.0
+928,2002,portland trail blazers,0.0
+929,2003,portland trail blazers,0.0
+930,2004,portland trail blazers,1.0
+931,2005,portland trail blazers,1.0
+932,2006,portland trail blazers,1.5
+933,2007,portland trail blazers,0.0
+934,2008,portland trail blazers,1.0
+935,2009,portland trail blazers,1.0
+936,2010,portland trail blazers,1.0
+937,2011,portland trail blazers,1.0
+938,2012,portland trail blazers,2.0
+939,2013,portland trail blazers,3.0
+940,2014,portland trail blazers,2.25
+941,2015,portland trail blazers,2.25
+942,2016,portland trail blazers,1.69
+943,2017,portland trail blazers,1.69
+944,2018,portland trail blazers,1.69
+945,2019,portland trail blazers,0.84
+946,2020,portland trail blazers,0.84
+947,2021,portland trail blazers,0.84
+948,2022,portland trail blazers,1.84
+949,2023,portland trail blazers,1.42
+950,2024,portland trail blazers,2.42
+951,1985,sacramento kings,1.0
+952,1986,sacramento kings,1.0
+953,1987,sacramento kings,2.0
+954,1988,sacramento kings,3.0
+955,1989,sacramento kings,0.0
+956,1990,sacramento kings,1.0
+957,1991,sacramento kings,1.0
+958,1992,sacramento kings,2.0
+959,1993,sacramento kings,3.0
+960,1994,sacramento kings,4.0
+961,1995,sacramento kings,5.0
+962,1996,sacramento kings,5.0
+963,1997,sacramento kings,6.0
+964,1998,sacramento kings,7.0
+965,1999,sacramento kings,7.0
+966,2000,sacramento kings,7.0
+967,2001,sacramento kings,5.25
+968,2002,sacramento kings,2.62
+969,2003,sacramento kings,1.97
+970,2004,sacramento kings,1.48
+971,2005,sacramento kings,1.48
+972,2006,sacramento kings,1.48
+973,2007,sacramento kings,2.48
+974,2008,sacramento kings,3.48
+975,2009,sacramento kings,3.36
+976,2010,sacramento kings,4.36
+977,2011,sacramento kings,5.36
+978,2012,sacramento kings,6.36
+979,2013,sacramento kings,7.36
+980,2014,sacramento kings,8.36
+981,2015,sacramento kings,9.36
+982,2016,sacramento kings,10.36
+983,2017,sacramento kings,5.68
+984,2018,sacramento kings,1.67
+985,2019,sacramento kings,2.67
+986,2020,sacramento kings,3.67
+987,2021,sacramento kings,4.67
+988,2022,sacramento kings,4.25
+989,2023,sacramento kings,4.25
+990,2024,sacramento kings,5.25
+991,1985,san antonio spurs,0.0
+992,1986,san antonio spurs,0.0
+993,1987,san antonio spurs,0.0
+994,1988,san antonio spurs,0.0
+995,1989,san antonio spurs,0.5
+996,1990,san antonio spurs,0.38
+997,1991,san antonio spurs,0.38
+998,1992,san antonio spurs,0.38
+999,1993,san antonio spurs,0.28
+1000,1994,san antonio spurs,0.28
+1001,1995,san antonio spurs,0.14
+1002,1996,san antonio spurs,0.11
+1003,1997,san antonio spurs,0.0
+1004,1998,san antonio spurs,0.0
+1005,1999,san antonio spurs,0.0
+1006,2000,san antonio spurs,0.0
+1007,2001,san antonio spurs,0.0
+1008,2002,san antonio spurs,0.0
+1009,2003,san antonio spurs,0.0
+1010,2004,san antonio spurs,0.0
+1011,2005,san antonio spurs,0.0
+1012,2006,san antonio spurs,0.0
+1013,2007,san antonio spurs,0.0
+1014,2008,san antonio spurs,0.0
+1015,2009,san antonio spurs,0.0
+1016,2010,san antonio spurs,0.0
+1017,2011,san antonio spurs,0.0
+1018,2012,san antonio spurs,0.0
+1019,2013,san antonio spurs,0.0
+1020,2014,san antonio spurs,0.0
+1021,2015,san antonio spurs,0.0
+1022,2016,san antonio spurs,0.0
+1023,2017,san antonio spurs,0.0
+1024,2018,san antonio spurs,0.0
+1025,2019,san antonio spurs,0.0
+1026,2020,san antonio spurs,1.0
+1027,2021,san antonio spurs,2.0
+1028,2022,san antonio spurs,3.0
+1029,2023,san antonio spurs,0.0
+1030,2024,san antonio spurs,0.75
+1031,1996,toronto raptors,0.25
+1032,1997,toronto raptors,1.25
+1033,1998,toronto raptors,1.69
+1034,1999,toronto raptors,2.69
+1035,2000,toronto raptors,2.69
+1036,2001,toronto raptors,2.02
+1037,2002,toronto raptors,2.02
+1038,2003,toronto raptors,2.26
+1039,2004,toronto raptors,3.26
+1040,2005,toronto raptors,4.26
+1041,2006,toronto raptors,0.0
+1042,2007,toronto raptors,0.0
+1043,2008,toronto raptors,0.0
+1044,2009,toronto raptors,1.0
+1045,2010,toronto raptors,2.0
+1046,2011,toronto raptors,3.0
+1047,2012,toronto raptors,4.0
+1048,2013,toronto raptors,5.0
+1049,2014,toronto raptors,5.0
+1050,2015,toronto raptors,5.0
+1051,2016,toronto raptors,2.5
+1052,2017,toronto raptors,1.88
+1053,2018,toronto raptors,1.41
+1054,2019,toronto raptors,0.0
+1055,2020,toronto raptors,0.0
+1056,2021,toronto raptors,0.75
+1057,2022,toronto raptors,0.75
+1058,2023,toronto raptors,1.75
+1059,2024,toronto raptors,2.75
+1060,1985,utah jazz,0.0
+1061,1986,utah jazz,0.0
+1062,1987,utah jazz,0.0
+1063,1988,utah jazz,0.0
+1064,1989,utah jazz,0.0
+1065,1990,utah jazz,0.0
+1066,1991,utah jazz,0.0
+1067,1992,utah jazz,0.0
+1068,1993,utah jazz,0.0
+1069,1994,utah jazz,0.0
+1070,1995,utah jazz,0.0
+1071,1996,utah jazz,0.0
+1072,1997,utah jazz,0.0
+1073,1998,utah jazz,0.0
+1074,1999,utah jazz,0.0
+1075,2000,utah jazz,0.0
+1076,2001,utah jazz,0.0
+1077,2002,utah jazz,0.0
+1078,2003,utah jazz,0.0
+1079,2004,utah jazz,1.0
+1080,2005,utah jazz,2.0
+1081,2006,utah jazz,3.0
+1082,2007,utah jazz,1.5
+1083,2008,utah jazz,1.12
+1084,2009,utah jazz,1.12
+1085,2010,utah jazz,0.84
+1086,2011,utah jazz,1.84
+1087,2012,utah jazz,1.84
+1088,2013,utah jazz,2.84
+1089,2014,utah jazz,3.84
+1090,2015,utah jazz,4.84
+1091,2016,utah jazz,5.84
+1092,2017,utah jazz,4.38
+1093,2018,utah jazz,3.29
+1094,2019,utah jazz,3.29
+1095,2020,utah jazz,3.29
+1096,2021,utah jazz,2.47
+1097,2022,utah jazz,2.47
+1098,2023,utah jazz,3.47
+1099,2024,utah jazz,4.47
+1100,1985,washington wizards,0.0
+1101,1986,washington wizards,0.0
+1102,1987,washington wizards,0.0
+1103,1988,washington wizards,0.0
+1104,1989,washington wizards,1.0
+1105,1990,washington wizards,2.0
+1106,1991,washington wizards,3.0
+1107,1992,washington wizards,4.0
+1108,1993,washington wizards,5.0
+1109,1994,washington wizards,6.0
+1110,1995,washington wizards,5.25
+1111,1996,washington wizards,6.25
+1112,1997,washington wizards,6.25
+1113,1998,washington wizards,7.25
+1114,1999,washington wizards,8.25
+1115,2000,washington wizards,9.25
+1116,2001,washington wizards,0.0
+1117,2002,washington wizards,1.0
+1118,2003,washington wizards,2.0
+1119,2004,washington wizards,3.0
+1120,2005,washington wizards,2.25
+1121,2006,washington wizards,2.25
+1122,2007,washington wizards,2.25
+1123,2008,washington wizards,2.25
+1124,2009,washington wizards,3.25
+1125,2010,washington wizards,0.0
+1126,2011,washington wizards,1.0
+1127,2012,washington wizards,1.0
+1128,2013,washington wizards,1.0
+1129,2014,washington wizards,0.75
+1130,2015,washington wizards,0.56
+1131,2016,washington wizards,1.56
+1132,2017,washington wizards,1.17
+1133,2018,washington wizards,1.17
+1134,2019,washington wizards,2.17
+1135,2020,washington wizards,3.17
+1136,2021,washington wizards,3.17
+1137,2022,washington wizards,4.17
+1138,2023,washington wizards,5.17
+1139,2024,washington wizards,1.54
