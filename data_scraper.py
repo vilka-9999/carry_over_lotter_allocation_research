@@ -31,7 +31,7 @@ def scrape_teams(start_year, end_year):
         for tr in table.find('tbody').find_all('tr'):
             rank_regular = tr.find('th', {'data-stat': 'ranker'}).get_text()
             team_name = tr.find('td', {'data-stat': 'team_name'}).get_text()
-            team_name = ''.join(ch for ch in team_name if ch.isalpha() or ch.isspace()).strip()
+            team_name = ''.join(ch for ch in team_name if ch.isalpha() or ch.isspace() or ch.isdigit()).strip()
             rows.append([year, team_name, rank_regular, -1])
 
     # save initial data to df
