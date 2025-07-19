@@ -4,6 +4,8 @@ import pandas as pd
 import os
 import time
 
+from constants import TEAM_NAME_MAP
+
 TEAM_RANK_BASE_URL = 'https://www.basketball-reference.com/leagues/NBA'
 DRAFT_PICK_BASE_URL = 'https://basketball.realgm.com/nba/draft/lottery_results/'
 
@@ -114,13 +116,48 @@ def scrape_draft_picks(start_year, end_year):
     return df
 
 
+def normalize_team_name(team_name):
+    """
+    Normalizes team names using a predefined mapping.
+    Converts input team names to lowercase and strips whitespace
+    before looking them up in the mapping.
+    """
+    if isinstance(team_name, str):
+        # Convert to lowercase 
+        lower_name = team_name.lower().strip()
+        # Return the name if found.
+        # If not found in the map, return the lowercase
+        return TEAM_NAME_MAP.get(lower_name, lower_name)
+    return team_name # Return as is if not a string (e.g., NaN, None)
+
+
+def normalize_data():
+    # === Load Excel files ===
+
+    playoff_df = pd.read_csv('data/TeamsRank_1985-2024.csv')
+    playoff_df.columns = playoff_df.columns.str.strip()
+    # Apply normalization to team names in playoff_df
+    playoff_df['team_normalized'] = playoff_df['team'].apply(normalize_team_name)
+    playoff_df['year'] = playoff_df['year'].astype(int)
+    playoff_df.to_csv(f'data/TeamsRank_1985-2024.csv')
+
+    draft_df = pd.read_csv('data/DraftPicks_1985-2024.csv')
+    draft_df.columns = draft_df.columns.str.strip()
+    # Apply normalization to team names in draft_df
+    draft_df['pick_team_normalized'] = draft_df['pick_team'].apply(normalize_team_name)
+    draft_df['year'] = draft_df['year'].astype(int)
+    draft_df.to_csv(f'data/DraftPicks_1985-2024.csv')
+    
+
+
 def main():
 
     folder = 'data'
     if not os.path.exists(folder):
         os.makedirs(folder)
-    scrape_teams(1985, 2024)
+    #scrape_teams(1985, 2024)
     #scrape_draft_picks(1985, 2024)
+    normalize_data()
 
 
 if __name__ == "__main__":

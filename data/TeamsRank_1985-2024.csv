@@ -1,1141 +1,1141 @@
-,year,team,rank_regular,rank_playoffs
-0,1985,Boston Celtics,1,3
-1,1985,Los Angeles Lakers,2,4
-2,1985,Milwaukee Bucks,3,1
-3,1985,Philadelphia 76ers,4,2
-4,1985,Denver Nuggets,5,2
-5,1985,Houston Rockets,6,0
-6,1985,Detroit Pistons,7,1
-7,1985,Dallas Mavericks,8,0
-8,1985,New Jersey Nets,9,0
-9,1985,Portland Trail Blazers,10,1
-10,1985,San Antonio Spurs,11,0
-11,1985,Utah Jazz,12,1
-12,1985,Washington Bullets,13,0
-13,1985,Chicago Bulls,14,0
-14,1985,Cleveland Cavaliers,15,0
-15,1985,Phoenix Suns,16,0
-16,1985,Atlanta Hawks,17,-1
-17,1985,Kansas City Kings,18,-1
-18,1985,Los Angeles Clippers,19,-1
-19,1985,Seattle SuperSonics,20,-1
-20,1985,New York Knicks,21,-1
-21,1985,Golden State Warriors,22,-1
-22,1985,Indiana Pacers,23,-1
-23,1986,Boston Celtics,1,4
-24,1986,Los Angeles Lakers,2,2
-25,1986,Milwaukee Bucks,3,2
-26,1986,Philadelphia 76ers,4,1
-27,1986,Houston Rockets,5,3
-28,1986,Atlanta Hawks,6,1
-29,1986,Denver Nuggets,7,1
-30,1986,Detroit Pistons,8,0
-31,1986,Dallas Mavericks,9,1
-32,1986,Utah Jazz,10,0
-33,1986,Portland Trail Blazers,11,0
-34,1986,New Jersey Nets,12,0
-35,1986,Washington Bullets,13,0
-36,1986,Sacramento Kings,14,0
-37,1986,San Antonio Spurs,15,0
-38,1986,Los Angeles Clippers,16,-1
-39,1986,Phoenix Suns,17,-1
-40,1986,Seattle SuperSonics,18,-1
-41,1986,Chicago Bulls,19,0
-42,1986,Golden State Warriors,20,-1
-43,1986,Cleveland Cavaliers,21,-1
-44,1986,Indiana Pacers,22,-1
-45,1986,New York Knicks,23,-1
-46,1987,Los Angeles Lakers,1,4
-47,1987,Boston Celtics,2,3
-48,1987,Atlanta Hawks,3,1
-49,1987,Dallas Mavericks,4,0
-50,1987,Detroit Pistons,5,2
-51,1987,Milwaukee Bucks,6,1
-52,1987,Portland Trail Blazers,7,0
-53,1987,Philadelphia 76ers,8,0
-54,1987,Utah Jazz,9,0
-55,1987,Golden State Warriors,10,1
-56,1987,Houston Rockets,11,1
-57,1987,Washington Bullets,12,0
-58,1987,Indiana Pacers,13,0
-59,1987,Chicago Bulls,14,0
-60,1987,Seattle SuperSonics,15,2
-61,1987,Denver Nuggets,16,0
-62,1987,Phoenix Suns,17,-1
-63,1987,Cleveland Cavaliers,18,-1
-64,1987,Sacramento Kings,19,-1
-65,1987,San Antonio Spurs,20,-1
-66,1987,New Jersey Nets,21,-1
-67,1987,New York Knicks,22,-1
-68,1987,Los Angeles Clippers,23,-1
-69,1988,Los Angeles Lakers,1,4
-70,1988,Boston Celtics,2,2
-71,1988,Denver Nuggets,3,1
-72,1988,Detroit Pistons,4,3
-73,1988,Dallas Mavericks,5,2
-74,1988,Portland Trail Blazers,6,0
-75,1988,Atlanta Hawks,7,1
-76,1988,Chicago Bulls,8,1
-77,1988,Utah Jazz,9,1
-78,1988,Houston Rockets,10,0
-79,1988,Seattle SuperSonics,11,0
-80,1988,Cleveland Cavaliers,12,0
-81,1988,Milwaukee Bucks,13,0
-82,1988,New York Knicks,14,0
-83,1988,Washington Bullets,15,0
-84,1988,Indiana Pacers,16,-1
-85,1988,Philadelphia 76ers,17,-1
-86,1988,San Antonio Spurs,18,0
-87,1988,Phoenix Suns,19,-1
-88,1988,Sacramento Kings,20,-1
-89,1988,Golden State Warriors,21,-1
-90,1988,New Jersey Nets,22,-1
-91,1988,Los Angeles Clippers,23,-1
-92,1989,Detroit Pistons,1,4
-93,1989,Cleveland Cavaliers,2,0
-94,1989,Los Angeles Lakers,3,3
-95,1989,Phoenix Suns,4,2
-96,1989,Atlanta Hawks,5,0
-97,1989,New York Knicks,6,1
-98,1989,Utah Jazz,7,0
-99,1989,Milwaukee Bucks,8,1
-100,1989,Chicago Bulls,9,2
-101,1989,Seattle SuperSonics,10,1
-102,1989,Philadelphia 76ers,11,0
-103,1989,Houston Rockets,12,0
-104,1989,Denver Nuggets,13,0
-105,1989,Golden State Warriors,14,1
-106,1989,Boston Celtics,15,0
-107,1989,Washington Bullets,16,-1
-108,1989,Portland Trail Blazers,17,0
-109,1989,Dallas Mavericks,18,-1
-110,1989,Indiana Pacers,19,-1
-111,1989,Sacramento Kings,20,-1
-112,1989,New Jersey Nets,21,-1
-113,1989,Los Angeles Clippers,22,-1
-114,1989,San Antonio Spurs,23,-1
-115,1989,Charlotte Hornets,24,-1
-116,1989,Miami Heat,25,-1
-117,1990,Los Angeles Lakers,1,1
-118,1990,Detroit Pistons,2,4
-119,1990,Portland Trail Blazers,3,3
-120,1990,San Antonio Spurs,4,1
-121,1990,Chicago Bulls,5,2
-122,1990,Utah Jazz,6,0
-123,1990,Phoenix Suns,7,2
-124,1990,Philadelphia 76ers,8,1
-125,1990,Boston Celtics,9,0
-126,1990,Dallas Mavericks,10,0
-127,1990,New York Knicks,11,1
-128,1990,Milwaukee Bucks,12,0
-129,1990,Denver Nuggets,13,0
-130,1990,Cleveland Cavaliers,14,0
-131,1990,Indiana Pacers,15,0
-132,1990,Houston Rockets,16,0
-133,1990,Atlanta Hawks,17,-1
-134,1990,Seattle SuperSonics,18,-1
-135,1990,Golden State Warriors,19,-1
-136,1990,Washington Bullets,20,-1
-137,1990,Los Angeles Clippers,21,-1
-138,1990,Sacramento Kings,22,-1
-139,1990,Minnesota Timberwolves,23,-1
-140,1990,Charlotte Hornets,24,-1
-141,1990,Miami Heat,25,-1
-142,1990,Orlando Magic,26,-1
-143,1990,New Jersey Nets,27,-1
-144,1991,Portland Trail Blazers,1,2
-145,1991,Chicago Bulls,2,4
-146,1991,Los Angeles Lakers,3,3
-147,1991,Boston Celtics,4,1
-148,1991,Phoenix Suns,5,0
-149,1991,San Antonio Spurs,6,0
-150,1991,Utah Jazz,7,1
-151,1991,Houston Rockets,8,0
-152,1991,Detroit Pistons,9,2
-153,1991,Milwaukee Bucks,10,0
-154,1991,Golden State Warriors,11,1
-155,1991,Philadelphia 76ers,12,1
-156,1991,Atlanta Hawks,13,0
-157,1991,Indiana Pacers,14,0
-158,1991,Seattle SuperSonics,15,0
-159,1991,New York Knicks,16,0
-160,1991,Cleveland Cavaliers,17,-1
-161,1991,Los Angeles Clippers,18,-1
-162,1991,Orlando Magic,19,-1
-163,1991,Washington Bullets,20,-1
-164,1991,Minnesota Timberwolves,21,-1
-165,1991,Dallas Mavericks,22,-1
-166,1991,Charlotte Hornets,23,-1
-167,1991,New Jersey Nets,24,-1
-168,1991,Sacramento Kings,25,-1
-169,1991,Miami Heat,26,-1
-170,1991,Denver Nuggets,27,-1
-171,1992,Chicago Bulls,1,4
-172,1992,Cleveland Cavaliers,2,2
-173,1992,Portland Trail Blazers,3,3
-174,1992,Golden State Warriors,4,0
-175,1992,Utah Jazz,5,2
-176,1992,Phoenix Suns,6,1
-177,1992,Boston Celtics,7,1
-178,1992,New York Knicks,8,1
-179,1992,Detroit Pistons,9,0
-180,1992,San Antonio Spurs,10,0
-181,1992,Seattle SuperSonics,11,1
-182,1992,Los Angeles Clippers,12,0
-183,1992,Los Angeles Lakers,13,0
-184,1992,Houston Rockets,14,-1
-185,1992,Indiana Pacers,15,0
-186,1992,New Jersey Nets,16,0
-187,1992,Miami Heat,17,0
-188,1992,Atlanta Hawks,18,-1
-189,1992,Philadelphia 76ers,19,-1
-190,1992,Charlotte Hornets,20,-1
-191,1992,Milwaukee Bucks,21,-1
-192,1992,Sacramento Kings,22,-1
-193,1992,Washington Bullets,23,-1
-194,1992,Denver Nuggets,24,-1
-195,1992,Dallas Mavericks,25,-1
-196,1992,Orlando Magic,26,-1
-197,1992,Minnesota Timberwolves,27,-1
-198,1993,Phoenix Suns,1,3
-199,1993,New York Knicks,2,2
-200,1993,Chicago Bulls,3,4
-201,1993,Houston Rockets,4,1
-202,1993,Seattle SuperSonics,5,2
-203,1993,Cleveland Cavaliers,6,1
-204,1993,Portland Trail Blazers,7,0
-205,1993,San Antonio Spurs,8,1
-206,1993,Boston Celtics,9,0
-207,1993,Utah Jazz,10,0
-208,1993,Charlotte Hornets,11,1
-209,1993,Atlanta Hawks,12,0
-210,1993,New Jersey Nets,13,0
-211,1993,Indiana Pacers,14,0
-212,1993,Los Angeles Clippers,15,0
-213,1993,Orlando Magic,16,-1
-214,1993,Detroit Pistons,17,-1
-215,1993,Los Angeles Lakers,18,0
-216,1993,Denver Nuggets,19,-1
-217,1993,Miami Heat,20,-1
-218,1993,Golden State Warriors,21,-1
-219,1993,Milwaukee Bucks,22,-1
-220,1993,Philadelphia 76ers,23,-1
-221,1993,Sacramento Kings,24,-1
-222,1993,Washington Bullets,25,-1
-223,1993,Minnesota Timberwolves,26,-1
-224,1993,Dallas Mavericks,27,-1
-225,1994,Seattle SuperSonics,1,0
-226,1994,Houston Rockets,2,4
-227,1994,Atlanta Hawks,3,1
-228,1994,New York Knicks,4,3
-229,1994,Phoenix Suns,5,1
-230,1994,Chicago Bulls,6,1
-231,1994,San Antonio Spurs,7,0
-232,1994,Utah Jazz,8,2
-233,1994,Golden State Warriors,9,0
-234,1994,Orlando Magic,10,0
-235,1994,Cleveland Cavaliers,11,0
-236,1994,Indiana Pacers,12,2
-237,1994,Portland Trail Blazers,13,0
-238,1994,New Jersey Nets,14,0
-239,1994,Denver Nuggets,15,1
-240,1994,Miami Heat,16,0
-241,1994,Charlotte Hornets,17,-1
-242,1994,Los Angeles Lakers,18,-1
-243,1994,Boston Celtics,19,-1
-244,1994,Sacramento Kings,20,-1
-245,1994,Los Angeles Clippers,21,-1
-246,1994,Philadelphia 76ers,22,-1
-247,1994,Washington Bullets,23,-1
-248,1994,Detroit Pistons,24,-1
-249,1994,Milwaukee Bucks,25,-1
-250,1994,Minnesota Timberwolves,26,-1
-251,1994,Dallas Mavericks,27,-1
-252,1995,San Antonio Spurs,1,2
-253,1995,Utah Jazz,2,0
-254,1995,Phoenix Suns,3,1
-255,1995,Orlando Magic,4,3
-256,1995,Seattle SuperSonics,5,0
-257,1995,New York Knicks,6,1
-258,1995,Indiana Pacers,7,2
-259,1995,Charlotte Hornets,8,0
-260,1995,Los Angeles Lakers,9,1
-261,1995,Chicago Bulls,10,1
-262,1995,Houston Rockets,11,4
-263,1995,Portland Trail Blazers,12,0
-264,1995,Cleveland Cavaliers,13,0
-265,1995,Atlanta Hawks,14,0
-266,1995,Denver Nuggets,15,0
-267,1995,Sacramento Kings,16,-1
-268,1995,Dallas Mavericks,17,-1
-269,1995,Boston Celtics,18,0
-270,1995,Milwaukee Bucks,19,-1
-271,1995,Miami Heat,20,-1
-272,1995,New Jersey Nets,21,-1
-273,1995,Detroit Pistons,22,-1
-274,1995,Golden State Warriors,23,-1
-275,1995,Philadelphia 76ers,24,-1
-276,1995,Minnesota Timberwolves,25,-1
-277,1995,Washington Bullets,26,-1
-278,1995,Los Angeles Clippers,27,-1
-279,1996,Chicago Bulls,1,4
-280,1996,Seattle SuperSonics,2,3
-281,1996,Orlando Magic,3,2
-282,1996,San Antonio Spurs,4,1
-283,1996,Utah Jazz,5,2
-284,1996,Los Angeles Lakers,6,0
-285,1996,Indiana Pacers,7,0
-286,1996,Houston Rockets,8,1
-287,1996,Cleveland Cavaliers,9,0
-288,1996,New York Knicks,10,1
-289,1996,Atlanta Hawks,11,1
-290,1996,Detroit Pistons,12,0
-291,1996,Portland Trail Blazers,13,0
-292,1996,Miami Heat,14,0
-293,1996,Phoenix Suns,15,0
-294,1996,Charlotte Hornets,16,-1
-295,1996,Sacramento Kings,17,0
-296,1996,Washington Bullets,18,-1
-297,1996,Golden State Warriors,19,-1
-298,1996,Denver Nuggets,20,-1
-299,1996,Boston Celtics,21,-1
-300,1996,New Jersey Nets,22,-1
-301,1996,Los Angeles Clippers,23,-1
-302,1996,Dallas Mavericks,24,-1
-303,1996,Minnesota Timberwolves,25,-1
-304,1996,Milwaukee Bucks,26,-1
-305,1996,Toronto Raptors,27,-1
-306,1996,Philadelphia 76ers,28,-1
-307,1996,Vancouver Grizzlies,29,-1
-308,1997,Chicago Bulls,1,4
-309,1997,Utah Jazz,2,3
-310,1997,Miami Heat,3,2
-311,1997,Houston Rockets,4,2
-312,1997,New York Knicks,5,1
-313,1997,Seattle SuperSonics,6,1
-314,1997,Atlanta Hawks,7,1
-315,1997,Los Angeles Lakers,8,1
-316,1997,Charlotte Hornets,9,0
-317,1997,Detroit Pistons,10,0
-318,1997,Portland Trail Blazers,11,0
-319,1997,Orlando Magic,12,0
-320,1997,Washington Bullets,13,0
-321,1997,Cleveland Cavaliers,14,-1
-322,1997,Minnesota Timberwolves,15,0
-323,1997,Phoenix Suns,16,0
-324,1997,Indiana Pacers,17,-1
-325,1997,Los Angeles Clippers,18,0
-326,1997,Sacramento Kings,19,-1
-327,1997,Milwaukee Bucks,20,-1
-328,1997,Golden State Warriors,21,-1
-329,1997,Toronto Raptors,22,-1
-330,1997,New Jersey Nets,23,-1
-331,1997,Dallas Mavericks,24,-1
-332,1997,Philadelphia 76ers,25,-1
-333,1997,Denver Nuggets,26,-1
-334,1997,San Antonio Spurs,27,-1
-335,1997,Boston Celtics,28,-1
-336,1997,Vancouver Grizzlies,29,-1
-337,1998,Chicago Bulls,1,4
-338,1998,Utah Jazz,2,3
-339,1998,Los Angeles Lakers,3,2
-340,1998,Seattle SuperSonics,4,1
-341,1998,Indiana Pacers,5,2
-342,1998,Phoenix Suns,6,0
-343,1998,San Antonio Spurs,7,1
-344,1998,Miami Heat,8,0
-345,1998,Charlotte Hornets,9,1
-346,1998,Atlanta Hawks,10,0
-347,1998,Cleveland Cavaliers,11,0
-348,1998,Portland Trail Blazers,12,0
-349,1998,Minnesota Timberwolves,13,0
-350,1998,New Jersey Nets,14,0
-351,1998,New York Knicks,15,1
-352,1998,Washington Wizards,16,-1
-353,1998,Houston Rockets,17,0
-354,1998,Orlando Magic,18,-1
-355,1998,Detroit Pistons,19,-1
-356,1998,Boston Celtics,20,-1
-357,1998,Milwaukee Bucks,21,-1
-358,1998,Philadelphia 76ers,22,-1
-359,1998,Sacramento Kings,23,-1
-360,1998,Dallas Mavericks,24,-1
-361,1998,Golden State Warriors,25,-1
-362,1998,Vancouver Grizzlies,26,-1
-363,1998,Los Angeles Clippers,27,-1
-364,1998,Toronto Raptors,28,-1
-365,1998,Denver Nuggets,29,-1
-366,1999,San Antonio Spurs,1,4
-367,1999,Utah Jazz,2,1
-368,1999,Portland Trail Blazers,3,2
-369,1999,Indiana Pacers,4,2
-370,1999,Miami Heat,5,0
-371,1999,Orlando Magic,6,0
-372,1999,Atlanta Hawks,7,1
-373,1999,Houston Rockets,8,0
-374,1999,Los Angeles Lakers,9,1
-375,1999,Detroit Pistons,10,0
-376,1999,Milwaukee Bucks,11,0
-377,1999,Philadelphia 76ers,12,1
-378,1999,New York Knicks,13,3
-379,1999,Phoenix Suns,14,0
-380,1999,Sacramento Kings,15,0
-381,1999,Charlotte Hornets,16,-1
-382,1999,Minnesota Timberwolves,17,0
-383,1999,Seattle SuperSonics,18,-1
-384,1999,Toronto Raptors,19,-1
-385,1999,Cleveland Cavaliers,20,-1
-386,1999,Golden State Warriors,21,-1
-387,1999,Boston Celtics,22,-1
-388,1999,Dallas Mavericks,23,-1
-389,1999,Washington Wizards,24,-1
-390,1999,New Jersey Nets,25,-1
-391,1999,Denver Nuggets,26,-1
-392,1999,Chicago Bulls,27,-1
-393,1999,Los Angeles Clippers,28,-1
-394,1999,Vancouver Grizzlies,29,-1
-395,2000,Los Angeles Lakers,1,4
-396,2000,Portland Trail Blazers,2,2
-397,2000,Indiana Pacers,3,3
-398,2000,Utah Jazz,4,1
-399,2000,Phoenix Suns,5,1
-400,2000,San Antonio Spurs,6,0
-401,2000,Miami Heat,7,1
-402,2000,Minnesota Timberwolves,8,0
-403,2000,New York Knicks,9,2
-404,2000,Charlotte Hornets,10,0
-405,2000,Philadelphia 76ers,11,1
-406,2000,Seattle SuperSonics,12,0
-407,2000,Toronto Raptors,13,0
-408,2000,Sacramento Kings,14,0
-409,2000,Detroit Pistons,15,0
-410,2000,Milwaukee Bucks,16,0
-411,2000,Orlando Magic,17,-1
-412,2000,Dallas Mavericks,18,-1
-413,2000,Boston Celtics,19,-1
-414,2000,Denver Nuggets,20,-1
-415,2000,Houston Rockets,21,-1
-416,2000,Cleveland Cavaliers,22,-1
-417,2000,New Jersey Nets,23,-1
-418,2000,Washington Wizards,24,-1
-419,2000,Atlanta Hawks,25,-1
-420,2000,Vancouver Grizzlies,26,-1
-421,2000,Golden State Warriors,27,-1
-422,2000,Chicago Bulls,28,-1
-423,2000,Los Angeles Clippers,29,-1
-424,2001,San Antonio Spurs,1,2
-425,2001,Los Angeles Lakers,2,4
-426,2001,Philadelphia 76ers,3,3
-427,2001,Sacramento Kings,4,1
-428,2001,Dallas Mavericks,5,1
-429,2001,Utah Jazz,6,0
-430,2001,Milwaukee Bucks,7,2
-431,2001,Phoenix Suns,8,0
-432,2001,Miami Heat,9,0
-433,2001,Portland Trail Blazers,10,0
-434,2001,New York Knicks,11,0
-435,2001,Minnesota Timberwolves,12,0
-436,2001,Toronto Raptors,13,1
-437,2001,Charlotte Hornets,14,1
-438,2001,Houston Rockets,15,-1
-439,2001,Seattle SuperSonics,16,-1
-440,2001,Orlando Magic,17,0
-441,2001,Indiana Pacers,18,0
-442,2001,Denver Nuggets,19,-1
-443,2001,Boston Celtics,20,-1
-444,2001,Detroit Pistons,21,-1
-445,2001,Los Angeles Clippers,22,-1
-446,2001,Cleveland Cavaliers,23,-1
-447,2001,New Jersey Nets,24,-1
-448,2001,Atlanta Hawks,25,-1
-449,2001,Vancouver Grizzlies,26,-1
-450,2001,Washington Wizards,27,-1
-451,2001,Golden State Warriors,28,-1
-452,2001,Chicago Bulls,29,-1
-453,2002,Sacramento Kings,1,2
-454,2002,Los Angeles Lakers,2,4
-455,2002,San Antonio Spurs,3,1
-456,2002,Dallas Mavericks,4,1
-457,2002,New Jersey Nets,5,3
-458,2002,Detroit Pistons,6,1
-459,2002,Minnesota Timberwolves,7,0
-460,2002,Boston Celtics,8,2
-461,2002,Portland Trail Blazers,9,0
-462,2002,Seattle SuperSonics,10,0
-463,2002,Charlotte Hornets,11,1
-464,2002,Orlando Magic,12,0
-465,2002,Utah Jazz,13,0
-466,2002,Philadelphia 76ers,14,0
-467,2002,Indiana Pacers,15,0
-468,2002,Toronto Raptors,16,0
-469,2002,Milwaukee Bucks,17,-1
-470,2002,Los Angeles Clippers,18,-1
-471,2002,Washington Wizards,19,-1
-472,2002,Miami Heat,20,-1
-473,2002,Phoenix Suns,21,-1
-474,2002,Atlanta Hawks,22,-1
-475,2002,New York Knicks,23,-1
-476,2002,Cleveland Cavaliers,24,-1
-477,2002,Houston Rockets,25,-1
-478,2002,Denver Nuggets,26,-1
-479,2002,Memphis Grizzlies,27,-1
-480,2002,Chicago Bulls,28,-1
-481,2002,Golden State Warriors,29,-1
-482,2003,Dallas Mavericks,1,2
-483,2003,San Antonio Spurs,2,4
-484,2003,Sacramento Kings,3,1
-485,2003,Minnesota Timberwolves,4,0
-486,2003,Detroit Pistons,5,2
-487,2003,Los Angeles Lakers,6,1
-488,2003,Portland Trail Blazers,7,0
-489,2003,New Jersey Nets,8,3
-490,2003,Indiana Pacers,9,0
-491,2003,Philadelphia 76ers,10,1
-492,2003,New Orleans Hornets,11,0
-493,2003,Utah Jazz,12,0
-494,2003,Boston Celtics,13,1
-495,2003,Phoenix Suns,14,0
-496,2003,Houston Rockets,15,-1
-497,2003,Milwaukee Bucks,16,0
-498,2003,Orlando Magic,17,0
-499,2003,Seattle SuperSonics,18,-1
-500,2003,Golden State Warriors,19,-1
-501,2003,New York Knicks,20,-1
-502,2003,Washington Wizards,21,-1
-503,2003,Atlanta Hawks,22,-1
-504,2003,Chicago Bulls,23,-1
-505,2003,Memphis Grizzlies,24,-1
-506,2003,Los Angeles Clippers,25,-1
-507,2003,Miami Heat,26,-1
-508,2003,Toronto Raptors,27,-1
-509,2003,Cleveland Cavaliers,28,-1
-510,2003,Denver Nuggets,29,-1
-511,2004,Indiana Pacers,1,2
-512,2004,Minnesota Timberwolves,2,2
-513,2004,San Antonio Spurs,3,1
-514,2004,Los Angeles Lakers,4,3
-515,2004,Sacramento Kings,5,1
-516,2004,Detroit Pistons,6,4
-517,2004,Dallas Mavericks,7,0
-518,2004,Memphis Grizzlies,8,0
-519,2004,New Jersey Nets,9,1
-520,2004,Houston Rockets,10,0
-521,2004,Denver Nuggets,11,0
-522,2004,Miami Heat,12,1
-523,2004,Utah Jazz,13,-1
-524,2004,Milwaukee Bucks,14,0
-525,2004,New Orleans Hornets,15,0
-526,2004,Portland Trail Blazers,16,-1
-527,2004,New York Knicks,17,0
-528,2004,Golden State Warriors,18,-1
-529,2004,Seattle SuperSonics,19,-1
-530,2004,Boston Celtics,20,0
-531,2004,Cleveland Cavaliers,21,-1
-532,2004,Philadelphia 76ers,22,-1
-533,2004,Toronto Raptors,23,-1
-534,2004,Phoenix Suns,24,-1
-535,2004,Atlanta Hawks,25,-1
-536,2004,Los Angeles Clippers,26,-1
-537,2004,Washington Wizards,27,-1
-538,2004,Chicago Bulls,28,-1
-539,2004,Orlando Magic,29,-1
-540,2005,Phoenix Suns,1,2
-541,2005,Miami Heat,2,2
-542,2005,San Antonio Spurs,3,4
-543,2005,Dallas Mavericks,4,1
-544,2005,Detroit Pistons,5,3
-545,2005,Seattle SuperSonics,6,1
-546,2005,Houston Rockets,7,0
-547,2005,Sacramento Kings,8,0
-548,2005,Denver Nuggets,9,0
-549,2005,Chicago Bulls,10,0
-550,2005,Boston Celtics,11,0
-551,2005,Memphis Grizzlies,12,0
-552,2005,Washington Wizards,13,1
-553,2005,Indiana Pacers,14,1
-554,2005,Minnesota Timberwolves,15,-1
-555,2005,Philadelphia 76ers,16,0
-556,2005,New Jersey Nets,17,0
-557,2005,Cleveland Cavaliers,18,-1
-558,2005,Los Angeles Clippers,19,-1
-559,2005,Orlando Magic,20,-1
-560,2005,Golden State Warriors,21,-1
-561,2005,Los Angeles Lakers,22,-1
-562,2005,New York Knicks,23,-1
-563,2005,Toronto Raptors,24,-1
-564,2005,Milwaukee Bucks,25,-1
-565,2005,Portland Trail Blazers,26,-1
-566,2005,Utah Jazz,27,-1
-567,2005,Charlotte Bobcats,28,-1
-568,2005,New Orleans Hornets,29,-1
-569,2005,Atlanta Hawks,30,-1
-570,2006,Detroit Pistons,1,2
-571,2006,San Antonio Spurs,2,1
-572,2006,Dallas Mavericks,3,3
-573,2006,Phoenix Suns,4,2
-574,2006,Miami Heat,5,4
-575,2006,Cleveland Cavaliers,6,1
-576,2006,Memphis Grizzlies,7,0
-577,2006,New Jersey Nets,8,1
-578,2006,Los Angeles Clippers,9,1
-579,2006,Los Angeles Lakers,10,0
-580,2006,Denver Nuggets,11,0
-581,2006,Sacramento Kings,12,0
-582,2006,Washington Wizards,13,0
-583,2006,Chicago Bulls,14,0
-584,2006,Indiana Pacers,15,0
-585,2006,Utah Jazz,16,-1
-586,2006,Milwaukee Bucks,17,0
-587,2006,New OrleansOklahoma City Hornets,18,-1
-588,2006,Philadelphia 76ers,19,-1
-589,2006,Orlando Magic,20,-1
-590,2006,Seattle SuperSonics,21,-1
-591,2006,Golden State Warriors,22,-1
-592,2006,Houston Rockets,23,-1
-593,2006,Boston Celtics,24,-1
-594,2006,Minnesota Timberwolves,25,-1
-595,2006,Toronto Raptors,26,-1
-596,2006,Atlanta Hawks,27,-1
-597,2006,Charlotte Bobcats,28,-1
-598,2006,New York Knicks,29,-1
-599,2006,Portland Trail Blazers,30,-1
-600,2007,Dallas Mavericks,1,0
-601,2007,Phoenix Suns,2,1
-602,2007,San Antonio Spurs,3,4
-603,2007,Detroit Pistons,4,2
-604,2007,Houston Rockets,5,0
-605,2007,Utah Jazz,6,2
-606,2007,Cleveland Cavaliers,7,3
-607,2007,Chicago Bulls,8,1
-608,2007,Toronto Raptors,9,0
-609,2007,Denver Nuggets,10,0
-610,2007,Miami Heat,11,0
-611,2007,Golden State Warriors,12,1
-612,2007,Los Angeles Lakers,13,0
-613,2007,New Jersey Nets,14,1
-614,2007,Washington Wizards,15,0
-615,2007,Orlando Magic,16,0
-616,2007,Los Angeles Clippers,17,-1
-617,2007,New OrleansOklahoma City Hornets,18,-1
-618,2007,Indiana Pacers,19,-1
-619,2007,Philadelphia 76ers,20,-1
-620,2007,Charlotte Bobcats,21,-1
-621,2007,New York Knicks,22,-1
-622,2007,Sacramento Kings,23,-1
-623,2007,Minnesota Timberwolves,24,-1
-624,2007,Portland Trail Blazers,25,-1
-625,2007,Seattle SuperSonics,26,-1
-626,2007,Atlanta Hawks,27,-1
-627,2007,Milwaukee Bucks,28,-1
-628,2007,Boston Celtics,29,-1
-629,2007,Memphis Grizzlies,30,-1
-630,2008,Boston Celtics,1,4
-631,2008,Detroit Pistons,2,2
-632,2008,Los Angeles Lakers,3,3
-633,2008,New Orleans Hornets,4,1
-634,2008,San Antonio Spurs,5,2
-635,2008,Houston Rockets,6,0
-636,2008,Phoenix Suns,7,0
-637,2008,Utah Jazz,8,1
-638,2008,Orlando Magic,9,1
-639,2008,Dallas Mavericks,10,0
-640,2008,Denver Nuggets,11,0
-641,2008,Golden State Warriors,12,-1
-642,2008,Cleveland Cavaliers,13,1
-643,2008,Washington Wizards,14,0
-644,2008,Toronto Raptors,15,0
-645,2008,Portland Trail Blazers,16,-1
-646,2008,Philadelphia 76ers,17,0
-647,2008,Sacramento Kings,18,-1
-648,2008,Atlanta Hawks,19,0
-649,2008,Indiana Pacers,20,-1
-650,2008,New Jersey Nets,21,-1
-651,2008,Chicago Bulls,22,-1
-652,2008,Charlotte Bobcats,23,-1
-653,2008,Milwaukee Bucks,24,-1
-654,2008,Los Angeles Clippers,25,-1
-655,2008,New York Knicks,26,-1
-656,2008,Memphis Grizzlies,27,-1
-657,2008,Minnesota Timberwolves,28,-1
-658,2008,Seattle SuperSonics,29,-1
-659,2008,Miami Heat,30,-1
-660,2009,Cleveland Cavaliers,1,2
-661,2009,Los Angeles Lakers,2,4
-662,2009,Boston Celtics,3,1
-663,2009,Orlando Magic,4,3
-664,2009,Denver Nuggets,5,2
-665,2009,Portland Trail Blazers,6,0
-666,2009,San Antonio Spurs,7,0
-667,2009,Houston Rockets,8,1
-668,2009,Dallas Mavericks,9,1
-669,2009,New Orleans Hornets,10,0
-670,2009,Utah Jazz,11,0
-671,2009,Atlanta Hawks,12,1
-672,2009,Phoenix Suns,13,-1
-673,2009,Miami Heat,14,0
-674,2009,Chicago Bulls,15,0
-675,2009,Philadelphia 76ers,16,0
-676,2009,Detroit Pistons,17,0
-677,2009,Indiana Pacers,18,-1
-678,2009,Charlotte Bobcats,19,-1
-679,2009,Milwaukee Bucks,20,-1
-680,2009,New Jersey Nets,21,-1
-681,2009,Toronto Raptors,22,-1
-682,2009,New York Knicks,23,-1
-683,2009,Golden State Warriors,24,-1
-684,2009,Memphis Grizzlies,25,-1
-685,2009,Minnesota Timberwolves,26,-1
-686,2009,Oklahoma City Thunder,27,-1
-687,2009,Los Angeles Clippers,28,-1
-688,2009,Washington Wizards,29,-1
-689,2009,Sacramento Kings,30,-1
-690,2010,Cleveland Cavaliers,1,1
-691,2010,Orlando Magic,2,2
-692,2010,Los Angeles Lakers,3,4
-693,2010,Dallas Mavericks,4,0
-694,2010,Phoenix Suns,5,2
-695,2010,Atlanta Hawks,6,1
-696,2010,Denver Nuggets,7,0
-697,2010,Utah Jazz,8,1
-698,2010,Boston Celtics,9,3
-699,2010,Oklahoma City Thunder,10,0
-700,2010,Portland Trail Blazers,11,0
-701,2010,San Antonio Spurs,12,1
-702,2010,Miami Heat,13,0
-703,2010,Milwaukee Bucks,14,0
-704,2010,Charlotte Bobcats,15,0
-705,2010,Houston Rockets,16,-1
-706,2010,Chicago Bulls,17,0
-707,2010,Memphis Grizzlies,18,-1
-708,2010,Toronto Raptors,19,-1
-709,2010,New Orleans Hornets,20,-1
-710,2010,Indiana Pacers,21,-1
-711,2010,Los Angeles Clippers,22,-1
-712,2010,New York Knicks,23,-1
-713,2010,Detroit Pistons,24,-1
-714,2010,Philadelphia 76ers,25,-1
-715,2010,Golden State Warriors,26,-1
-716,2010,Washington Wizards,27,-1
-717,2010,Sacramento Kings,28,-1
-718,2010,Minnesota Timberwolves,29,-1
-719,2010,New Jersey Nets,30,-1
-720,2011,Chicago Bulls,1,2
-721,2011,San Antonio Spurs,2,0
-722,2011,Miami Heat,3,3
-723,2011,Dallas Mavericks,4,4
-724,2011,Los Angeles Lakers,5,1
-725,2011,Boston Celtics,6,1
-726,2011,Oklahoma City Thunder,7,2
-727,2011,Orlando Magic,8,0
-728,2011,Denver Nuggets,9,0
-729,2011,Portland Trail Blazers,10,0
-730,2011,Memphis Grizzlies,11,1
-731,2011,New Orleans Hornets,12,0
-732,2011,Atlanta Hawks,13,1
-733,2011,Houston Rockets,14,-1
-734,2011,New York Knicks,15,0
-735,2011,Philadelphia 76ers,16,0
-736,2011,Phoenix Suns,17,-1
-737,2011,Utah Jazz,18,-1
-738,2011,Indiana Pacers,19,0
-739,2011,Golden State Warriors,20,-1
-740,2011,Milwaukee Bucks,21,-1
-741,2011,Charlotte Bobcats,22,-1
-742,2011,Los Angeles Clippers,23,-1
-743,2011,Detroit Pistons,24,-1
-744,2011,New Jersey Nets,25,-1
-745,2011,Sacramento Kings,26,-1
-746,2011,Washington Wizards,27,-1
-747,2011,Toronto Raptors,28,-1
-748,2011,Cleveland Cavaliers,29,-1
-749,2011,Minnesota Timberwolves,30,-1
-750,2012,Chicago Bulls,1,0
-751,2012,San Antonio Spurs,2,2
-752,2012,Oklahoma City Thunder,3,3
-753,2012,Miami Heat,4,4
-754,2012,Indiana Pacers,5,1
-755,2012,Los Angeles Lakers,6,1
-756,2012,Memphis Grizzlies,7,0
-757,2012,Atlanta Hawks,8,0
-758,2012,Los Angeles Clippers,9,1
-759,2012,Boston Celtics,10,2
-760,2012,Denver Nuggets,11,0
-761,2012,Orlando Magic,12,0
-762,2012,Dallas Mavericks,13,0
-763,2012,New York Knicks,14,0
-764,2012,Utah Jazz,15,0
-765,2012,Philadelphia 76ers,16,1
-766,2012,Houston Rockets,17,-1
-767,2012,Phoenix Suns,18,-1
-768,2012,Milwaukee Bucks,19,-1
-769,2012,Portland Trail Blazers,20,-1
-770,2012,Minnesota Timberwolves,21,-1
-771,2012,Detroit Pistons,22,-1
-772,2012,Golden State Warriors,23,-1
-773,2012,Toronto Raptors,24,-1
-774,2012,New Jersey Nets,25,-1
-775,2012,Sacramento Kings,26,-1
-776,2012,Cleveland Cavaliers,27,-1
-777,2012,New Orleans Hornets,28,-1
-778,2012,Washington Wizards,29,-1
-779,2012,Charlotte Bobcats,30,-1
-780,2013,Miami Heat,1,4
-781,2013,Oklahoma City Thunder,2,1
-782,2013,San Antonio Spurs,3,3
-783,2013,Denver Nuggets,4,0
-784,2013,Los Angeles Clippers,5,0
-785,2013,Memphis Grizzlies,6,2
-786,2013,New York Knicks,7,1
-787,2013,Brooklyn Nets,8,0
-788,2013,Indiana Pacers,9,2
-789,2013,Golden State Warriors,10,1
-790,2013,Chicago Bulls,11,1
-791,2013,Houston Rockets,12,0
-792,2013,Los Angeles Lakers,13,0
-793,2013,Atlanta Hawks,14,0
-794,2013,Utah Jazz,15,-1
-795,2013,Boston Celtics,16,0
-796,2013,Dallas Mavericks,17,-1
-797,2013,Milwaukee Bucks,18,0
-798,2013,Philadelphia 76ers,19,-1
-799,2013,Toronto Raptors,20,-1
-800,2013,Portland Trail Blazers,21,-1
-801,2013,Minnesota Timberwolves,22,-1
-802,2013,Detroit Pistons,23,-1
-803,2013,Washington Wizards,24,-1
-804,2013,Sacramento Kings,25,-1
-805,2013,New Orleans Hornets,26,-1
-806,2013,Phoenix Suns,27,-1
-807,2013,Cleveland Cavaliers,28,-1
-808,2013,Charlotte Bobcats,29,-1
-809,2013,Orlando Magic,30,-1
-810,2014,San Antonio Spurs,1,4
-811,2014,Oklahoma City Thunder,2,2
-812,2014,Los Angeles Clippers,3,1
-813,2014,Indiana Pacers,4,2
-814,2014,Houston Rockets,5,0
-815,2014,Miami Heat,6,3
-816,2014,Portland Trail Blazers,7,1
-817,2014,Golden State Warriors,8,0
-818,2014,Memphis Grizzlies,9,0
-819,2014,Dallas Mavericks,10,0
-820,2014,Chicago Bulls,11,0
-821,2014,Toronto Raptors,12,0
-822,2014,Phoenix Suns,13,-1
-823,2014,Brooklyn Nets,14,1
-824,2014,Washington Wizards,15,1
-825,2014,Charlotte Bobcats,16,0
-826,2014,Minnesota Timberwolves,17,-1
-827,2014,Atlanta Hawks,18,0
-828,2014,New York Knicks,19,-1
-829,2014,Denver Nuggets,20,-1
-830,2014,New Orleans Pelicans,21,-1
-831,2014,Cleveland Cavaliers,22,-1
-832,2014,Detroit Pistons,23,-1
-833,2014,Sacramento Kings,24,-1
-834,2014,Los Angeles Lakers,25,-1
-835,2014,Boston Celtics,26,-1
-836,2014,Utah Jazz,27,-1
-837,2014,Orlando Magic,28,-1
-838,2014,Philadelphia 76ers,29,-1
-839,2014,Milwaukee Bucks,30,-1
-840,2015,Golden State Warriors,1,4
-841,2015,Atlanta Hawks,2,2
-842,2015,Houston Rockets,3,2
-843,2015,Los Angeles Clippers,4,1
-844,2015,Memphis Grizzlies,5,1
-845,2015,San Antonio Spurs,6,0
-846,2015,Cleveland Cavaliers,7,3
-847,2015,Portland Trail Blazers,8,0
-848,2015,Chicago Bulls,9,1
-849,2015,Dallas Mavericks,10,0
-850,2015,Toronto Raptors,11,0
-851,2015,Washington Wizards,12,1
-852,2015,New Orleans Pelicans,13,0
-853,2015,Oklahoma City Thunder,14,-1
-854,2015,Milwaukee Bucks,15,0
-855,2015,Boston Celtics,16,0
-856,2015,Phoenix Suns,17,-1
-857,2015,Brooklyn Nets,18,0
-858,2015,Indiana Pacers,19,-1
-859,2015,Utah Jazz,20,-1
-860,2015,Miami Heat,21,-1
-861,2015,Charlotte Hornets,22,-1
-862,2015,Detroit Pistons,23,-1
-863,2015,Denver Nuggets,24,-1
-864,2015,Sacramento Kings,25,-1
-865,2015,Orlando Magic,26,-1
-866,2015,Los Angeles Lakers,27,-1
-867,2015,Philadelphia 76ers,28,-1
-868,2015,New York Knicks,29,-1
-869,2015,Minnesota Timberwolves,30,-1
-870,2016,Golden State Warriors,1,3
-871,2016,San Antonio Spurs,2,1
-872,2016,Cleveland Cavaliers,3,4
-873,2016,Toronto Raptors,4,2
-874,2016,Oklahoma City Thunder,5,2
-875,2016,Los Angeles Clippers,6,0
-876,2016,Atlanta Hawks,7,1
-877,2016,Boston Celtics,8,0
-878,2016,Charlotte Hornets,9,0
-879,2016,Miami Heat,10,1
-880,2016,Indiana Pacers,11,0
-881,2016,Detroit Pistons,12,0
-882,2016,Portland Trail Blazers,13,1
-883,2016,Dallas Mavericks,14,0
-884,2016,Memphis Grizzlies,15,0
-885,2016,Chicago Bulls,16,-1
-886,2016,Houston Rockets,17,0
-887,2016,Washington Wizards,18,-1
-888,2016,Utah Jazz,19,-1
-889,2016,Orlando Magic,20,-1
-890,2016,Denver Nuggets,21,-1
-891,2016,Milwaukee Bucks,22,-1
-892,2016,Sacramento Kings,23,-1
-893,2016,New York Knicks,24,-1
-894,2016,New Orleans Pelicans,25,-1
-895,2016,Minnesota Timberwolves,26,-1
-896,2016,Phoenix Suns,27,-1
-897,2016,Brooklyn Nets,28,-1
-898,2016,Los Angeles Lakers,29,-1
-899,2016,Philadelphia 76ers,30,-1
-900,2017,Golden State Warriors,1,4
-901,2017,San Antonio Spurs,2,2
-902,2017,Houston Rockets,3,1
-903,2017,Boston Celtics,4,2
-904,2017,Cleveland Cavaliers,5,3
-905,2017,Los Angeles Clippers,6,0
-906,2017,Toronto Raptors,7,1
-907,2017,Utah Jazz,8,1
-908,2017,Washington Wizards,9,1
-909,2017,Oklahoma City Thunder,10,0
-910,2017,Atlanta Hawks,11,0
-911,2017,Memphis Grizzlies,12,0
-912,2017,Indiana Pacers,13,0
-913,2017,Milwaukee Bucks,14,0
-914,2017,Chicago Bulls,15,0
-915,2017,Portland Trail Blazers,16,0
-916,2017,Miami Heat,17,-1
-917,2017,Denver Nuggets,18,-1
-918,2017,Detroit Pistons,19,-1
-919,2017,Charlotte Hornets,20,-1
-920,2017,New Orleans Pelicans,21,-1
-921,2017,Dallas Mavericks,22,-1
-922,2017,Sacramento Kings,23,-1
-923,2017,Minnesota Timberwolves,24,-1
-924,2017,New York Knicks,25,-1
-925,2017,Orlando Magic,26,-1
-926,2017,Philadelphia 76ers,27,-1
-927,2017,Los Angeles Lakers,28,-1
-928,2017,Phoenix Suns,29,-1
-929,2017,Brooklyn Nets,30,-1
-930,2018,Houston Rockets,1,2
-931,2018,Toronto Raptors,2,1
-932,2018,Golden State Warriors,3,4
-933,2018,Boston Celtics,4,2
-934,2018,Philadelphia 76ers,5,1
-935,2018,Cleveland Cavaliers,6,3
-936,2018,Portland Trail Blazers,7,0
-937,2018,Indiana Pacers,8,0
-938,2018,New Orleans Pelicans,9,1
-939,2018,Oklahoma City Thunder,10,0
-940,2018,Utah Jazz,11,1
-941,2018,Minnesota Timberwolves,12,0
-942,2018,San Antonio Spurs,13,0
-943,2018,Denver Nuggets,14,-1
-944,2018,Miami Heat,15,0
-945,2018,Milwaukee Bucks,16,0
-946,2018,Washington Wizards,17,0
-947,2018,Los Angeles Clippers,18,-1
-948,2018,Detroit Pistons,19,-1
-949,2018,Charlotte Hornets,20,-1
-950,2018,Los Angeles Lakers,21,-1
-951,2018,New York Knicks,22,-1
-952,2018,Brooklyn Nets,23,-1
-953,2018,Chicago Bulls,24,-1
-954,2018,Sacramento Kings,25,-1
-955,2018,Orlando Magic,26,-1
-956,2018,Atlanta Hawks,27,-1
-957,2018,Dallas Mavericks,28,-1
-958,2018,Memphis Grizzlies,29,-1
-959,2018,Phoenix Suns,30,-1
-960,2019,Milwaukee Bucks,1,2
-961,2019,Toronto Raptors,2,4
-962,2019,Golden State Warriors,3,3
-963,2019,Denver Nuggets,4,1
-964,2019,Houston Rockets,5,1
-965,2019,Portland Trail Blazers,6,2
-966,2019,Philadelphia 76ers,7,1
-967,2019,Utah Jazz,8,0
-968,2019,Boston Celtics,9,1
-969,2019,Oklahoma City Thunder,10,0
-970,2019,Indiana Pacers,11,0
-971,2019,Los Angeles Clippers,12,0
-972,2019,San Antonio Spurs,13,0
-973,2019,Brooklyn Nets,14,0
-974,2019,Orlando Magic,15,0
-975,2019,Detroit Pistons,16,0
-976,2019,Charlotte Hornets,17,-1
-977,2019,Miami Heat,18,-1
-978,2019,Sacramento Kings,19,-1
-979,2019,Los Angeles Lakers,20,-1
-980,2019,Minnesota Timberwolves,21,-1
-981,2019,Dallas Mavericks,22,-1
-982,2019,Memphis Grizzlies,23,-1
-983,2019,New Orleans Pelicans,24,-1
-984,2019,Washington Wizards,25,-1
-985,2019,Atlanta Hawks,26,-1
-986,2019,Chicago Bulls,27,-1
-987,2019,Cleveland Cavaliers,28,-1
-988,2019,Phoenix Suns,29,-1
-989,2019,New York Knicks,30,-1
-990,2020,Milwaukee Bucks,1,1
-991,2020,Toronto Raptors,2,1
-992,2020,Los Angeles Lakers,3,4
-993,2020,Los Angeles Clippers,4,1
-994,2020,Boston Celtics,5,2
-995,2020,Denver Nuggets,6,2
-996,2020,Indiana Pacers,7,0
-997,2020,Houston Rockets,8,1
-998,2020,Miami Heat,9,3
-999,2020,Oklahoma City Thunder,10,0
-1000,2020,Utah Jazz,11,0
-1001,2020,Dallas Mavericks,12,0
-1002,2020,Philadelphia 76ers,13,0
-1003,2020,Brooklyn Nets,14,0
-1004,2020,Portland Trail Blazers,15,0
-1005,2020,Memphis Grizzlies,16,-1
-1006,2020,Phoenix Suns,17,-1
-1007,2020,Orlando Magic,18,0
-1008,2020,San Antonio Spurs,19,-1
-1009,2020,Sacramento Kings,20,-1
-1010,2020,New Orleans Pelicans,21,-1
-1011,2020,Washington Wizards,22,-1
-1012,2020,Charlotte Hornets,23,-1
-1013,2020,Chicago Bulls,24,-1
-1014,2020,New York Knicks,25,-1
-1015,2020,Atlanta Hawks,26,-1
-1016,2020,Detroit Pistons,27,-1
-1017,2020,Cleveland Cavaliers,28,-1
-1018,2020,Minnesota Timberwolves,29,-1
-1019,2020,Golden State Warriors,30,-1
-1020,2021,Utah Jazz,1,1
-1021,2021,Phoenix Suns,2,3
-1022,2021,Philadelphia 76ers,3,1
-1023,2021,Brooklyn Nets,4,1
-1024,2021,Denver Nuggets,5,1
-1025,2021,Los Angeles Clippers,6,2
-1026,2021,Milwaukee Bucks,7,4
-1027,2021,Dallas Mavericks,8,0
-1028,2021,Los Angeles Lakers,9,0
-1029,2021,Portland Trail Blazers,10,0
-1030,2021,Atlanta Hawks,11,2
-1031,2021,New York Knicks,12,0
-1032,2021,Miami Heat,13,0
-1033,2021,Golden State Warriors,14,-1
-1034,2021,Memphis Grizzlies,15,0
-1035,2021,Boston Celtics,16,0
-1036,2021,Washington Wizards,17,0
-1037,2021,Indiana Pacers,18,-1
-1038,2021,Charlotte Hornets,19,-1
-1039,2021,San Antonio Spurs,20,-1
-1040,2021,Chicago Bulls,21,-1
-1041,2021,New Orleans Pelicans,22,-1
-1042,2021,Sacramento Kings,23,-1
-1043,2021,Toronto Raptors,24,-1
-1044,2021,Minnesota Timberwolves,25,-1
-1045,2021,Cleveland Cavaliers,26,-1
-1046,2021,Oklahoma City Thunder,27,-1
-1047,2021,Orlando Magic,28,-1
-1048,2021,Detroit Pistons,29,-1
-1049,2021,Houston Rockets,30,-1
-1050,2022,Phoenix Suns,1,1
-1051,2022,Memphis Grizzlies,2,1
-1052,2022,Golden State Warriors,3,4
-1053,2022,Miami Heat,4,2
-1054,2022,Dallas Mavericks,5,2
-1055,2022,Boston Celtics,6,3
-1056,2022,Milwaukee Bucks,7,1
-1057,2022,Philadelphia 76ers,8,1
-1058,2022,Utah Jazz,9,0
-1059,2022,Denver Nuggets,10,0
-1060,2022,Toronto Raptors,11,0
-1061,2022,Chicago Bulls,12,0
-1062,2022,Minnesota Timberwolves,13,0
-1063,2022,Brooklyn Nets,14,0
-1064,2022,Cleveland Cavaliers,15,-1
-1065,2022,Atlanta Hawks,16,0
-1066,2022,Charlotte Hornets,17,-1
-1067,2022,Los Angeles Clippers,18,-1
-1068,2022,New York Knicks,19,-1
-1069,2022,New Orleans Pelicans,20,0
-1070,2022,Washington Wizards,21,-1
-1071,2022,San Antonio Spurs,22,-1
-1072,2022,Los Angeles Lakers,23,-1
-1073,2022,Sacramento Kings,24,-1
-1074,2022,Portland Trail Blazers,25,-1
-1075,2022,Indiana Pacers,26,-1
-1076,2022,Oklahoma City Thunder,27,-1
-1077,2022,Detroit Pistons,28,-1
-1078,2022,Orlando Magic,29,-1
-1079,2022,Houston Rockets,30,-1
-1080,2023,Milwaukee Bucks,1,0
-1081,2023,Boston Celtics,2,2
-1082,2023,Philadelphia 76ers,3,1
-1083,2023,Denver Nuggets,4,4
-1084,2023,Cleveland Cavaliers,5,0
-1085,2023,Memphis Grizzlies,6,0
-1086,2023,Sacramento Kings,7,0
-1087,2023,New York Knicks,8,1
-1088,2023,Brooklyn Nets,9,0
-1089,2023,Phoenix Suns,10,1
-1090,2023,Golden State Warriors,11,1
-1091,2023,Los Angeles Clippers,12,0
-1092,2023,Miami Heat,13,3
-1093,2023,Los Angeles Lakers,14,2
-1094,2023,Minnesota Timberwolves,15,0
-1095,2023,New Orleans Pelicans,16,-1
-1096,2023,Atlanta Hawks,17,0
-1097,2023,Toronto Raptors,18,-1
-1098,2023,Chicago Bulls,19,-1
-1099,2023,Oklahoma City Thunder,20,-1
-1100,2023,Dallas Mavericks,21,-1
-1101,2023,Utah Jazz,22,-1
-1102,2023,Indiana Pacers,23,-1
-1103,2023,Washington Wizards,24,-1
-1104,2023,Orlando Magic,25,-1
-1105,2023,Portland Trail Blazers,26,-1
-1106,2023,Charlotte Hornets,27,-1
-1107,2023,Houston Rockets,28,-1
-1108,2023,San Antonio Spurs,29,-1
-1109,2023,Detroit Pistons,30,-1
-1110,2024,Boston Celtics,1,4
-1111,2024,Denver Nuggets,2,1
-1112,2024,Oklahoma City Thunder,3,1
-1113,2024,Minnesota Timberwolves,4,2
-1114,2024,Los Angeles Clippers,5,0
-1115,2024,Dallas Mavericks,6,3
-1116,2024,New York Knicks,7,1
-1117,2024,Milwaukee Bucks,8,0
-1118,2024,New Orleans Pelicans,9,0
-1119,2024,Phoenix Suns,10,0
-1120,2024,Cleveland Cavaliers,11,1
-1121,2024,Indiana Pacers,12,2
-1122,2024,Los Angeles Lakers,13,0
-1123,2024,Orlando Magic,14,0
-1124,2024,Philadelphia 76ers,15,0
-1125,2024,Miami Heat,16,0
-1126,2024,Golden State Warriors,17,-1
-1127,2024,Sacramento Kings,18,-1
-1128,2024,Houston Rockets,19,-1
-1129,2024,Chicago Bulls,20,-1
-1130,2024,Atlanta Hawks,21,-1
-1131,2024,Brooklyn Nets,22,-1
-1132,2024,Utah Jazz,23,-1
-1133,2024,Memphis Grizzlies,24,-1
-1134,2024,Toronto Raptors,25,-1
-1135,2024,San Antonio Spurs,26,-1
-1136,2024,Charlotte Hornets,27,-1
-1137,2024,Portland Trail Blazers,28,-1
-1138,2024,Washington Wizards,29,-1
-1139,2024,Detroit Pistons,30,-1
+,Unnamed: 0,year,team,rank_regular,rank_playoffs,team_normalized
+0,0,1985,Boston Celtics,1,3,boston celtics
+1,1,1985,Los Angeles Lakers,2,4,los angeles lakers
+2,2,1985,Milwaukee Bucks,3,1,milwaukee bucks
+3,3,1985,Philadelphia 76ers,4,2,philadelphia 76ers
+4,4,1985,Denver Nuggets,5,2,denver nuggets
+5,5,1985,Houston Rockets,6,0,houston rockets
+6,6,1985,Detroit Pistons,7,1,detroit pistons
+7,7,1985,Dallas Mavericks,8,0,dallas mavericks
+8,8,1985,New Jersey Nets,9,0,brooklyn nets
+9,9,1985,Portland Trail Blazers,10,1,portland trail blazers
+10,10,1985,San Antonio Spurs,11,0,san antonio spurs
+11,11,1985,Utah Jazz,12,1,utah jazz
+12,12,1985,Washington Bullets,13,0,washington wizards
+13,13,1985,Chicago Bulls,14,0,chicago bulls
+14,14,1985,Cleveland Cavaliers,15,0,cleveland cavaliers
+15,15,1985,Phoenix Suns,16,0,phoenix suns
+16,16,1985,Atlanta Hawks,17,-1,atlanta hawks
+17,17,1985,Kansas City Kings,18,-1,sacramento kings
+18,18,1985,Los Angeles Clippers,19,-1,los angeles clippers
+19,19,1985,Seattle SuperSonics,20,-1,oklahoma city thunder
+20,20,1985,New York Knicks,21,-1,new york knicks
+21,21,1985,Golden State Warriors,22,-1,golden state warriors
+22,22,1985,Indiana Pacers,23,-1,indiana pacers
+23,23,1986,Boston Celtics,1,4,boston celtics
+24,24,1986,Los Angeles Lakers,2,2,los angeles lakers
+25,25,1986,Milwaukee Bucks,3,2,milwaukee bucks
+26,26,1986,Philadelphia 76ers,4,1,philadelphia 76ers
+27,27,1986,Houston Rockets,5,3,houston rockets
+28,28,1986,Atlanta Hawks,6,1,atlanta hawks
+29,29,1986,Denver Nuggets,7,1,denver nuggets
+30,30,1986,Detroit Pistons,8,0,detroit pistons
+31,31,1986,Dallas Mavericks,9,1,dallas mavericks
+32,32,1986,Utah Jazz,10,0,utah jazz
+33,33,1986,Portland Trail Blazers,11,0,portland trail blazers
+34,34,1986,New Jersey Nets,12,0,brooklyn nets
+35,35,1986,Washington Bullets,13,0,washington wizards
+36,36,1986,Sacramento Kings,14,0,sacramento kings
+37,37,1986,San Antonio Spurs,15,0,san antonio spurs
+38,38,1986,Los Angeles Clippers,16,-1,los angeles clippers
+39,39,1986,Phoenix Suns,17,-1,phoenix suns
+40,40,1986,Seattle SuperSonics,18,-1,oklahoma city thunder
+41,41,1986,Chicago Bulls,19,0,chicago bulls
+42,42,1986,Golden State Warriors,20,-1,golden state warriors
+43,43,1986,Cleveland Cavaliers,21,-1,cleveland cavaliers
+44,44,1986,Indiana Pacers,22,-1,indiana pacers
+45,45,1986,New York Knicks,23,-1,new york knicks
+46,46,1987,Los Angeles Lakers,1,4,los angeles lakers
+47,47,1987,Boston Celtics,2,3,boston celtics
+48,48,1987,Atlanta Hawks,3,1,atlanta hawks
+49,49,1987,Dallas Mavericks,4,0,dallas mavericks
+50,50,1987,Detroit Pistons,5,2,detroit pistons
+51,51,1987,Milwaukee Bucks,6,1,milwaukee bucks
+52,52,1987,Portland Trail Blazers,7,0,portland trail blazers
+53,53,1987,Philadelphia 76ers,8,0,philadelphia 76ers
+54,54,1987,Utah Jazz,9,0,utah jazz
+55,55,1987,Golden State Warriors,10,1,golden state warriors
+56,56,1987,Houston Rockets,11,1,houston rockets
+57,57,1987,Washington Bullets,12,0,washington wizards
+58,58,1987,Indiana Pacers,13,0,indiana pacers
+59,59,1987,Chicago Bulls,14,0,chicago bulls
+60,60,1987,Seattle SuperSonics,15,2,oklahoma city thunder
+61,61,1987,Denver Nuggets,16,0,denver nuggets
+62,62,1987,Phoenix Suns,17,-1,phoenix suns
+63,63,1987,Cleveland Cavaliers,18,-1,cleveland cavaliers
+64,64,1987,Sacramento Kings,19,-1,sacramento kings
+65,65,1987,San Antonio Spurs,20,-1,san antonio spurs
+66,66,1987,New Jersey Nets,21,-1,brooklyn nets
+67,67,1987,New York Knicks,22,-1,new york knicks
+68,68,1987,Los Angeles Clippers,23,-1,los angeles clippers
+69,69,1988,Los Angeles Lakers,1,4,los angeles lakers
+70,70,1988,Boston Celtics,2,2,boston celtics
+71,71,1988,Denver Nuggets,3,1,denver nuggets
+72,72,1988,Detroit Pistons,4,3,detroit pistons
+73,73,1988,Dallas Mavericks,5,2,dallas mavericks
+74,74,1988,Portland Trail Blazers,6,0,portland trail blazers
+75,75,1988,Atlanta Hawks,7,1,atlanta hawks
+76,76,1988,Chicago Bulls,8,1,chicago bulls
+77,77,1988,Utah Jazz,9,1,utah jazz
+78,78,1988,Houston Rockets,10,0,houston rockets
+79,79,1988,Seattle SuperSonics,11,0,oklahoma city thunder
+80,80,1988,Cleveland Cavaliers,12,0,cleveland cavaliers
+81,81,1988,Milwaukee Bucks,13,0,milwaukee bucks
+82,82,1988,New York Knicks,14,0,new york knicks
+83,83,1988,Washington Bullets,15,0,washington wizards
+84,84,1988,Indiana Pacers,16,-1,indiana pacers
+85,85,1988,Philadelphia 76ers,17,-1,philadelphia 76ers
+86,86,1988,San Antonio Spurs,18,0,san antonio spurs
+87,87,1988,Phoenix Suns,19,-1,phoenix suns
+88,88,1988,Sacramento Kings,20,-1,sacramento kings
+89,89,1988,Golden State Warriors,21,-1,golden state warriors
+90,90,1988,New Jersey Nets,22,-1,brooklyn nets
+91,91,1988,Los Angeles Clippers,23,-1,los angeles clippers
+92,92,1989,Detroit Pistons,1,4,detroit pistons
+93,93,1989,Cleveland Cavaliers,2,0,cleveland cavaliers
+94,94,1989,Los Angeles Lakers,3,3,los angeles lakers
+95,95,1989,Phoenix Suns,4,2,phoenix suns
+96,96,1989,Atlanta Hawks,5,0,atlanta hawks
+97,97,1989,New York Knicks,6,1,new york knicks
+98,98,1989,Utah Jazz,7,0,utah jazz
+99,99,1989,Milwaukee Bucks,8,1,milwaukee bucks
+100,100,1989,Chicago Bulls,9,2,chicago bulls
+101,101,1989,Seattle SuperSonics,10,1,oklahoma city thunder
+102,102,1989,Philadelphia 76ers,11,0,philadelphia 76ers
+103,103,1989,Houston Rockets,12,0,houston rockets
+104,104,1989,Denver Nuggets,13,0,denver nuggets
+105,105,1989,Golden State Warriors,14,1,golden state warriors
+106,106,1989,Boston Celtics,15,0,boston celtics
+107,107,1989,Washington Bullets,16,-1,washington wizards
+108,108,1989,Portland Trail Blazers,17,0,portland trail blazers
+109,109,1989,Dallas Mavericks,18,-1,dallas mavericks
+110,110,1989,Indiana Pacers,19,-1,indiana pacers
+111,111,1989,Sacramento Kings,20,-1,sacramento kings
+112,112,1989,New Jersey Nets,21,-1,brooklyn nets
+113,113,1989,Los Angeles Clippers,22,-1,los angeles clippers
+114,114,1989,San Antonio Spurs,23,-1,san antonio spurs
+115,115,1989,Charlotte Hornets,24,-1,charlotte hornets
+116,116,1989,Miami Heat,25,-1,miami heat
+117,117,1990,Los Angeles Lakers,1,1,los angeles lakers
+118,118,1990,Detroit Pistons,2,4,detroit pistons
+119,119,1990,Portland Trail Blazers,3,3,portland trail blazers
+120,120,1990,San Antonio Spurs,4,1,san antonio spurs
+121,121,1990,Chicago Bulls,5,2,chicago bulls
+122,122,1990,Utah Jazz,6,0,utah jazz
+123,123,1990,Phoenix Suns,7,2,phoenix suns
+124,124,1990,Philadelphia 76ers,8,1,philadelphia 76ers
+125,125,1990,Boston Celtics,9,0,boston celtics
+126,126,1990,Dallas Mavericks,10,0,dallas mavericks
+127,127,1990,New York Knicks,11,1,new york knicks
+128,128,1990,Milwaukee Bucks,12,0,milwaukee bucks
+129,129,1990,Denver Nuggets,13,0,denver nuggets
+130,130,1990,Cleveland Cavaliers,14,0,cleveland cavaliers
+131,131,1990,Indiana Pacers,15,0,indiana pacers
+132,132,1990,Houston Rockets,16,0,houston rockets
+133,133,1990,Atlanta Hawks,17,-1,atlanta hawks
+134,134,1990,Seattle SuperSonics,18,-1,oklahoma city thunder
+135,135,1990,Golden State Warriors,19,-1,golden state warriors
+136,136,1990,Washington Bullets,20,-1,washington wizards
+137,137,1990,Los Angeles Clippers,21,-1,los angeles clippers
+138,138,1990,Sacramento Kings,22,-1,sacramento kings
+139,139,1990,Minnesota Timberwolves,23,-1,minnesota timberwolves
+140,140,1990,Charlotte Hornets,24,-1,charlotte hornets
+141,141,1990,Miami Heat,25,-1,miami heat
+142,142,1990,Orlando Magic,26,-1,orlando magic
+143,143,1990,New Jersey Nets,27,-1,brooklyn nets
+144,144,1991,Portland Trail Blazers,1,2,portland trail blazers
+145,145,1991,Chicago Bulls,2,4,chicago bulls
+146,146,1991,Los Angeles Lakers,3,3,los angeles lakers
+147,147,1991,Boston Celtics,4,1,boston celtics
+148,148,1991,Phoenix Suns,5,0,phoenix suns
+149,149,1991,San Antonio Spurs,6,0,san antonio spurs
+150,150,1991,Utah Jazz,7,1,utah jazz
+151,151,1991,Houston Rockets,8,0,houston rockets
+152,152,1991,Detroit Pistons,9,2,detroit pistons
+153,153,1991,Milwaukee Bucks,10,0,milwaukee bucks
+154,154,1991,Golden State Warriors,11,1,golden state warriors
+155,155,1991,Philadelphia 76ers,12,1,philadelphia 76ers
+156,156,1991,Atlanta Hawks,13,0,atlanta hawks
+157,157,1991,Indiana Pacers,14,0,indiana pacers
+158,158,1991,Seattle SuperSonics,15,0,oklahoma city thunder
+159,159,1991,New York Knicks,16,0,new york knicks
+160,160,1991,Cleveland Cavaliers,17,-1,cleveland cavaliers
+161,161,1991,Los Angeles Clippers,18,-1,los angeles clippers
+162,162,1991,Orlando Magic,19,-1,orlando magic
+163,163,1991,Washington Bullets,20,-1,washington wizards
+164,164,1991,Minnesota Timberwolves,21,-1,minnesota timberwolves
+165,165,1991,Dallas Mavericks,22,-1,dallas mavericks
+166,166,1991,Charlotte Hornets,23,-1,charlotte hornets
+167,167,1991,New Jersey Nets,24,-1,brooklyn nets
+168,168,1991,Sacramento Kings,25,-1,sacramento kings
+169,169,1991,Miami Heat,26,-1,miami heat
+170,170,1991,Denver Nuggets,27,-1,denver nuggets
+171,171,1992,Chicago Bulls,1,4,chicago bulls
+172,172,1992,Cleveland Cavaliers,2,2,cleveland cavaliers
+173,173,1992,Portland Trail Blazers,3,3,portland trail blazers
+174,174,1992,Golden State Warriors,4,0,golden state warriors
+175,175,1992,Utah Jazz,5,2,utah jazz
+176,176,1992,Phoenix Suns,6,1,phoenix suns
+177,177,1992,Boston Celtics,7,1,boston celtics
+178,178,1992,New York Knicks,8,1,new york knicks
+179,179,1992,Detroit Pistons,9,0,detroit pistons
+180,180,1992,San Antonio Spurs,10,0,san antonio spurs
+181,181,1992,Seattle SuperSonics,11,1,oklahoma city thunder
+182,182,1992,Los Angeles Clippers,12,0,los angeles clippers
+183,183,1992,Los Angeles Lakers,13,0,los angeles lakers
+184,184,1992,Houston Rockets,14,-1,houston rockets
+185,185,1992,Indiana Pacers,15,0,indiana pacers
+186,186,1992,New Jersey Nets,16,0,brooklyn nets
+187,187,1992,Miami Heat,17,0,miami heat
+188,188,1992,Atlanta Hawks,18,-1,atlanta hawks
+189,189,1992,Philadelphia 76ers,19,-1,philadelphia 76ers
+190,190,1992,Charlotte Hornets,20,-1,charlotte hornets
+191,191,1992,Milwaukee Bucks,21,-1,milwaukee bucks
+192,192,1992,Sacramento Kings,22,-1,sacramento kings
+193,193,1992,Washington Bullets,23,-1,washington wizards
+194,194,1992,Denver Nuggets,24,-1,denver nuggets
+195,195,1992,Dallas Mavericks,25,-1,dallas mavericks
+196,196,1992,Orlando Magic,26,-1,orlando magic
+197,197,1992,Minnesota Timberwolves,27,-1,minnesota timberwolves
+198,198,1993,Phoenix Suns,1,3,phoenix suns
+199,199,1993,New York Knicks,2,2,new york knicks
+200,200,1993,Chicago Bulls,3,4,chicago bulls
+201,201,1993,Houston Rockets,4,1,houston rockets
+202,202,1993,Seattle SuperSonics,5,2,oklahoma city thunder
+203,203,1993,Cleveland Cavaliers,6,1,cleveland cavaliers
+204,204,1993,Portland Trail Blazers,7,0,portland trail blazers
+205,205,1993,San Antonio Spurs,8,1,san antonio spurs
+206,206,1993,Boston Celtics,9,0,boston celtics
+207,207,1993,Utah Jazz,10,0,utah jazz
+208,208,1993,Charlotte Hornets,11,1,charlotte hornets
+209,209,1993,Atlanta Hawks,12,0,atlanta hawks
+210,210,1993,New Jersey Nets,13,0,brooklyn nets
+211,211,1993,Indiana Pacers,14,0,indiana pacers
+212,212,1993,Los Angeles Clippers,15,0,los angeles clippers
+213,213,1993,Orlando Magic,16,-1,orlando magic
+214,214,1993,Detroit Pistons,17,-1,detroit pistons
+215,215,1993,Los Angeles Lakers,18,0,los angeles lakers
+216,216,1993,Denver Nuggets,19,-1,denver nuggets
+217,217,1993,Miami Heat,20,-1,miami heat
+218,218,1993,Golden State Warriors,21,-1,golden state warriors
+219,219,1993,Milwaukee Bucks,22,-1,milwaukee bucks
+220,220,1993,Philadelphia 76ers,23,-1,philadelphia 76ers
+221,221,1993,Sacramento Kings,24,-1,sacramento kings
+222,222,1993,Washington Bullets,25,-1,washington wizards
+223,223,1993,Minnesota Timberwolves,26,-1,minnesota timberwolves
+224,224,1993,Dallas Mavericks,27,-1,dallas mavericks
+225,225,1994,Seattle SuperSonics,1,0,oklahoma city thunder
+226,226,1994,Houston Rockets,2,4,houston rockets
+227,227,1994,Atlanta Hawks,3,1,atlanta hawks
+228,228,1994,New York Knicks,4,3,new york knicks
+229,229,1994,Phoenix Suns,5,1,phoenix suns
+230,230,1994,Chicago Bulls,6,1,chicago bulls
+231,231,1994,San Antonio Spurs,7,0,san antonio spurs
+232,232,1994,Utah Jazz,8,2,utah jazz
+233,233,1994,Golden State Warriors,9,0,golden state warriors
+234,234,1994,Orlando Magic,10,0,orlando magic
+235,235,1994,Cleveland Cavaliers,11,0,cleveland cavaliers
+236,236,1994,Indiana Pacers,12,2,indiana pacers
+237,237,1994,Portland Trail Blazers,13,0,portland trail blazers
+238,238,1994,New Jersey Nets,14,0,brooklyn nets
+239,239,1994,Denver Nuggets,15,1,denver nuggets
+240,240,1994,Miami Heat,16,0,miami heat
+241,241,1994,Charlotte Hornets,17,-1,charlotte hornets
+242,242,1994,Los Angeles Lakers,18,-1,los angeles lakers
+243,243,1994,Boston Celtics,19,-1,boston celtics
+244,244,1994,Sacramento Kings,20,-1,sacramento kings
+245,245,1994,Los Angeles Clippers,21,-1,los angeles clippers
+246,246,1994,Philadelphia 76ers,22,-1,philadelphia 76ers
+247,247,1994,Washington Bullets,23,-1,washington wizards
+248,248,1994,Detroit Pistons,24,-1,detroit pistons
+249,249,1994,Milwaukee Bucks,25,-1,milwaukee bucks
+250,250,1994,Minnesota Timberwolves,26,-1,minnesota timberwolves
+251,251,1994,Dallas Mavericks,27,-1,dallas mavericks
+252,252,1995,San Antonio Spurs,1,2,san antonio spurs
+253,253,1995,Utah Jazz,2,0,utah jazz
+254,254,1995,Phoenix Suns,3,1,phoenix suns
+255,255,1995,Orlando Magic,4,3,orlando magic
+256,256,1995,Seattle SuperSonics,5,0,oklahoma city thunder
+257,257,1995,New York Knicks,6,1,new york knicks
+258,258,1995,Indiana Pacers,7,2,indiana pacers
+259,259,1995,Charlotte Hornets,8,0,charlotte hornets
+260,260,1995,Los Angeles Lakers,9,1,los angeles lakers
+261,261,1995,Chicago Bulls,10,1,chicago bulls
+262,262,1995,Houston Rockets,11,4,houston rockets
+263,263,1995,Portland Trail Blazers,12,0,portland trail blazers
+264,264,1995,Cleveland Cavaliers,13,0,cleveland cavaliers
+265,265,1995,Atlanta Hawks,14,0,atlanta hawks
+266,266,1995,Denver Nuggets,15,0,denver nuggets
+267,267,1995,Sacramento Kings,16,-1,sacramento kings
+268,268,1995,Dallas Mavericks,17,-1,dallas mavericks
+269,269,1995,Boston Celtics,18,0,boston celtics
+270,270,1995,Milwaukee Bucks,19,-1,milwaukee bucks
+271,271,1995,Miami Heat,20,-1,miami heat
+272,272,1995,New Jersey Nets,21,-1,brooklyn nets
+273,273,1995,Detroit Pistons,22,-1,detroit pistons
+274,274,1995,Golden State Warriors,23,-1,golden state warriors
+275,275,1995,Philadelphia 76ers,24,-1,philadelphia 76ers
+276,276,1995,Minnesota Timberwolves,25,-1,minnesota timberwolves
+277,277,1995,Washington Bullets,26,-1,washington wizards
+278,278,1995,Los Angeles Clippers,27,-1,los angeles clippers
+279,279,1996,Chicago Bulls,1,4,chicago bulls
+280,280,1996,Seattle SuperSonics,2,3,oklahoma city thunder
+281,281,1996,Orlando Magic,3,2,orlando magic
+282,282,1996,San Antonio Spurs,4,1,san antonio spurs
+283,283,1996,Utah Jazz,5,2,utah jazz
+284,284,1996,Los Angeles Lakers,6,0,los angeles lakers
+285,285,1996,Indiana Pacers,7,0,indiana pacers
+286,286,1996,Houston Rockets,8,1,houston rockets
+287,287,1996,Cleveland Cavaliers,9,0,cleveland cavaliers
+288,288,1996,New York Knicks,10,1,new york knicks
+289,289,1996,Atlanta Hawks,11,1,atlanta hawks
+290,290,1996,Detroit Pistons,12,0,detroit pistons
+291,291,1996,Portland Trail Blazers,13,0,portland trail blazers
+292,292,1996,Miami Heat,14,0,miami heat
+293,293,1996,Phoenix Suns,15,0,phoenix suns
+294,294,1996,Charlotte Hornets,16,-1,charlotte hornets
+295,295,1996,Sacramento Kings,17,0,sacramento kings
+296,296,1996,Washington Bullets,18,-1,washington wizards
+297,297,1996,Golden State Warriors,19,-1,golden state warriors
+298,298,1996,Denver Nuggets,20,-1,denver nuggets
+299,299,1996,Boston Celtics,21,-1,boston celtics
+300,300,1996,New Jersey Nets,22,-1,brooklyn nets
+301,301,1996,Los Angeles Clippers,23,-1,los angeles clippers
+302,302,1996,Dallas Mavericks,24,-1,dallas mavericks
+303,303,1996,Minnesota Timberwolves,25,-1,minnesota timberwolves
+304,304,1996,Milwaukee Bucks,26,-1,milwaukee bucks
+305,305,1996,Toronto Raptors,27,-1,toronto raptors
+306,306,1996,Philadelphia 76ers,28,-1,philadelphia 76ers
+307,307,1996,Vancouver Grizzlies,29,-1,memphis grizzlies
+308,308,1997,Chicago Bulls,1,4,chicago bulls
+309,309,1997,Utah Jazz,2,3,utah jazz
+310,310,1997,Miami Heat,3,2,miami heat
+311,311,1997,Houston Rockets,4,2,houston rockets
+312,312,1997,New York Knicks,5,1,new york knicks
+313,313,1997,Seattle SuperSonics,6,1,oklahoma city thunder
+314,314,1997,Atlanta Hawks,7,1,atlanta hawks
+315,315,1997,Los Angeles Lakers,8,1,los angeles lakers
+316,316,1997,Charlotte Hornets,9,0,charlotte hornets
+317,317,1997,Detroit Pistons,10,0,detroit pistons
+318,318,1997,Portland Trail Blazers,11,0,portland trail blazers
+319,319,1997,Orlando Magic,12,0,orlando magic
+320,320,1997,Washington Bullets,13,0,washington wizards
+321,321,1997,Cleveland Cavaliers,14,-1,cleveland cavaliers
+322,322,1997,Minnesota Timberwolves,15,0,minnesota timberwolves
+323,323,1997,Phoenix Suns,16,0,phoenix suns
+324,324,1997,Indiana Pacers,17,-1,indiana pacers
+325,325,1997,Los Angeles Clippers,18,0,los angeles clippers
+326,326,1997,Sacramento Kings,19,-1,sacramento kings
+327,327,1997,Milwaukee Bucks,20,-1,milwaukee bucks
+328,328,1997,Golden State Warriors,21,-1,golden state warriors
+329,329,1997,Toronto Raptors,22,-1,toronto raptors
+330,330,1997,New Jersey Nets,23,-1,brooklyn nets
+331,331,1997,Dallas Mavericks,24,-1,dallas mavericks
+332,332,1997,Philadelphia 76ers,25,-1,philadelphia 76ers
+333,333,1997,Denver Nuggets,26,-1,denver nuggets
+334,334,1997,San Antonio Spurs,27,-1,san antonio spurs
+335,335,1997,Boston Celtics,28,-1,boston celtics
+336,336,1997,Vancouver Grizzlies,29,-1,memphis grizzlies
+337,337,1998,Chicago Bulls,1,4,chicago bulls
+338,338,1998,Utah Jazz,2,3,utah jazz
+339,339,1998,Los Angeles Lakers,3,2,los angeles lakers
+340,340,1998,Seattle SuperSonics,4,1,oklahoma city thunder
+341,341,1998,Indiana Pacers,5,2,indiana pacers
+342,342,1998,Phoenix Suns,6,0,phoenix suns
+343,343,1998,San Antonio Spurs,7,1,san antonio spurs
+344,344,1998,Miami Heat,8,0,miami heat
+345,345,1998,Charlotte Hornets,9,1,charlotte hornets
+346,346,1998,Atlanta Hawks,10,0,atlanta hawks
+347,347,1998,Cleveland Cavaliers,11,0,cleveland cavaliers
+348,348,1998,Portland Trail Blazers,12,0,portland trail blazers
+349,349,1998,Minnesota Timberwolves,13,0,minnesota timberwolves
+350,350,1998,New Jersey Nets,14,0,brooklyn nets
+351,351,1998,New York Knicks,15,1,new york knicks
+352,352,1998,Washington Wizards,16,-1,washington wizards
+353,353,1998,Houston Rockets,17,0,houston rockets
+354,354,1998,Orlando Magic,18,-1,orlando magic
+355,355,1998,Detroit Pistons,19,-1,detroit pistons
+356,356,1998,Boston Celtics,20,-1,boston celtics
+357,357,1998,Milwaukee Bucks,21,-1,milwaukee bucks
+358,358,1998,Philadelphia 76ers,22,-1,philadelphia 76ers
+359,359,1998,Sacramento Kings,23,-1,sacramento kings
+360,360,1998,Dallas Mavericks,24,-1,dallas mavericks
+361,361,1998,Golden State Warriors,25,-1,golden state warriors
+362,362,1998,Vancouver Grizzlies,26,-1,memphis grizzlies
+363,363,1998,Los Angeles Clippers,27,-1,los angeles clippers
+364,364,1998,Toronto Raptors,28,-1,toronto raptors
+365,365,1998,Denver Nuggets,29,-1,denver nuggets
+366,366,1999,San Antonio Spurs,1,4,san antonio spurs
+367,367,1999,Utah Jazz,2,1,utah jazz
+368,368,1999,Portland Trail Blazers,3,2,portland trail blazers
+369,369,1999,Indiana Pacers,4,2,indiana pacers
+370,370,1999,Miami Heat,5,0,miami heat
+371,371,1999,Orlando Magic,6,0,orlando magic
+372,372,1999,Atlanta Hawks,7,1,atlanta hawks
+373,373,1999,Houston Rockets,8,0,houston rockets
+374,374,1999,Los Angeles Lakers,9,1,los angeles lakers
+375,375,1999,Detroit Pistons,10,0,detroit pistons
+376,376,1999,Milwaukee Bucks,11,0,milwaukee bucks
+377,377,1999,Philadelphia 76ers,12,1,philadelphia 76ers
+378,378,1999,New York Knicks,13,3,new york knicks
+379,379,1999,Phoenix Suns,14,0,phoenix suns
+380,380,1999,Sacramento Kings,15,0,sacramento kings
+381,381,1999,Charlotte Hornets,16,-1,charlotte hornets
+382,382,1999,Minnesota Timberwolves,17,0,minnesota timberwolves
+383,383,1999,Seattle SuperSonics,18,-1,oklahoma city thunder
+384,384,1999,Toronto Raptors,19,-1,toronto raptors
+385,385,1999,Cleveland Cavaliers,20,-1,cleveland cavaliers
+386,386,1999,Golden State Warriors,21,-1,golden state warriors
+387,387,1999,Boston Celtics,22,-1,boston celtics
+388,388,1999,Dallas Mavericks,23,-1,dallas mavericks
+389,389,1999,Washington Wizards,24,-1,washington wizards
+390,390,1999,New Jersey Nets,25,-1,brooklyn nets
+391,391,1999,Denver Nuggets,26,-1,denver nuggets
+392,392,1999,Chicago Bulls,27,-1,chicago bulls
+393,393,1999,Los Angeles Clippers,28,-1,los angeles clippers
+394,394,1999,Vancouver Grizzlies,29,-1,memphis grizzlies
+395,395,2000,Los Angeles Lakers,1,4,los angeles lakers
+396,396,2000,Portland Trail Blazers,2,2,portland trail blazers
+397,397,2000,Indiana Pacers,3,3,indiana pacers
+398,398,2000,Utah Jazz,4,1,utah jazz
+399,399,2000,Phoenix Suns,5,1,phoenix suns
+400,400,2000,San Antonio Spurs,6,0,san antonio spurs
+401,401,2000,Miami Heat,7,1,miami heat
+402,402,2000,Minnesota Timberwolves,8,0,minnesota timberwolves
+403,403,2000,New York Knicks,9,2,new york knicks
+404,404,2000,Charlotte Hornets,10,0,charlotte hornets
+405,405,2000,Philadelphia 76ers,11,1,philadelphia 76ers
+406,406,2000,Seattle SuperSonics,12,0,oklahoma city thunder
+407,407,2000,Toronto Raptors,13,0,toronto raptors
+408,408,2000,Sacramento Kings,14,0,sacramento kings
+409,409,2000,Detroit Pistons,15,0,detroit pistons
+410,410,2000,Milwaukee Bucks,16,0,milwaukee bucks
+411,411,2000,Orlando Magic,17,-1,orlando magic
+412,412,2000,Dallas Mavericks,18,-1,dallas mavericks
+413,413,2000,Boston Celtics,19,-1,boston celtics
+414,414,2000,Denver Nuggets,20,-1,denver nuggets
+415,415,2000,Houston Rockets,21,-1,houston rockets
+416,416,2000,Cleveland Cavaliers,22,-1,cleveland cavaliers
+417,417,2000,New Jersey Nets,23,-1,brooklyn nets
+418,418,2000,Washington Wizards,24,-1,washington wizards
+419,419,2000,Atlanta Hawks,25,-1,atlanta hawks
+420,420,2000,Vancouver Grizzlies,26,-1,memphis grizzlies
+421,421,2000,Golden State Warriors,27,-1,golden state warriors
+422,422,2000,Chicago Bulls,28,-1,chicago bulls
+423,423,2000,Los Angeles Clippers,29,-1,los angeles clippers
+424,424,2001,San Antonio Spurs,1,2,san antonio spurs
+425,425,2001,Los Angeles Lakers,2,4,los angeles lakers
+426,426,2001,Philadelphia 76ers,3,3,philadelphia 76ers
+427,427,2001,Sacramento Kings,4,1,sacramento kings
+428,428,2001,Dallas Mavericks,5,1,dallas mavericks
+429,429,2001,Utah Jazz,6,0,utah jazz
+430,430,2001,Milwaukee Bucks,7,2,milwaukee bucks
+431,431,2001,Phoenix Suns,8,0,phoenix suns
+432,432,2001,Miami Heat,9,0,miami heat
+433,433,2001,Portland Trail Blazers,10,0,portland trail blazers
+434,434,2001,New York Knicks,11,0,new york knicks
+435,435,2001,Minnesota Timberwolves,12,0,minnesota timberwolves
+436,436,2001,Toronto Raptors,13,1,toronto raptors
+437,437,2001,Charlotte Hornets,14,1,charlotte hornets
+438,438,2001,Houston Rockets,15,-1,houston rockets
+439,439,2001,Seattle SuperSonics,16,-1,oklahoma city thunder
+440,440,2001,Orlando Magic,17,0,orlando magic
+441,441,2001,Indiana Pacers,18,0,indiana pacers
+442,442,2001,Denver Nuggets,19,-1,denver nuggets
+443,443,2001,Boston Celtics,20,-1,boston celtics
+444,444,2001,Detroit Pistons,21,-1,detroit pistons
+445,445,2001,Los Angeles Clippers,22,-1,los angeles clippers
+446,446,2001,Cleveland Cavaliers,23,-1,cleveland cavaliers
+447,447,2001,New Jersey Nets,24,-1,brooklyn nets
+448,448,2001,Atlanta Hawks,25,-1,atlanta hawks
+449,449,2001,Vancouver Grizzlies,26,-1,memphis grizzlies
+450,450,2001,Washington Wizards,27,-1,washington wizards
+451,451,2001,Golden State Warriors,28,-1,golden state warriors
+452,452,2001,Chicago Bulls,29,-1,chicago bulls
+453,453,2002,Sacramento Kings,1,2,sacramento kings
+454,454,2002,Los Angeles Lakers,2,4,los angeles lakers
+455,455,2002,San Antonio Spurs,3,1,san antonio spurs
+456,456,2002,Dallas Mavericks,4,1,dallas mavericks
+457,457,2002,New Jersey Nets,5,3,brooklyn nets
+458,458,2002,Detroit Pistons,6,1,detroit pistons
+459,459,2002,Minnesota Timberwolves,7,0,minnesota timberwolves
+460,460,2002,Boston Celtics,8,2,boston celtics
+461,461,2002,Portland Trail Blazers,9,0,portland trail blazers
+462,462,2002,Seattle SuperSonics,10,0,oklahoma city thunder
+463,463,2002,Charlotte Hornets,11,1,charlotte hornets
+464,464,2002,Orlando Magic,12,0,orlando magic
+465,465,2002,Utah Jazz,13,0,utah jazz
+466,466,2002,Philadelphia 76ers,14,0,philadelphia 76ers
+467,467,2002,Indiana Pacers,15,0,indiana pacers
+468,468,2002,Toronto Raptors,16,0,toronto raptors
+469,469,2002,Milwaukee Bucks,17,-1,milwaukee bucks
+470,470,2002,Los Angeles Clippers,18,-1,los angeles clippers
+471,471,2002,Washington Wizards,19,-1,washington wizards
+472,472,2002,Miami Heat,20,-1,miami heat
+473,473,2002,Phoenix Suns,21,-1,phoenix suns
+474,474,2002,Atlanta Hawks,22,-1,atlanta hawks
+475,475,2002,New York Knicks,23,-1,new york knicks
+476,476,2002,Cleveland Cavaliers,24,-1,cleveland cavaliers
+477,477,2002,Houston Rockets,25,-1,houston rockets
+478,478,2002,Denver Nuggets,26,-1,denver nuggets
+479,479,2002,Memphis Grizzlies,27,-1,memphis grizzlies
+480,480,2002,Chicago Bulls,28,-1,chicago bulls
+481,481,2002,Golden State Warriors,29,-1,golden state warriors
+482,482,2003,Dallas Mavericks,1,2,dallas mavericks
+483,483,2003,San Antonio Spurs,2,4,san antonio spurs
+484,484,2003,Sacramento Kings,3,1,sacramento kings
+485,485,2003,Minnesota Timberwolves,4,0,minnesota timberwolves
+486,486,2003,Detroit Pistons,5,2,detroit pistons
+487,487,2003,Los Angeles Lakers,6,1,los angeles lakers
+488,488,2003,Portland Trail Blazers,7,0,portland trail blazers
+489,489,2003,New Jersey Nets,8,3,brooklyn nets
+490,490,2003,Indiana Pacers,9,0,indiana pacers
+491,491,2003,Philadelphia 76ers,10,1,philadelphia 76ers
+492,492,2003,New Orleans Hornets,11,0,new orleans pelicans
+493,493,2003,Utah Jazz,12,0,utah jazz
+494,494,2003,Boston Celtics,13,1,boston celtics
+495,495,2003,Phoenix Suns,14,0,phoenix suns
+496,496,2003,Houston Rockets,15,-1,houston rockets
+497,497,2003,Milwaukee Bucks,16,0,milwaukee bucks
+498,498,2003,Orlando Magic,17,0,orlando magic
+499,499,2003,Seattle SuperSonics,18,-1,oklahoma city thunder
+500,500,2003,Golden State Warriors,19,-1,golden state warriors
+501,501,2003,New York Knicks,20,-1,new york knicks
+502,502,2003,Washington Wizards,21,-1,washington wizards
+503,503,2003,Atlanta Hawks,22,-1,atlanta hawks
+504,504,2003,Chicago Bulls,23,-1,chicago bulls
+505,505,2003,Memphis Grizzlies,24,-1,memphis grizzlies
+506,506,2003,Los Angeles Clippers,25,-1,los angeles clippers
+507,507,2003,Miami Heat,26,-1,miami heat
+508,508,2003,Toronto Raptors,27,-1,toronto raptors
+509,509,2003,Cleveland Cavaliers,28,-1,cleveland cavaliers
+510,510,2003,Denver Nuggets,29,-1,denver nuggets
+511,511,2004,Indiana Pacers,1,2,indiana pacers
+512,512,2004,Minnesota Timberwolves,2,2,minnesota timberwolves
+513,513,2004,San Antonio Spurs,3,1,san antonio spurs
+514,514,2004,Los Angeles Lakers,4,3,los angeles lakers
+515,515,2004,Sacramento Kings,5,1,sacramento kings
+516,516,2004,Detroit Pistons,6,4,detroit pistons
+517,517,2004,Dallas Mavericks,7,0,dallas mavericks
+518,518,2004,Memphis Grizzlies,8,0,memphis grizzlies
+519,519,2004,New Jersey Nets,9,1,brooklyn nets
+520,520,2004,Houston Rockets,10,0,houston rockets
+521,521,2004,Denver Nuggets,11,0,denver nuggets
+522,522,2004,Miami Heat,12,1,miami heat
+523,523,2004,Utah Jazz,13,-1,utah jazz
+524,524,2004,Milwaukee Bucks,14,0,milwaukee bucks
+525,525,2004,New Orleans Hornets,15,0,new orleans pelicans
+526,526,2004,Portland Trail Blazers,16,-1,portland trail blazers
+527,527,2004,New York Knicks,17,0,new york knicks
+528,528,2004,Golden State Warriors,18,-1,golden state warriors
+529,529,2004,Seattle SuperSonics,19,-1,oklahoma city thunder
+530,530,2004,Boston Celtics,20,0,boston celtics
+531,531,2004,Cleveland Cavaliers,21,-1,cleveland cavaliers
+532,532,2004,Philadelphia 76ers,22,-1,philadelphia 76ers
+533,533,2004,Toronto Raptors,23,-1,toronto raptors
+534,534,2004,Phoenix Suns,24,-1,phoenix suns
+535,535,2004,Atlanta Hawks,25,-1,atlanta hawks
+536,536,2004,Los Angeles Clippers,26,-1,los angeles clippers
+537,537,2004,Washington Wizards,27,-1,washington wizards
+538,538,2004,Chicago Bulls,28,-1,chicago bulls
+539,539,2004,Orlando Magic,29,-1,orlando magic
+540,540,2005,Phoenix Suns,1,2,phoenix suns
+541,541,2005,Miami Heat,2,2,miami heat
+542,542,2005,San Antonio Spurs,3,4,san antonio spurs
+543,543,2005,Dallas Mavericks,4,1,dallas mavericks
+544,544,2005,Detroit Pistons,5,3,detroit pistons
+545,545,2005,Seattle SuperSonics,6,1,oklahoma city thunder
+546,546,2005,Houston Rockets,7,0,houston rockets
+547,547,2005,Sacramento Kings,8,0,sacramento kings
+548,548,2005,Denver Nuggets,9,0,denver nuggets
+549,549,2005,Chicago Bulls,10,0,chicago bulls
+550,550,2005,Boston Celtics,11,0,boston celtics
+551,551,2005,Memphis Grizzlies,12,0,memphis grizzlies
+552,552,2005,Washington Wizards,13,1,washington wizards
+553,553,2005,Indiana Pacers,14,1,indiana pacers
+554,554,2005,Minnesota Timberwolves,15,-1,minnesota timberwolves
+555,555,2005,Philadelphia 76ers,16,0,philadelphia 76ers
+556,556,2005,New Jersey Nets,17,0,brooklyn nets
+557,557,2005,Cleveland Cavaliers,18,-1,cleveland cavaliers
+558,558,2005,Los Angeles Clippers,19,-1,los angeles clippers
+559,559,2005,Orlando Magic,20,-1,orlando magic
+560,560,2005,Golden State Warriors,21,-1,golden state warriors
+561,561,2005,Los Angeles Lakers,22,-1,los angeles lakers
+562,562,2005,New York Knicks,23,-1,new york knicks
+563,563,2005,Toronto Raptors,24,-1,toronto raptors
+564,564,2005,Milwaukee Bucks,25,-1,milwaukee bucks
+565,565,2005,Portland Trail Blazers,26,-1,portland trail blazers
+566,566,2005,Utah Jazz,27,-1,utah jazz
+567,567,2005,Charlotte Bobcats,28,-1,charlotte hornets
+568,568,2005,New Orleans Hornets,29,-1,new orleans pelicans
+569,569,2005,Atlanta Hawks,30,-1,atlanta hawks
+570,570,2006,Detroit Pistons,1,2,detroit pistons
+571,571,2006,San Antonio Spurs,2,1,san antonio spurs
+572,572,2006,Dallas Mavericks,3,3,dallas mavericks
+573,573,2006,Phoenix Suns,4,2,phoenix suns
+574,574,2006,Miami Heat,5,4,miami heat
+575,575,2006,Cleveland Cavaliers,6,1,cleveland cavaliers
+576,576,2006,Memphis Grizzlies,7,0,memphis grizzlies
+577,577,2006,New Jersey Nets,8,1,brooklyn nets
+578,578,2006,Los Angeles Clippers,9,1,los angeles clippers
+579,579,2006,Los Angeles Lakers,10,0,los angeles lakers
+580,580,2006,Denver Nuggets,11,0,denver nuggets
+581,581,2006,Sacramento Kings,12,0,sacramento kings
+582,582,2006,Washington Wizards,13,0,washington wizards
+583,583,2006,Chicago Bulls,14,0,chicago bulls
+584,584,2006,Indiana Pacers,15,0,indiana pacers
+585,585,2006,Utah Jazz,16,-1,utah jazz
+586,586,2006,Milwaukee Bucks,17,0,milwaukee bucks
+587,587,2006,New OrleansOklahoma City Hornets,18,-1,new orleans pelicans
+588,588,2006,Philadelphia 76ers,19,-1,philadelphia 76ers
+589,589,2006,Orlando Magic,20,-1,orlando magic
+590,590,2006,Seattle SuperSonics,21,-1,oklahoma city thunder
+591,591,2006,Golden State Warriors,22,-1,golden state warriors
+592,592,2006,Houston Rockets,23,-1,houston rockets
+593,593,2006,Boston Celtics,24,-1,boston celtics
+594,594,2006,Minnesota Timberwolves,25,-1,minnesota timberwolves
+595,595,2006,Toronto Raptors,26,-1,toronto raptors
+596,596,2006,Atlanta Hawks,27,-1,atlanta hawks
+597,597,2006,Charlotte Bobcats,28,-1,charlotte hornets
+598,598,2006,New York Knicks,29,-1,new york knicks
+599,599,2006,Portland Trail Blazers,30,-1,portland trail blazers
+600,600,2007,Dallas Mavericks,1,0,dallas mavericks
+601,601,2007,Phoenix Suns,2,1,phoenix suns
+602,602,2007,San Antonio Spurs,3,4,san antonio spurs
+603,603,2007,Detroit Pistons,4,2,detroit pistons
+604,604,2007,Houston Rockets,5,0,houston rockets
+605,605,2007,Utah Jazz,6,2,utah jazz
+606,606,2007,Cleveland Cavaliers,7,3,cleveland cavaliers
+607,607,2007,Chicago Bulls,8,1,chicago bulls
+608,608,2007,Toronto Raptors,9,0,toronto raptors
+609,609,2007,Denver Nuggets,10,0,denver nuggets
+610,610,2007,Miami Heat,11,0,miami heat
+611,611,2007,Golden State Warriors,12,1,golden state warriors
+612,612,2007,Los Angeles Lakers,13,0,los angeles lakers
+613,613,2007,New Jersey Nets,14,1,brooklyn nets
+614,614,2007,Washington Wizards,15,0,washington wizards
+615,615,2007,Orlando Magic,16,0,orlando magic
+616,616,2007,Los Angeles Clippers,17,-1,los angeles clippers
+617,617,2007,New OrleansOklahoma City Hornets,18,-1,new orleans pelicans
+618,618,2007,Indiana Pacers,19,-1,indiana pacers
+619,619,2007,Philadelphia 76ers,20,-1,philadelphia 76ers
+620,620,2007,Charlotte Bobcats,21,-1,charlotte hornets
+621,621,2007,New York Knicks,22,-1,new york knicks
+622,622,2007,Sacramento Kings,23,-1,sacramento kings
+623,623,2007,Minnesota Timberwolves,24,-1,minnesota timberwolves
+624,624,2007,Portland Trail Blazers,25,-1,portland trail blazers
+625,625,2007,Seattle SuperSonics,26,-1,oklahoma city thunder
+626,626,2007,Atlanta Hawks,27,-1,atlanta hawks
+627,627,2007,Milwaukee Bucks,28,-1,milwaukee bucks
+628,628,2007,Boston Celtics,29,-1,boston celtics
+629,629,2007,Memphis Grizzlies,30,-1,memphis grizzlies
+630,630,2008,Boston Celtics,1,4,boston celtics
+631,631,2008,Detroit Pistons,2,2,detroit pistons
+632,632,2008,Los Angeles Lakers,3,3,los angeles lakers
+633,633,2008,New Orleans Hornets,4,1,new orleans pelicans
+634,634,2008,San Antonio Spurs,5,2,san antonio spurs
+635,635,2008,Houston Rockets,6,0,houston rockets
+636,636,2008,Phoenix Suns,7,0,phoenix suns
+637,637,2008,Utah Jazz,8,1,utah jazz
+638,638,2008,Orlando Magic,9,1,orlando magic
+639,639,2008,Dallas Mavericks,10,0,dallas mavericks
+640,640,2008,Denver Nuggets,11,0,denver nuggets
+641,641,2008,Golden State Warriors,12,-1,golden state warriors
+642,642,2008,Cleveland Cavaliers,13,1,cleveland cavaliers
+643,643,2008,Washington Wizards,14,0,washington wizards
+644,644,2008,Toronto Raptors,15,0,toronto raptors
+645,645,2008,Portland Trail Blazers,16,-1,portland trail blazers
+646,646,2008,Philadelphia 76ers,17,0,philadelphia 76ers
+647,647,2008,Sacramento Kings,18,-1,sacramento kings
+648,648,2008,Atlanta Hawks,19,0,atlanta hawks
+649,649,2008,Indiana Pacers,20,-1,indiana pacers
+650,650,2008,New Jersey Nets,21,-1,brooklyn nets
+651,651,2008,Chicago Bulls,22,-1,chicago bulls
+652,652,2008,Charlotte Bobcats,23,-1,charlotte hornets
+653,653,2008,Milwaukee Bucks,24,-1,milwaukee bucks
+654,654,2008,Los Angeles Clippers,25,-1,los angeles clippers
+655,655,2008,New York Knicks,26,-1,new york knicks
+656,656,2008,Memphis Grizzlies,27,-1,memphis grizzlies
+657,657,2008,Minnesota Timberwolves,28,-1,minnesota timberwolves
+658,658,2008,Seattle SuperSonics,29,-1,oklahoma city thunder
+659,659,2008,Miami Heat,30,-1,miami heat
+660,660,2009,Cleveland Cavaliers,1,2,cleveland cavaliers
+661,661,2009,Los Angeles Lakers,2,4,los angeles lakers
+662,662,2009,Boston Celtics,3,1,boston celtics
+663,663,2009,Orlando Magic,4,3,orlando magic
+664,664,2009,Denver Nuggets,5,2,denver nuggets
+665,665,2009,Portland Trail Blazers,6,0,portland trail blazers
+666,666,2009,San Antonio Spurs,7,0,san antonio spurs
+667,667,2009,Houston Rockets,8,1,houston rockets
+668,668,2009,Dallas Mavericks,9,1,dallas mavericks
+669,669,2009,New Orleans Hornets,10,0,new orleans pelicans
+670,670,2009,Utah Jazz,11,0,utah jazz
+671,671,2009,Atlanta Hawks,12,1,atlanta hawks
+672,672,2009,Phoenix Suns,13,-1,phoenix suns
+673,673,2009,Miami Heat,14,0,miami heat
+674,674,2009,Chicago Bulls,15,0,chicago bulls
+675,675,2009,Philadelphia 76ers,16,0,philadelphia 76ers
+676,676,2009,Detroit Pistons,17,0,detroit pistons
+677,677,2009,Indiana Pacers,18,-1,indiana pacers
+678,678,2009,Charlotte Bobcats,19,-1,charlotte hornets
+679,679,2009,Milwaukee Bucks,20,-1,milwaukee bucks
+680,680,2009,New Jersey Nets,21,-1,brooklyn nets
+681,681,2009,Toronto Raptors,22,-1,toronto raptors
+682,682,2009,New York Knicks,23,-1,new york knicks
+683,683,2009,Golden State Warriors,24,-1,golden state warriors
+684,684,2009,Memphis Grizzlies,25,-1,memphis grizzlies
+685,685,2009,Minnesota Timberwolves,26,-1,minnesota timberwolves
+686,686,2009,Oklahoma City Thunder,27,-1,oklahoma city thunder
+687,687,2009,Los Angeles Clippers,28,-1,los angeles clippers
+688,688,2009,Washington Wizards,29,-1,washington wizards
+689,689,2009,Sacramento Kings,30,-1,sacramento kings
+690,690,2010,Cleveland Cavaliers,1,1,cleveland cavaliers
+691,691,2010,Orlando Magic,2,2,orlando magic
+692,692,2010,Los Angeles Lakers,3,4,los angeles lakers
+693,693,2010,Dallas Mavericks,4,0,dallas mavericks
+694,694,2010,Phoenix Suns,5,2,phoenix suns
+695,695,2010,Atlanta Hawks,6,1,atlanta hawks
+696,696,2010,Denver Nuggets,7,0,denver nuggets
+697,697,2010,Utah Jazz,8,1,utah jazz
+698,698,2010,Boston Celtics,9,3,boston celtics
+699,699,2010,Oklahoma City Thunder,10,0,oklahoma city thunder
+700,700,2010,Portland Trail Blazers,11,0,portland trail blazers
+701,701,2010,San Antonio Spurs,12,1,san antonio spurs
+702,702,2010,Miami Heat,13,0,miami heat
+703,703,2010,Milwaukee Bucks,14,0,milwaukee bucks
+704,704,2010,Charlotte Bobcats,15,0,charlotte hornets
+705,705,2010,Houston Rockets,16,-1,houston rockets
+706,706,2010,Chicago Bulls,17,0,chicago bulls
+707,707,2010,Memphis Grizzlies,18,-1,memphis grizzlies
+708,708,2010,Toronto Raptors,19,-1,toronto raptors
+709,709,2010,New Orleans Hornets,20,-1,new orleans pelicans
+710,710,2010,Indiana Pacers,21,-1,indiana pacers
+711,711,2010,Los Angeles Clippers,22,-1,los angeles clippers
+712,712,2010,New York Knicks,23,-1,new york knicks
+713,713,2010,Detroit Pistons,24,-1,detroit pistons
+714,714,2010,Philadelphia 76ers,25,-1,philadelphia 76ers
+715,715,2010,Golden State Warriors,26,-1,golden state warriors
+716,716,2010,Washington Wizards,27,-1,washington wizards
+717,717,2010,Sacramento Kings,28,-1,sacramento kings
+718,718,2010,Minnesota Timberwolves,29,-1,minnesota timberwolves
+719,719,2010,New Jersey Nets,30,-1,brooklyn nets
+720,720,2011,Chicago Bulls,1,2,chicago bulls
+721,721,2011,San Antonio Spurs,2,0,san antonio spurs
+722,722,2011,Miami Heat,3,3,miami heat
+723,723,2011,Dallas Mavericks,4,4,dallas mavericks
+724,724,2011,Los Angeles Lakers,5,1,los angeles lakers
+725,725,2011,Boston Celtics,6,1,boston celtics
+726,726,2011,Oklahoma City Thunder,7,2,oklahoma city thunder
+727,727,2011,Orlando Magic,8,0,orlando magic
+728,728,2011,Denver Nuggets,9,0,denver nuggets
+729,729,2011,Portland Trail Blazers,10,0,portland trail blazers
+730,730,2011,Memphis Grizzlies,11,1,memphis grizzlies
+731,731,2011,New Orleans Hornets,12,0,new orleans pelicans
+732,732,2011,Atlanta Hawks,13,1,atlanta hawks
+733,733,2011,Houston Rockets,14,-1,houston rockets
+734,734,2011,New York Knicks,15,0,new york knicks
+735,735,2011,Philadelphia 76ers,16,0,philadelphia 76ers
+736,736,2011,Phoenix Suns,17,-1,phoenix suns
+737,737,2011,Utah Jazz,18,-1,utah jazz
+738,738,2011,Indiana Pacers,19,0,indiana pacers
+739,739,2011,Golden State Warriors,20,-1,golden state warriors
+740,740,2011,Milwaukee Bucks,21,-1,milwaukee bucks
+741,741,2011,Charlotte Bobcats,22,-1,charlotte hornets
+742,742,2011,Los Angeles Clippers,23,-1,los angeles clippers
+743,743,2011,Detroit Pistons,24,-1,detroit pistons
+744,744,2011,New Jersey Nets,25,-1,brooklyn nets
+745,745,2011,Sacramento Kings,26,-1,sacramento kings
+746,746,2011,Washington Wizards,27,-1,washington wizards
+747,747,2011,Toronto Raptors,28,-1,toronto raptors
+748,748,2011,Cleveland Cavaliers,29,-1,cleveland cavaliers
+749,749,2011,Minnesota Timberwolves,30,-1,minnesota timberwolves
+750,750,2012,Chicago Bulls,1,0,chicago bulls
+751,751,2012,San Antonio Spurs,2,2,san antonio spurs
+752,752,2012,Oklahoma City Thunder,3,3,oklahoma city thunder
+753,753,2012,Miami Heat,4,4,miami heat
+754,754,2012,Indiana Pacers,5,1,indiana pacers
+755,755,2012,Los Angeles Lakers,6,1,los angeles lakers
+756,756,2012,Memphis Grizzlies,7,0,memphis grizzlies
+757,757,2012,Atlanta Hawks,8,0,atlanta hawks
+758,758,2012,Los Angeles Clippers,9,1,los angeles clippers
+759,759,2012,Boston Celtics,10,2,boston celtics
+760,760,2012,Denver Nuggets,11,0,denver nuggets
+761,761,2012,Orlando Magic,12,0,orlando magic
+762,762,2012,Dallas Mavericks,13,0,dallas mavericks
+763,763,2012,New York Knicks,14,0,new york knicks
+764,764,2012,Utah Jazz,15,0,utah jazz
+765,765,2012,Philadelphia 76ers,16,1,philadelphia 76ers
+766,766,2012,Houston Rockets,17,-1,houston rockets
+767,767,2012,Phoenix Suns,18,-1,phoenix suns
+768,768,2012,Milwaukee Bucks,19,-1,milwaukee bucks
+769,769,2012,Portland Trail Blazers,20,-1,portland trail blazers
+770,770,2012,Minnesota Timberwolves,21,-1,minnesota timberwolves
+771,771,2012,Detroit Pistons,22,-1,detroit pistons
+772,772,2012,Golden State Warriors,23,-1,golden state warriors
+773,773,2012,Toronto Raptors,24,-1,toronto raptors
+774,774,2012,New Jersey Nets,25,-1,brooklyn nets
+775,775,2012,Sacramento Kings,26,-1,sacramento kings
+776,776,2012,Cleveland Cavaliers,27,-1,cleveland cavaliers
+777,777,2012,New Orleans Hornets,28,-1,new orleans pelicans
+778,778,2012,Washington Wizards,29,-1,washington wizards
+779,779,2012,Charlotte Bobcats,30,-1,charlotte hornets
+780,780,2013,Miami Heat,1,4,miami heat
+781,781,2013,Oklahoma City Thunder,2,1,oklahoma city thunder
+782,782,2013,San Antonio Spurs,3,3,san antonio spurs
+783,783,2013,Denver Nuggets,4,0,denver nuggets
+784,784,2013,Los Angeles Clippers,5,0,los angeles clippers
+785,785,2013,Memphis Grizzlies,6,2,memphis grizzlies
+786,786,2013,New York Knicks,7,1,new york knicks
+787,787,2013,Brooklyn Nets,8,0,brooklyn nets
+788,788,2013,Indiana Pacers,9,2,indiana pacers
+789,789,2013,Golden State Warriors,10,1,golden state warriors
+790,790,2013,Chicago Bulls,11,1,chicago bulls
+791,791,2013,Houston Rockets,12,0,houston rockets
+792,792,2013,Los Angeles Lakers,13,0,los angeles lakers
+793,793,2013,Atlanta Hawks,14,0,atlanta hawks
+794,794,2013,Utah Jazz,15,-1,utah jazz
+795,795,2013,Boston Celtics,16,0,boston celtics
+796,796,2013,Dallas Mavericks,17,-1,dallas mavericks
+797,797,2013,Milwaukee Bucks,18,0,milwaukee bucks
+798,798,2013,Philadelphia 76ers,19,-1,philadelphia 76ers
+799,799,2013,Toronto Raptors,20,-1,toronto raptors
+800,800,2013,Portland Trail Blazers,21,-1,portland trail blazers
+801,801,2013,Minnesota Timberwolves,22,-1,minnesota timberwolves
+802,802,2013,Detroit Pistons,23,-1,detroit pistons
+803,803,2013,Washington Wizards,24,-1,washington wizards
+804,804,2013,Sacramento Kings,25,-1,sacramento kings
+805,805,2013,New Orleans Hornets,26,-1,new orleans pelicans
+806,806,2013,Phoenix Suns,27,-1,phoenix suns
+807,807,2013,Cleveland Cavaliers,28,-1,cleveland cavaliers
+808,808,2013,Charlotte Bobcats,29,-1,charlotte hornets
+809,809,2013,Orlando Magic,30,-1,orlando magic
+810,810,2014,San Antonio Spurs,1,4,san antonio spurs
+811,811,2014,Oklahoma City Thunder,2,2,oklahoma city thunder
+812,812,2014,Los Angeles Clippers,3,1,los angeles clippers
+813,813,2014,Indiana Pacers,4,2,indiana pacers
+814,814,2014,Houston Rockets,5,0,houston rockets
+815,815,2014,Miami Heat,6,3,miami heat
+816,816,2014,Portland Trail Blazers,7,1,portland trail blazers
+817,817,2014,Golden State Warriors,8,0,golden state warriors
+818,818,2014,Memphis Grizzlies,9,0,memphis grizzlies
+819,819,2014,Dallas Mavericks,10,0,dallas mavericks
+820,820,2014,Chicago Bulls,11,0,chicago bulls
+821,821,2014,Toronto Raptors,12,0,toronto raptors
+822,822,2014,Phoenix Suns,13,-1,phoenix suns
+823,823,2014,Brooklyn Nets,14,1,brooklyn nets
+824,824,2014,Washington Wizards,15,1,washington wizards
+825,825,2014,Charlotte Bobcats,16,0,charlotte hornets
+826,826,2014,Minnesota Timberwolves,17,-1,minnesota timberwolves
+827,827,2014,Atlanta Hawks,18,0,atlanta hawks
+828,828,2014,New York Knicks,19,-1,new york knicks
+829,829,2014,Denver Nuggets,20,-1,denver nuggets
+830,830,2014,New Orleans Pelicans,21,-1,new orleans pelicans
+831,831,2014,Cleveland Cavaliers,22,-1,cleveland cavaliers
+832,832,2014,Detroit Pistons,23,-1,detroit pistons
+833,833,2014,Sacramento Kings,24,-1,sacramento kings
+834,834,2014,Los Angeles Lakers,25,-1,los angeles lakers
+835,835,2014,Boston Celtics,26,-1,boston celtics
+836,836,2014,Utah Jazz,27,-1,utah jazz
+837,837,2014,Orlando Magic,28,-1,orlando magic
+838,838,2014,Philadelphia 76ers,29,-1,philadelphia 76ers
+839,839,2014,Milwaukee Bucks,30,-1,milwaukee bucks
+840,840,2015,Golden State Warriors,1,4,golden state warriors
+841,841,2015,Atlanta Hawks,2,2,atlanta hawks
+842,842,2015,Houston Rockets,3,2,houston rockets
+843,843,2015,Los Angeles Clippers,4,1,los angeles clippers
+844,844,2015,Memphis Grizzlies,5,1,memphis grizzlies
+845,845,2015,San Antonio Spurs,6,0,san antonio spurs
+846,846,2015,Cleveland Cavaliers,7,3,cleveland cavaliers
+847,847,2015,Portland Trail Blazers,8,0,portland trail blazers
+848,848,2015,Chicago Bulls,9,1,chicago bulls
+849,849,2015,Dallas Mavericks,10,0,dallas mavericks
+850,850,2015,Toronto Raptors,11,0,toronto raptors
+851,851,2015,Washington Wizards,12,1,washington wizards
+852,852,2015,New Orleans Pelicans,13,0,new orleans pelicans
+853,853,2015,Oklahoma City Thunder,14,-1,oklahoma city thunder
+854,854,2015,Milwaukee Bucks,15,0,milwaukee bucks
+855,855,2015,Boston Celtics,16,0,boston celtics
+856,856,2015,Phoenix Suns,17,-1,phoenix suns
+857,857,2015,Brooklyn Nets,18,0,brooklyn nets
+858,858,2015,Indiana Pacers,19,-1,indiana pacers
+859,859,2015,Utah Jazz,20,-1,utah jazz
+860,860,2015,Miami Heat,21,-1,miami heat
+861,861,2015,Charlotte Hornets,22,-1,charlotte hornets
+862,862,2015,Detroit Pistons,23,-1,detroit pistons
+863,863,2015,Denver Nuggets,24,-1,denver nuggets
+864,864,2015,Sacramento Kings,25,-1,sacramento kings
+865,865,2015,Orlando Magic,26,-1,orlando magic
+866,866,2015,Los Angeles Lakers,27,-1,los angeles lakers
+867,867,2015,Philadelphia 76ers,28,-1,philadelphia 76ers
+868,868,2015,New York Knicks,29,-1,new york knicks
+869,869,2015,Minnesota Timberwolves,30,-1,minnesota timberwolves
+870,870,2016,Golden State Warriors,1,3,golden state warriors
+871,871,2016,San Antonio Spurs,2,1,san antonio spurs
+872,872,2016,Cleveland Cavaliers,3,4,cleveland cavaliers
+873,873,2016,Toronto Raptors,4,2,toronto raptors
+874,874,2016,Oklahoma City Thunder,5,2,oklahoma city thunder
+875,875,2016,Los Angeles Clippers,6,0,los angeles clippers
+876,876,2016,Atlanta Hawks,7,1,atlanta hawks
+877,877,2016,Boston Celtics,8,0,boston celtics
+878,878,2016,Charlotte Hornets,9,0,charlotte hornets
+879,879,2016,Miami Heat,10,1,miami heat
+880,880,2016,Indiana Pacers,11,0,indiana pacers
+881,881,2016,Detroit Pistons,12,0,detroit pistons
+882,882,2016,Portland Trail Blazers,13,1,portland trail blazers
+883,883,2016,Dallas Mavericks,14,0,dallas mavericks
+884,884,2016,Memphis Grizzlies,15,0,memphis grizzlies
+885,885,2016,Chicago Bulls,16,-1,chicago bulls
+886,886,2016,Houston Rockets,17,0,houston rockets
+887,887,2016,Washington Wizards,18,-1,washington wizards
+888,888,2016,Utah Jazz,19,-1,utah jazz
+889,889,2016,Orlando Magic,20,-1,orlando magic
+890,890,2016,Denver Nuggets,21,-1,denver nuggets
+891,891,2016,Milwaukee Bucks,22,-1,milwaukee bucks
+892,892,2016,Sacramento Kings,23,-1,sacramento kings
+893,893,2016,New York Knicks,24,-1,new york knicks
+894,894,2016,New Orleans Pelicans,25,-1,new orleans pelicans
+895,895,2016,Minnesota Timberwolves,26,-1,minnesota timberwolves
+896,896,2016,Phoenix Suns,27,-1,phoenix suns
+897,897,2016,Brooklyn Nets,28,-1,brooklyn nets
+898,898,2016,Los Angeles Lakers,29,-1,los angeles lakers
+899,899,2016,Philadelphia 76ers,30,-1,philadelphia 76ers
+900,900,2017,Golden State Warriors,1,4,golden state warriors
+901,901,2017,San Antonio Spurs,2,2,san antonio spurs
+902,902,2017,Houston Rockets,3,1,houston rockets
+903,903,2017,Boston Celtics,4,2,boston celtics
+904,904,2017,Cleveland Cavaliers,5,3,cleveland cavaliers
+905,905,2017,Los Angeles Clippers,6,0,los angeles clippers
+906,906,2017,Toronto Raptors,7,1,toronto raptors
+907,907,2017,Utah Jazz,8,1,utah jazz
+908,908,2017,Washington Wizards,9,1,washington wizards
+909,909,2017,Oklahoma City Thunder,10,0,oklahoma city thunder
+910,910,2017,Atlanta Hawks,11,0,atlanta hawks
+911,911,2017,Memphis Grizzlies,12,0,memphis grizzlies
+912,912,2017,Indiana Pacers,13,0,indiana pacers
+913,913,2017,Milwaukee Bucks,14,0,milwaukee bucks
+914,914,2017,Chicago Bulls,15,0,chicago bulls
+915,915,2017,Portland Trail Blazers,16,0,portland trail blazers
+916,916,2017,Miami Heat,17,-1,miami heat
+917,917,2017,Denver Nuggets,18,-1,denver nuggets
+918,918,2017,Detroit Pistons,19,-1,detroit pistons
+919,919,2017,Charlotte Hornets,20,-1,charlotte hornets
+920,920,2017,New Orleans Pelicans,21,-1,new orleans pelicans
+921,921,2017,Dallas Mavericks,22,-1,dallas mavericks
+922,922,2017,Sacramento Kings,23,-1,sacramento kings
+923,923,2017,Minnesota Timberwolves,24,-1,minnesota timberwolves
+924,924,2017,New York Knicks,25,-1,new york knicks
+925,925,2017,Orlando Magic,26,-1,orlando magic
+926,926,2017,Philadelphia 76ers,27,-1,philadelphia 76ers
+927,927,2017,Los Angeles Lakers,28,-1,los angeles lakers
+928,928,2017,Phoenix Suns,29,-1,phoenix suns
+929,929,2017,Brooklyn Nets,30,-1,brooklyn nets
+930,930,2018,Houston Rockets,1,2,houston rockets
+931,931,2018,Toronto Raptors,2,1,toronto raptors
+932,932,2018,Golden State Warriors,3,4,golden state warriors
+933,933,2018,Boston Celtics,4,2,boston celtics
+934,934,2018,Philadelphia 76ers,5,1,philadelphia 76ers
+935,935,2018,Cleveland Cavaliers,6,3,cleveland cavaliers
+936,936,2018,Portland Trail Blazers,7,0,portland trail blazers
+937,937,2018,Indiana Pacers,8,0,indiana pacers
+938,938,2018,New Orleans Pelicans,9,1,new orleans pelicans
+939,939,2018,Oklahoma City Thunder,10,0,oklahoma city thunder
+940,940,2018,Utah Jazz,11,1,utah jazz
+941,941,2018,Minnesota Timberwolves,12,0,minnesota timberwolves
+942,942,2018,San Antonio Spurs,13,0,san antonio spurs
+943,943,2018,Denver Nuggets,14,-1,denver nuggets
+944,944,2018,Miami Heat,15,0,miami heat
+945,945,2018,Milwaukee Bucks,16,0,milwaukee bucks
+946,946,2018,Washington Wizards,17,0,washington wizards
+947,947,2018,Los Angeles Clippers,18,-1,los angeles clippers
+948,948,2018,Detroit Pistons,19,-1,detroit pistons
+949,949,2018,Charlotte Hornets,20,-1,charlotte hornets
+950,950,2018,Los Angeles Lakers,21,-1,los angeles lakers
+951,951,2018,New York Knicks,22,-1,new york knicks
+952,952,2018,Brooklyn Nets,23,-1,brooklyn nets
+953,953,2018,Chicago Bulls,24,-1,chicago bulls
+954,954,2018,Sacramento Kings,25,-1,sacramento kings
+955,955,2018,Orlando Magic,26,-1,orlando magic
+956,956,2018,Atlanta Hawks,27,-1,atlanta hawks
+957,957,2018,Dallas Mavericks,28,-1,dallas mavericks
+958,958,2018,Memphis Grizzlies,29,-1,memphis grizzlies
+959,959,2018,Phoenix Suns,30,-1,phoenix suns
+960,960,2019,Milwaukee Bucks,1,2,milwaukee bucks
+961,961,2019,Toronto Raptors,2,4,toronto raptors
+962,962,2019,Golden State Warriors,3,3,golden state warriors
+963,963,2019,Denver Nuggets,4,1,denver nuggets
+964,964,2019,Houston Rockets,5,1,houston rockets
+965,965,2019,Portland Trail Blazers,6,2,portland trail blazers
+966,966,2019,Philadelphia 76ers,7,1,philadelphia 76ers
+967,967,2019,Utah Jazz,8,0,utah jazz
+968,968,2019,Boston Celtics,9,1,boston celtics
+969,969,2019,Oklahoma City Thunder,10,0,oklahoma city thunder
+970,970,2019,Indiana Pacers,11,0,indiana pacers
+971,971,2019,Los Angeles Clippers,12,0,los angeles clippers
+972,972,2019,San Antonio Spurs,13,0,san antonio spurs
+973,973,2019,Brooklyn Nets,14,0,brooklyn nets
+974,974,2019,Orlando Magic,15,0,orlando magic
+975,975,2019,Detroit Pistons,16,0,detroit pistons
+976,976,2019,Charlotte Hornets,17,-1,charlotte hornets
+977,977,2019,Miami Heat,18,-1,miami heat
+978,978,2019,Sacramento Kings,19,-1,sacramento kings
+979,979,2019,Los Angeles Lakers,20,-1,los angeles lakers
+980,980,2019,Minnesota Timberwolves,21,-1,minnesota timberwolves
+981,981,2019,Dallas Mavericks,22,-1,dallas mavericks
+982,982,2019,Memphis Grizzlies,23,-1,memphis grizzlies
+983,983,2019,New Orleans Pelicans,24,-1,new orleans pelicans
+984,984,2019,Washington Wizards,25,-1,washington wizards
+985,985,2019,Atlanta Hawks,26,-1,atlanta hawks
+986,986,2019,Chicago Bulls,27,-1,chicago bulls
+987,987,2019,Cleveland Cavaliers,28,-1,cleveland cavaliers
+988,988,2019,Phoenix Suns,29,-1,phoenix suns
+989,989,2019,New York Knicks,30,-1,new york knicks
+990,990,2020,Milwaukee Bucks,1,1,milwaukee bucks
+991,991,2020,Toronto Raptors,2,1,toronto raptors
+992,992,2020,Los Angeles Lakers,3,4,los angeles lakers
+993,993,2020,Los Angeles Clippers,4,1,los angeles clippers
+994,994,2020,Boston Celtics,5,2,boston celtics
+995,995,2020,Denver Nuggets,6,2,denver nuggets
+996,996,2020,Indiana Pacers,7,0,indiana pacers
+997,997,2020,Houston Rockets,8,1,houston rockets
+998,998,2020,Miami Heat,9,3,miami heat
+999,999,2020,Oklahoma City Thunder,10,0,oklahoma city thunder
+1000,1000,2020,Utah Jazz,11,0,utah jazz
+1001,1001,2020,Dallas Mavericks,12,0,dallas mavericks
+1002,1002,2020,Philadelphia 76ers,13,0,philadelphia 76ers
+1003,1003,2020,Brooklyn Nets,14,0,brooklyn nets
+1004,1004,2020,Portland Trail Blazers,15,0,portland trail blazers
+1005,1005,2020,Memphis Grizzlies,16,-1,memphis grizzlies
+1006,1006,2020,Phoenix Suns,17,-1,phoenix suns
+1007,1007,2020,Orlando Magic,18,0,orlando magic
+1008,1008,2020,San Antonio Spurs,19,-1,san antonio spurs
+1009,1009,2020,Sacramento Kings,20,-1,sacramento kings
+1010,1010,2020,New Orleans Pelicans,21,-1,new orleans pelicans
+1011,1011,2020,Washington Wizards,22,-1,washington wizards
+1012,1012,2020,Charlotte Hornets,23,-1,charlotte hornets
+1013,1013,2020,Chicago Bulls,24,-1,chicago bulls
+1014,1014,2020,New York Knicks,25,-1,new york knicks
+1015,1015,2020,Atlanta Hawks,26,-1,atlanta hawks
+1016,1016,2020,Detroit Pistons,27,-1,detroit pistons
+1017,1017,2020,Cleveland Cavaliers,28,-1,cleveland cavaliers
+1018,1018,2020,Minnesota Timberwolves,29,-1,minnesota timberwolves
+1019,1019,2020,Golden State Warriors,30,-1,golden state warriors
+1020,1020,2021,Utah Jazz,1,1,utah jazz
+1021,1021,2021,Phoenix Suns,2,3,phoenix suns
+1022,1022,2021,Philadelphia 76ers,3,1,philadelphia 76ers
+1023,1023,2021,Brooklyn Nets,4,1,brooklyn nets
+1024,1024,2021,Denver Nuggets,5,1,denver nuggets
+1025,1025,2021,Los Angeles Clippers,6,2,los angeles clippers
+1026,1026,2021,Milwaukee Bucks,7,4,milwaukee bucks
+1027,1027,2021,Dallas Mavericks,8,0,dallas mavericks
+1028,1028,2021,Los Angeles Lakers,9,0,los angeles lakers
+1029,1029,2021,Portland Trail Blazers,10,0,portland trail blazers
+1030,1030,2021,Atlanta Hawks,11,2,atlanta hawks
+1031,1031,2021,New York Knicks,12,0,new york knicks
+1032,1032,2021,Miami Heat,13,0,miami heat
+1033,1033,2021,Golden State Warriors,14,-1,golden state warriors
+1034,1034,2021,Memphis Grizzlies,15,0,memphis grizzlies
+1035,1035,2021,Boston Celtics,16,0,boston celtics
+1036,1036,2021,Washington Wizards,17,0,washington wizards
+1037,1037,2021,Indiana Pacers,18,-1,indiana pacers
+1038,1038,2021,Charlotte Hornets,19,-1,charlotte hornets
+1039,1039,2021,San Antonio Spurs,20,-1,san antonio spurs
+1040,1040,2021,Chicago Bulls,21,-1,chicago bulls
+1041,1041,2021,New Orleans Pelicans,22,-1,new orleans pelicans
+1042,1042,2021,Sacramento Kings,23,-1,sacramento kings
+1043,1043,2021,Toronto Raptors,24,-1,toronto raptors
+1044,1044,2021,Minnesota Timberwolves,25,-1,minnesota timberwolves
+1045,1045,2021,Cleveland Cavaliers,26,-1,cleveland cavaliers
+1046,1046,2021,Oklahoma City Thunder,27,-1,oklahoma city thunder
+1047,1047,2021,Orlando Magic,28,-1,orlando magic
+1048,1048,2021,Detroit Pistons,29,-1,detroit pistons
+1049,1049,2021,Houston Rockets,30,-1,houston rockets
+1050,1050,2022,Phoenix Suns,1,1,phoenix suns
+1051,1051,2022,Memphis Grizzlies,2,1,memphis grizzlies
+1052,1052,2022,Golden State Warriors,3,4,golden state warriors
+1053,1053,2022,Miami Heat,4,2,miami heat
+1054,1054,2022,Dallas Mavericks,5,2,dallas mavericks
+1055,1055,2022,Boston Celtics,6,3,boston celtics
+1056,1056,2022,Milwaukee Bucks,7,1,milwaukee bucks
+1057,1057,2022,Philadelphia 76ers,8,1,philadelphia 76ers
+1058,1058,2022,Utah Jazz,9,0,utah jazz
+1059,1059,2022,Denver Nuggets,10,0,denver nuggets
+1060,1060,2022,Toronto Raptors,11,0,toronto raptors
+1061,1061,2022,Chicago Bulls,12,0,chicago bulls
+1062,1062,2022,Minnesota Timberwolves,13,0,minnesota timberwolves
+1063,1063,2022,Brooklyn Nets,14,0,brooklyn nets
+1064,1064,2022,Cleveland Cavaliers,15,-1,cleveland cavaliers
+1065,1065,2022,Atlanta Hawks,16,0,atlanta hawks
+1066,1066,2022,Charlotte Hornets,17,-1,charlotte hornets
+1067,1067,2022,Los Angeles Clippers,18,-1,los angeles clippers
+1068,1068,2022,New York Knicks,19,-1,new york knicks
+1069,1069,2022,New Orleans Pelicans,20,0,new orleans pelicans
+1070,1070,2022,Washington Wizards,21,-1,washington wizards
+1071,1071,2022,San Antonio Spurs,22,-1,san antonio spurs
+1072,1072,2022,Los Angeles Lakers,23,-1,los angeles lakers
+1073,1073,2022,Sacramento Kings,24,-1,sacramento kings
+1074,1074,2022,Portland Trail Blazers,25,-1,portland trail blazers
+1075,1075,2022,Indiana Pacers,26,-1,indiana pacers
+1076,1076,2022,Oklahoma City Thunder,27,-1,oklahoma city thunder
+1077,1077,2022,Detroit Pistons,28,-1,detroit pistons
+1078,1078,2022,Orlando Magic,29,-1,orlando magic
+1079,1079,2022,Houston Rockets,30,-1,houston rockets
+1080,1080,2023,Milwaukee Bucks,1,0,milwaukee bucks
+1081,1081,2023,Boston Celtics,2,2,boston celtics
+1082,1082,2023,Philadelphia 76ers,3,1,philadelphia 76ers
+1083,1083,2023,Denver Nuggets,4,4,denver nuggets
+1084,1084,2023,Cleveland Cavaliers,5,0,cleveland cavaliers
+1085,1085,2023,Memphis Grizzlies,6,0,memphis grizzlies
+1086,1086,2023,Sacramento Kings,7,0,sacramento kings
+1087,1087,2023,New York Knicks,8,1,new york knicks
+1088,1088,2023,Brooklyn Nets,9,0,brooklyn nets
+1089,1089,2023,Phoenix Suns,10,1,phoenix suns
+1090,1090,2023,Golden State Warriors,11,1,golden state warriors
+1091,1091,2023,Los Angeles Clippers,12,0,los angeles clippers
+1092,1092,2023,Miami Heat,13,3,miami heat
+1093,1093,2023,Los Angeles Lakers,14,2,los angeles lakers
+1094,1094,2023,Minnesota Timberwolves,15,0,minnesota timberwolves
+1095,1095,2023,New Orleans Pelicans,16,-1,new orleans pelicans
+1096,1096,2023,Atlanta Hawks,17,0,atlanta hawks
+1097,1097,2023,Toronto Raptors,18,-1,toronto raptors
+1098,1098,2023,Chicago Bulls,19,-1,chicago bulls
+1099,1099,2023,Oklahoma City Thunder,20,-1,oklahoma city thunder
+1100,1100,2023,Dallas Mavericks,21,-1,dallas mavericks
+1101,1101,2023,Utah Jazz,22,-1,utah jazz
+1102,1102,2023,Indiana Pacers,23,-1,indiana pacers
+1103,1103,2023,Washington Wizards,24,-1,washington wizards
+1104,1104,2023,Orlando Magic,25,-1,orlando magic
+1105,1105,2023,Portland Trail Blazers,26,-1,portland trail blazers
+1106,1106,2023,Charlotte Hornets,27,-1,charlotte hornets
+1107,1107,2023,Houston Rockets,28,-1,houston rockets
+1108,1108,2023,San Antonio Spurs,29,-1,san antonio spurs
+1109,1109,2023,Detroit Pistons,30,-1,detroit pistons
+1110,1110,2024,Boston Celtics,1,4,boston celtics
+1111,1111,2024,Denver Nuggets,2,1,denver nuggets
+1112,1112,2024,Oklahoma City Thunder,3,1,oklahoma city thunder
+1113,1113,2024,Minnesota Timberwolves,4,2,minnesota timberwolves
+1114,1114,2024,Los Angeles Clippers,5,0,los angeles clippers
+1115,1115,2024,Dallas Mavericks,6,3,dallas mavericks
+1116,1116,2024,New York Knicks,7,1,new york knicks
+1117,1117,2024,Milwaukee Bucks,8,0,milwaukee bucks
+1118,1118,2024,New Orleans Pelicans,9,0,new orleans pelicans
+1119,1119,2024,Phoenix Suns,10,0,phoenix suns
+1120,1120,2024,Cleveland Cavaliers,11,1,cleveland cavaliers
+1121,1121,2024,Indiana Pacers,12,2,indiana pacers
+1122,1122,2024,Los Angeles Lakers,13,0,los angeles lakers
+1123,1123,2024,Orlando Magic,14,0,orlando magic
+1124,1124,2024,Philadelphia 76ers,15,0,philadelphia 76ers
+1125,1125,2024,Miami Heat,16,0,miami heat
+1126,1126,2024,Golden State Warriors,17,-1,golden state warriors
+1127,1127,2024,Sacramento Kings,18,-1,sacramento kings
+1128,1128,2024,Houston Rockets,19,-1,houston rockets
+1129,1129,2024,Chicago Bulls,20,-1,chicago bulls
+1130,1130,2024,Atlanta Hawks,21,-1,atlanta hawks
+1131,1131,2024,Brooklyn Nets,22,-1,brooklyn nets
+1132,1132,2024,Utah Jazz,23,-1,utah jazz
+1133,1133,2024,Memphis Grizzlies,24,-1,memphis grizzlies
+1134,1134,2024,Toronto Raptors,25,-1,toronto raptors
+1135,1135,2024,San Antonio Spurs,26,-1,san antonio spurs
+1136,1136,2024,Charlotte Hornets,27,-1,charlotte hornets
+1137,1137,2024,Portland Trail Blazers,28,-1,portland trail blazers
+1138,1138,2024,Washington Wizards,29,-1,washington wizards
+1139,1139,2024,Detroit Pistons,30,-1,detroit pistons
