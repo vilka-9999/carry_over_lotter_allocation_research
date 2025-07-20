@@ -1,0 +1,3 @@
+from code.constants import FOURTH_PICK_COINS_COEF
+
+print(FOURTH_PICK_COINS_COEF)
