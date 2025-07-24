@@ -4,6 +4,44 @@ import re
 from constants import FIRST_PICK_COINS_COEF, SECOND_PICK_COINS_COEF, THIRD_PICK_COINS_COEF, FOURTH_PICK_COINS_COEF, NO_PLAYOFFS_BONUS, ROUND_1_LOSS_COEF, ROUND_2_LOSS_COEF, ROUND_3_LOSS_COEF, FINAL_LOSS_COEF, CHAMPION_COEF
 
 
+# === Penalty functions ===
+# These functions calculate the new coin total based on the current coins
+# and the specific event (draft pick or playoff rank).
+
+def apply_draft_penalty(coins, pick):
+    """
+    Applies a penalty to coins based on the draft pick position.
+    This penalty is applied *after* the rank penalty for the year.
+    """
+    if pick == 1:
+        return coins * FIRST_PICK_COINS_COEF # 1st pick: coins reset to 0
+    elif pick == 2:
+        return coins * SECOND_PICK_COINS_COEF # 2nd pick: lose 75%
+    elif pick == 3:
+        return coins * THIRD_PICK_COINS_COEF  # 3rd pick: lose 50%
+    elif pick == 4:
+        return coins * FOURTH_PICK_COINS_COEF # 4th pick: lose 25%
+    return coins # No penalty for picks outside top 4
+
+def apply_rank_penalty(coins, rank):
+    """
+    Applies a penalty or bonus to coins based on the team's playoff rank.
+    This is the first calculation applied for each year.
+    """
+    if rank == -1:
+        return coins + NO_PLAYOFFS_BONUS # Didn't make playoffs: +1 coin
+    elif rank == 0:
+        return coins * ROUND_1_LOSS_COEF    # Lost in 1st round: coins remain unchanged
+    elif rank == 1:
+        return coins * ROUND_2_LOSS_COEF # Lost in 2nd round: lose 25%, keep 75%
+    elif rank == 2:
+        return coins * ROUND_3_LOSS_COEF  # Lost in 3rd round: lose 50%, keep 50%
+    elif rank == 3:
+        return coins * FINAL_LOSS_COEF # Lost in the final: lose 75%, keep 25%
+    elif rank == 4:
+        return coins * CHAMPION_COEF            # Won the final: coins reset to 0
+    return coins # Return current coins if rank is not recognized
+
 # === CALCULATIONS BASED ON HISTORICAL DATA ===
 def coincalc_history():
     # === Load Excel files ===
@@ -16,43 +54,6 @@ def coincalc_history():
     playoff_df = playoff_df.sort_values(by=["team_normalized", "year"])
     draft_df = draft_df.sort_values(by=["pick_team_normalized", "year"])
 
-    # === Penalty functions ===
-    # These functions calculate the new coin total based on the current coins
-    # and the specific event (draft pick or playoff rank).
-
-    def apply_draft_penalty(coins, pick):
-        """
-        Applies a penalty to coins based on the draft pick position.
-        This penalty is applied *after* the rank penalty for the year.
-        """
-        if pick == 1:
-            return coins * FIRST_PICK_COINS_COEF # 1st pick: coins reset to 0
-        elif pick == 2:
-            return coins * SECOND_PICK_COINS_COEF # 2nd pick: lose 75%
-        elif pick == 3:
-            return coins * THIRD_PICK_COINS_COEF  # 3rd pick: lose 50%
-        elif pick == 4:
-            return coins * FOURTH_PICK_COINS_COEF # 4th pick: lose 25%
-        return coins # No penalty for picks outside top 4
-
-    def apply_rank_penalty(coins, rank):
-        """
-        Applies a penalty or bonus to coins based on the team's playoff rank.
-        This is the first calculation applied for each year.
-        """
-        if rank == -1:
-            return coins + NO_PLAYOFFS_BONUS # Didn't make playoffs: +1 coin
-        elif rank == 0:
-            return coins * ROUND_1_LOSS_COEF    # Lost in 1st round: coins remain unchanged
-        elif rank == 1:
-            return coins * ROUND_2_LOSS_COEF # Lost in 2nd round: lose 25%, keep 75%
-        elif rank == 2:
-            return coins * ROUND_3_LOSS_COEF  # Lost in 3rd round: lose 50%, keep 50%
-        elif rank == 3:
-            return coins * FINAL_LOSS_COEF # Lost in the final: lose 75%, keep 25%
-        elif rank == 4:
-            return coins * CHAMPION_COEF            # Won the final: coins reset to 0
-        return coins # Return current coins if rank is not recognized
 
     # === Calculate coins for each team ===
     columns = ['year', 'team_normalized', 'coins']
@@ -111,16 +112,6 @@ def coincalc_history():
     df = pd.DataFrame(rows, columns=columns)
     df.to_csv(f'results/coins_based_on_existing_results.csv')
 
-
-
-# CALCULATIONS BASED ON RANDOMNESS
-def coincalc_random(start_year, end_year):
-
-    # Filter playoff data
-    playoff_df = playoff_df[(playoff_df["year"] >= start_year) & (playoff_df["year"] <= end_year)]
-
-    # Filter draft data
-    draft_df = draft_df[(draft_df["year"] >= start_year) & (draft_df["year"] <= end_year)]
 
     
 
