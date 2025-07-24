@@ -84,6 +84,10 @@ def regular_season_simulate(teams: List[Team]):
         pair = random.choice(eligible_pairs)
 
         simulate_game(pair[0], pair[1])
+
+        teams_sorted = sorted(teams, key=lambda team: team.season_wins, reverse = True)
+        for i in range(num_teams):
+            teams_sorted[i].season_rank = i + 1
         
 
 def simulate_playoff_round(team1: Team, team2: Team) -> Team:
@@ -145,13 +149,13 @@ def draft_simulate(teams: List[Team], picks=4):
     # Copy list to avoid modifying the original
     draft_pool = teams[:]
 
-    for i in range(picks + 1):
+    for i in range(picks):
         if not draft_pool:
             break
         # Build weighted choices
         weights = [team.coins for team in draft_pool]
         chosen = random.choices(draft_pool, weights=weights, k=1)[0]
-        chosen.season_draft_pick = i
+        chosen.season_draft_pick = i + 1
         draft_pool.remove(chosen)
 
 
