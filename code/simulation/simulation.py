@@ -32,7 +32,7 @@ def initialize_teams(num_teams):
 
 
 # Simulation of the game
-def simulate_game(team1: Team, team2: Team):
+def simulate_game(team1: Team, team2: Team, playoff = False):
     total_strength = team1.strength + team2.strength
     prob_team1_wins = team1.strength / total_strength
 
@@ -41,17 +41,18 @@ def simulate_game(team1: Team, team2: Team):
     else:
         winner, loser = team2, team1
 
-    # Update season stats
-    winner.season_wins += 1
-    winner.season_games += 1
-    loser.season_loses += 1
-    loser.season_games += 1
+    if not playoff:
+        # Update season stats
+        winner.season_wins += 1
+        winner.season_games += 1
+        loser.season_loses += 1
+        loser.season_games += 1
 
-    # Update total stats
-    winner.total_wins += 1
-    winner.total_games += 1
-    loser.total_loses += 1
-    loser.total_games += 1
+        # Update total stats
+        winner.total_wins += 1
+        winner.total_games += 1
+        loser.total_loses += 1
+        loser.total_games += 1
 
 
 # simulate regular season
@@ -89,7 +90,7 @@ def simulate_playoff_round(team1: Team, team2: Team) -> Team:
     wins1 = 0
     wins2 = 0
     while wins1 < 4 and wins2 < 4:
-        winner = simulate_game(team1, team2)
+        winner = simulate_game(team1, team2, playoff=True)
         if winner == team1:
             wins1 += 1
         else:
@@ -131,7 +132,6 @@ def playoff_simulate(teams: List[Team]):
             winner.playoff_rank += 1
             next_round.append(winner)
         round_teams = next_round
-        round_number += 1
 
 
 # update coins after season    
@@ -140,10 +140,10 @@ def coins_after_season(teams: List[Team]):
         team.coins = apply_rank_penalty(team.coins, team.playoff_rank)
 
 
-def simulate_draft(teams: List[Team], picks=4):
+# simulate the draft process
+def draft_simulate(teams: List[Team], picks=4):
     # Copy list to avoid modifying the original
     draft_pool = teams[:]
-    draft_order = []
 
     for i in range(picks + 1):
         if not draft_pool:
@@ -158,7 +158,7 @@ def simulate_draft(teams: List[Team], picks=4):
 # update coins after draft
 def coins_after_draft(teams: List[Team]):
     for team in teams:
-        team.coins = apply_draft_penalty(team.coins, team.season_draft_pickdraft_pick)
+        team.coins = apply_draft_penalty(team.coins, team.season_draft_pick)
     
 
 
