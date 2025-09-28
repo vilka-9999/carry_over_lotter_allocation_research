@@ -8,7 +8,7 @@ from code.coincalc import apply_rank_penalty, apply_draft_penalty
 
 
 # initialize teams for simulation
-def initialize_teams(num_teams):
+def initialize_teams(num_teams) -> List[Team]:
     # Get unique team names
     unique_names = list(set(TEAM_NAME_MAP.values()))
 
@@ -32,7 +32,7 @@ def initialize_teams(num_teams):
 
 
 # Simulation of the game
-def simulate_game(team1: Team, team2: Team, playoff = False):
+def simulate_game(team1: Team, team2: Team, target_num_of_games = None):
     total_strength = team1.strength + team2.strength
     prob_team1_wins = team1.strength / total_strength
 
@@ -41,18 +41,15 @@ def simulate_game(team1: Team, team2: Team, playoff = False):
     else:
         winner, loser = team2, team1
 
-    if not playoff:
-        # Update season stats
-        winner.season_wins += 1
-        winner.season_games += 1
-        loser.season_loses += 1
-        loser.season_games += 1
+    # for simulations, sometimes we have no pairs left, so one team has less then target amount of games
+    if target_num_of_games:
+        if winner.season_games < target_num_of_games:
+            winner.season_wins += 1
+            winner.season_games += 1
+        if loser.season_games < target_num_of_games:
+            loser.season_loses += 1
+            loser.season_games += 1
 
-        # Update total stats
-        winner.total_wins += 1
-        winner.total_games += 1
-        loser.total_loses += 1
-        loser.total_games += 1
 
 
 # simulate regular season
@@ -66,14 +63,14 @@ def regular_season_simulate(teams: List[Team]):
     all_pairs = list(itertools.combinations(teams, 2))
     for pair in all_pairs:
         for _ in range(MIN_NUMBER_OF_GAMES_BETWEEN_TWO_TEAMS):
-            simulate_game(pair[0], pair[1])
+            simulate_game(pair[0], pair[1], target_games_per_team)
     
     # Simulate extra random games between random pairs until each team reaches target
     while any(team.season_games < target_games_per_team for team in teams):
         # Filter only valid pairs where both teams still need games
         eligible_pairs = [
             pair for pair in all_pairs
-            if pair[0].season_games < target_games_per_team and pair[1].season_games < target_games_per_team
+            if pair[0].season_games < target_games_per_team or pair[1].season_games < target_games_per_team
         ]
         
         if not eligible_pairs:
@@ -83,18 +80,18 @@ def regular_season_simulate(teams: List[Team]):
         # Randomly pick one eligible pair
         pair = random.choice(eligible_pairs)
 
-        simulate_game(pair[0], pair[1])
+        simulate_game(pair[0], pair[1], target_games_per_team)
 
-        teams_sorted = sorted(teams, key=lambda team: team.season_wins, reverse = True)
-        for i in range(num_teams):
-            teams_sorted[i].season_rank = i + 1
-        
+    teams_sorted = sorted(teams, key=lambda team: team.season_wins, reverse = True)
+    for i in range(num_teams):
+        teams_sorted[i].season_rank = i + 1
+    
 
 def simulate_playoff_round(team1: Team, team2: Team) -> Team:
     wins1 = 0
     wins2 = 0
     while wins1 < 4 and wins2 < 4:
-        winner = simulate_game(team1, team2, playoff=True)
+        winner = simulate_game(team1, team2)
         if winner == team1:
             wins1 += 1
         else:
@@ -164,6 +161,10 @@ def coins_after_draft(teams: List[Team]):
     for team in teams:
         team.coins = apply_draft_penalty(team.coins, team.season_draft_pick)
     
+
+def end_season(teams: List[Team]):
+    for team in teams:
+        team.end_season()
 
 
     
