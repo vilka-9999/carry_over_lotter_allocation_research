@@ -2,7 +2,7 @@ import random
 import itertools
 from typing import List
 
-from code.constants import MIN_TEAM_STRENGTH, MAX_TEAM_STRENGTH, TEAM_NAME_MAP, GAMES_PER_TEAM_REGULAR_SEASON, MIN_NUMBER_OF_GAMES_BETWEEN_TWO_TEAMS
+from code.constants import DRAFT_PICK_STRENGTH, MIN_TEAM_STRENGTH, MAX_TEAM_STRENGTH, TEAM_NAME_MAP, GAMES_PER_TEAM_REGULAR_SEASON, MIN_NUMBER_OF_GAMES_BETWEEN_TWO_TEAMS
 from .team import Team
 from code.coincalc import apply_rank_penalty, apply_draft_penalty
 
@@ -24,8 +24,15 @@ def initialize_teams(num_teams) -> List[Team]:
     # Initialize teams (here, just returning names; replace with Team() if you have a class)
     teams = []
     for name in selected_names:
+        # random strength
         strength = random.randint(MIN_TEAM_STRENGTH, MAX_TEAM_STRENGTH)
-        team = Team(name=name, strength=strength)
+
+        # Normalize weakness (higher = weaker team)
+        weakness = MAX_TEAM_STRENGTH - strength + 1  
+        # Add randomness but bias toward weakness
+        coins = random.randint(1, weakness * 2)
+
+        team = Team(name=name, strength=strength, coins=coins)
         teams.append(team)
 
     return teams
@@ -142,10 +149,11 @@ def coins_after_season(teams: List[Team]):
 
 
 # simulate the draft process
-def draft_simulate(teams: List[Team], picks=4):
+def draft_simulate(teams: List[Team]):
     # Copy list to avoid modifying the original
     draft_pool = teams[:]
 
+    picks = len(DRAFT_PICK_STRENGTH) # do only first 14 picks
     for i in range(picks):
         if not draft_pool:
             break
@@ -154,6 +162,10 @@ def draft_simulate(teams: List[Team], picks=4):
         chosen = random.choices(draft_pool, weights=weights, k=1)[0]
         chosen.season_draft_pick = i + 1
         draft_pool.remove(chosen)
+    
+    # add the draft pick number 15 to all the others teams since after 14 pick does not matter
+    for team in draft_pool:
+        team.season_draft_pick = picks + 1
 
 
 # update coins after draft
