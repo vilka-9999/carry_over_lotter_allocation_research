@@ -1,5 +1,5 @@
 import random
-from code.constants import DRAFT_PICK_STRENGTH, MIN_TEAM_STRENGTH_DECREASE, MAX_TEAM_STRENGTH_DECREASE, MAX_POSSIBLE_TEAM_STRENGTH
+from code.constants import DRAFT_BOOST_COEF, DRAFT_PICK_STRENGTH, MIN_TEAM_STRENGTH_DECREASE, MAX_TEAM_STRENGTH_DECREASE, MAX_POSSIBLE_TEAM_STRENGTH
 
 
 class Team:
@@ -22,8 +22,14 @@ class Team:
         self.avg_coins = 0
         self.avg_strength = 0
         self.avg_season_rank = 0
-        self.avg_playoff_rank = 0
         self.avg_draft_pick = 0
+
+        # Cumulative counters for how many times a team reached each playoff round
+        self.playoff_round_1 = 0   # Number of times reached round 1
+        self.playoff_round_2 = 0   # Number of times reached round 2
+        self.playoff_round_3 = 0   # Number of times reached round 3
+        self.playoff_final = 0     # Number of times reached the final
+        self.playoff_championship = 0  # Number of times won the championship
 
 
     # clear the season stats
@@ -38,26 +44,44 @@ class Team:
     def update_averages(self):
         if self.total_seasons_played > 0:
             self.avg_season_wins = (self.avg_season_wins * (self.total_seasons_played - 1) + self.season_wins)  / self.total_seasons_played
-            self.avg_coins = (self.avg_coins * (self.total_seasons_played - 1) + self.coins)  / self.total_seasons_played
+            self.avg_coins = (self.avg_coins * (self.total_seasons_played - 1) + self.coins)  / self.total_seasons_played # if made to play off add 0 to avg coins
             self.avg_strength = (self.avg_strength * (self.total_seasons_played - 1) + self.strength)  / self.total_seasons_played
             self.avg_season_rank = (self.avg_season_rank * (self.total_seasons_played - 1) + self.season_rank) / self.total_seasons_played
-            self.avg_playoff_rank = (self.avg_playoff_rank * (self.total_seasons_played - 1) + self.playoff_rank) / self.total_seasons_played
             self.avg_draft_pick = (self.avg_draft_pick * (self.total_seasons_played - 1) + self.season_draft_pick) / self.total_seasons_played
 
 
     def update_strength(self):
 
         # Decrease team strength after the season (players got old, etc.)
-        decay = random.uniform(MIN_TEAM_STRENGTH_DECREASE, MAX_TEAM_STRENGTH_DECREASE)  # 7–12% loss
+        decay = random.uniform(MIN_TEAM_STRENGTH_DECREASE, MAX_TEAM_STRENGTH_DECREASE) 
         self.strength *= (1 - decay)
 
         # 2. Draft pick boost (absolute gain from draft)
         coef = DRAFT_PICK_STRENGTH.get(self.season_draft_pick, 
                                        random.uniform(DRAFT_PICK_STRENGTH.get(13), DRAFT_PICK_STRENGTH.get(14)))
-        draft_boost = coef * (MAX_POSSIBLE_TEAM_STRENGTH - self.strength)
+        draft_boost = coef * (MAX_POSSIBLE_TEAM_STRENGTH - self.strength) * DRAFT_BOOST_COEF
         self.strength += draft_boost
 
         self.strength = min(MAX_POSSIBLE_TEAM_STRENGTH, round(self.strength, 2))
+
+
+    def update_playoff_rounds(self):
+        rank = self.playoff_rank
+
+        if rank == -1:
+            # Did not make playoffs
+            return
+
+        if rank >= 0:
+            self.playoff_round_1 += 1
+        if rank >= 1:
+            self.playoff_round_2 += 1
+        if rank >= 2:
+            self.playoff_round_3 += 1
+        if rank >= 3:
+            self.playoff_final += 1
+        if rank == 4:
+            self.playoff_championship += 1
 
 
 
@@ -71,6 +95,7 @@ class Team:
 
         # Update averages
         self.update_averages()
+        self.update_playoff_rounds()
 
 
         
@@ -92,7 +117,6 @@ class Team:
             f"  Avg Coins: {self.avg_coins:.2f}\n"
             f"  Avg Strength: {self.avg_strength:.2f}\n"
             f"  Avg Season Rank: {self.avg_season_rank:.2f}\n"
-            f"  Avg Playoff Rank: {self.avg_playoff_rank:.2f}\n"
             f"  Avg Draft Pick: {self.avg_draft_pick:.2f}\n" 
         )
     
@@ -120,8 +144,14 @@ class Team:
             "avg_coins": self.avg_coins,
             "avg_strength": self.avg_strength,
             "avg_season_rank": self.avg_season_rank,
-            "avg_playoff_rank": self.avg_playoff_rank,
             "avg_draft_pick": self.avg_draft_pick,
+
+            # New playoff round fields
+            "playoff_round_1": self.playoff_round_1,
+            "playoff_round_2": self.playoff_round_2,
+            "playoff_round_3": self.playoff_round_3,
+            "playoff_final": self.playoff_final,
+            "playoff_championship": self.playoff_championship
         }
     
 

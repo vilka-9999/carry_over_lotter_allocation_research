@@ -11,36 +11,44 @@ from .constants import FIRST_PICK_COINS_COEF, SECOND_PICK_COINS_COEF, THIRD_PICK
 def apply_draft_penalty(coins, pick):
     """
     Applies a penalty to coins based on the draft pick position.
-    This penalty is applied *after* the rank penalty for the year.
+    Coins will always be rounded to an integer.
     """
     if pick == 1:
-        return coins * FIRST_PICK_COINS_COEF # 1st pick: coins reset to 0
+        result = coins * FIRST_PICK_COINS_COEF  # 1st pick: coins reset to 0
     elif pick == 2:
-        return coins * SECOND_PICK_COINS_COEF # 2nd pick: lose 75%
+        result = coins * SECOND_PICK_COINS_COEF  # 2nd pick: lose 75%
     elif pick == 3:
-        return coins * THIRD_PICK_COINS_COEF  # 3rd pick: lose 50%
+        result = coins * THIRD_PICK_COINS_COEF   # 3rd pick: lose 50%
     elif pick == 4:
-        return coins * FOURTH_PICK_COINS_COEF # 4th pick: lose 25%
-    return coins # No penalty for picks outside top 4
+        result = coins * FOURTH_PICK_COINS_COEF  # 4th pick: lose 25%
+    else:
+        result = coins  # No penalty
+
+    return int(round(result))  # round to nearest integer
+
 
 def apply_rank_penalty(coins, rank):
     """
-    Applies a penalty or bonus to coins based on the team's playoff rank.
-    This is the first calculation applied for each year.
+    Applies a penalty or bonus based on playoff rank.
+    Coins will always be rounded to an integer.
     """
     if rank == -1:
-        return coins + NO_PLAYOFFS_BONUS # Didn't make playoffs: +1 coin
+        result = coins + NO_PLAYOFFS_BONUS  # Didn't make playoffs: +1 coin
     elif rank == 0:
-        return coins * ROUND_1_LOSS_COEF    # Lost in 1st round: coins remain unchanged
+        result = coins * ROUND_1_LOSS_COEF    # Lost in 1st round
     elif rank == 1:
-        return coins * ROUND_2_LOSS_COEF # Lost in 2nd round: lose 25%, keep 75%
+        result = coins * ROUND_2_LOSS_COEF   # Lost in 2nd round
     elif rank == 2:
-        return coins * ROUND_3_LOSS_COEF  # Lost in 3rd round: lose 50%, keep 50%
+        result = coins * ROUND_3_LOSS_COEF   # Lost in 3rd round
     elif rank == 3:
-        return coins * FINAL_LOSS_COEF # Lost in the final: lose 75%, keep 25%
+        result = coins * FINAL_LOSS_COEF     # Lost in final
     elif rank == 4:
-        return coins * CHAMPION_COEF            # Won the final: coins reset to 0
-    return coins # Return current coins if rank is not recognized
+        result = coins * CHAMPION_COEF       # Won final
+    else:
+        result = coins
+
+    return int(round(result))  # round to nearest integer
+
 
 # === CALCULATIONS BASED ON HISTORICAL DATA ===
 def coincalc_history():

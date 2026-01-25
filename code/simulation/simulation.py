@@ -57,6 +57,8 @@ def simulate_game(team1: Team, team2: Team, target_num_of_games = None):
             loser.season_loses += 1
             loser.season_games += 1
 
+    return winner
+
 
 
 # simulate regular season
@@ -150,22 +152,34 @@ def coins_after_season(teams: List[Team]):
 
 # simulate the draft process
 def draft_simulate(teams: List[Team]):
-    # Copy list to avoid modifying the original
-    draft_pool = teams[:]
+    # Split teams into non-playoff and playoff groups
+    non_playoff_teams = [team for team in teams if team.playoff_rank == -1]
+    playoff_teams = [team for team in teams if team.playoff_rank != -1]
 
-    picks = len(DRAFT_PICK_STRENGTH) # do only first 14 picks
+    # -------------------------------
+    # Step 1: Lottery for non-playoff teams
+    # -------------------------------
+    draft_pool = non_playoff_teams[:]
+    picks = len(DRAFT_PICK_STRENGTH)  # first 14 picks
+
     for i in range(picks):
         if not draft_pool:
             break
-        # Build weighted choices
+        # Weighted choice based on coins
         weights = [team.coins for team in draft_pool]
         chosen = random.choices(draft_pool, weights=weights, k=1)[0]
         chosen.season_draft_pick = i + 1
         draft_pool.remove(chosen)
-    
-    # add the draft pick number 15 to all the others teams since after 14 pick does not matter
-    for team in draft_pool:
-        team.season_draft_pick = picks + 1
+
+    # -------------------------------
+    # Step 2: Assign remaining picks
+    # Non-picked non-playoff teams + playoff teams
+    # -------------------------------
+    remaining_teams = draft_pool + playoff_teams
+    random.shuffle(remaining_teams)
+    for team in remaining_teams:
+        picks += 1
+        team.season_draft_pick = picks
 
 
 # update coins after draft
