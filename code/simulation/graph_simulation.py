@@ -1,8 +1,9 @@
-from .simulation import initialize_teams, regular_season_simulate, playoff_simulate, coins_after_season, coins_after_draft, draft_simulate, end_season
+from .simulation import initialize_teams, regular_season_simulate, playoff_simulate, tickets_after_season, tickets_after_draft, draft_simulate, end_season
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 from collections import defaultdict
+import copy
 
 
 def graph1000(columns):
@@ -29,10 +30,10 @@ def graph1000(columns):
         regular_season_simulate(teams)
         playoff_simulate(teams)
 
-        # Update coins and draft
-        coins_after_season(teams)
+        # Update tickets and draft
+        tickets_after_season(teams)
         draft_simulate(teams)
-        coins_after_draft(teams)
+        tickets_after_draft(teams)
 
         # End season (updates totals and averages)
         end_season(teams)
@@ -51,35 +52,24 @@ def graph1000(columns):
     df = pd.DataFrame([team.to_dict() for team in teams])
  
     # -------------------------------
-    # Bar plot
+    # One chart per column
     # -------------------------------
-    x = np.arange(len(df))
-    width = 0.8 / len(columns)
+    for col in columns:
 
-    plt.figure(figsize=(18, 7))
+        plt.figure(figsize=(18, 7))
 
-    for i, col in enumerate(columns):
         plt.bar(
-            x + i * width,
-            df[col],
-            width=width,
-            label=col
+            df["name"],
+            df[col]
         )
 
-    plt.xticks(
-        x + width * (len(columns) - 1) / 2,
-        df["name"],
-        rotation=90
-    )
+        plt.xticks(rotation=90)
+        plt.ylabel(col)
+        plt.title(f"{col} After {num_seasons} Seasons")
 
-    plt.ylabel("Value")
-    plt.title(f"Team Metrics After {num_seasons} Seasons")
-
-    plt.grid(axis="y", linestyle="--", alpha=0.6)
-    plt.legend()
-    plt.tight_layout()
-    plt.show()
-
+        plt.grid(axis="y", linestyle="--", alpha=0.6)
+        plt.tight_layout()
+        plt.show()
 
 
 
@@ -94,21 +84,26 @@ def experiment_50(field):
     # store strength history per team name
     # --------------------------------------------------
     team_history = defaultdict(list)
+    # --------------------------------------------------
+    # initialize ONCE
+    # --------------------------------------------------
+    base_teams = initialize_teams(NUM_TEAMS)
 
     for run in range(NUM_RUNS):
 
         print(f"Simulation {run + 1}/{NUM_RUNS}")
 
-        teams = initialize_teams(NUM_TEAMS)
+        # deep copy ensures identical starting state
+        teams = copy.deepcopy(base_teams)
 
         for season in range(SEASONS_PER_RUN):
 
             regular_season_simulate(teams)
             playoff_simulate(teams)
 
-            coins_after_season(teams)
+            tickets_after_season(teams)
             draft_simulate(teams)
-            coins_after_draft(teams)
+            tickets_after_draft(teams)
 
             end_season(teams)
 
@@ -194,5 +189,5 @@ def experiment_50(field):
 
 
 if __name__ == "__main__":
-    graph1000(['avg_strength'])
-    #experiment_50("avg_coins")
+    #graph1000(['avg_season_wins', 'tickets'])
+    experiment_50("avg_season_wins")

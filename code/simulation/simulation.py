@@ -30,9 +30,9 @@ def initialize_teams(num_teams) -> List[Team]:
         # Normalize weakness (higher = weaker team)
         weakness = MAX_TEAM_STRENGTH - strength + 1  
         # Add randomness but bias toward weakness
-        coins = random.randint(1, weakness * 2)
+        tickets = random.randint(1, weakness * 2) * 10
 
-        team = Team(name=name, strength=strength, coins=coins)
+        team = Team(name=name, strength=strength, tickets=tickets)
         teams.append(team)
 
     return teams
@@ -144,10 +144,10 @@ def playoff_simulate(teams: List[Team]):
         round_teams = next_round
 
 
-# update coins after season    
-def coins_after_season(teams: List[Team]):
+# update tickets after season    
+def tickets_after_season(teams: List[Team]):
     for team in teams:
-        team.coins = apply_rank_penalty(team.coins, team.playoff_rank)
+        team.tickets = apply_rank_penalty(team.tickets, team.playoff_rank)
 
 
 # simulate the draft process
@@ -165,8 +165,8 @@ def draft_simulate(teams: List[Team]):
     for i in range(picks):
         if not draft_pool:
             break
-        # Weighted choice based on coins
-        weights = [team.coins for team in draft_pool]
+        # Weighted choice based on tickets
+        weights = [team.tickets for team in draft_pool]
         chosen = random.choices(draft_pool, weights=weights, k=1)[0]
         chosen.season_draft_pick = i + 1
         draft_pool.remove(chosen)
@@ -182,10 +182,10 @@ def draft_simulate(teams: List[Team]):
         team.season_draft_pick = picks
 
 
-# update coins after draft
-def coins_after_draft(teams: List[Team]):
+# update tickets after draft
+def tickets_after_draft(teams: List[Team]):
     for team in teams:
-        team.coins = apply_draft_penalty(team.coins, team.season_draft_pick)
+        team.tickets = apply_draft_penalty(team.tickets, team.season_draft_pick)
     
 
 def end_season(teams: List[Team]):
