@@ -37,6 +37,24 @@ def initialize_teams(num_teams) -> List[Team]:
 
     return teams
 
+def spread_strength(teams):
+    num_teams = len(teams)
+
+    # Step 1: generate random numbers for desired spread
+    raw_strengths = [random.uniform(MIN_TEAM_STRENGTH, MAX_TEAM_STRENGTH) for _ in range(num_teams)]
+    min_rand = min(raw_strengths)
+    max_rand = max(raw_strengths)
+
+    # get the old min and max from the current team strengths
+    old_strengths = [t.strength for t in teams]
+    old_min = min(old_strengths)
+    old_max = max(old_strengths)
+
+    # Step 3: linearly scale each team to the new min/max range
+    for t in teams:
+        pct = (t.strength - old_min) / (old_max - old_min)  # position in old range
+        t.strength = pct * (max_rand - min_rand) + min_rand  # map to new range
+
 
 # Simulation of the game
 def simulate_game(team1: Team, team2: Team, target_num_of_games = None):

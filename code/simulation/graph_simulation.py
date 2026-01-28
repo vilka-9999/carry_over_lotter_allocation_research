@@ -1,4 +1,4 @@
-from .simulation import initialize_teams, regular_season_simulate, playoff_simulate, tickets_after_season, tickets_after_draft, draft_simulate, end_season
+from .simulation import spread_strength, initialize_teams, regular_season_simulate, playoff_simulate, tickets_after_season, tickets_after_draft, draft_simulate, end_season
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -26,6 +26,9 @@ def graph1000(columns):
     for season in range(num_seasons):
         print(f"Simulating season {season+1}/{num_seasons}")
 
+        # uniform strength spread
+        spread_strength(teams)
+
         # Regular season and playoffs
         regular_season_simulate(teams)
         playoff_simulate(teams)
@@ -42,11 +45,38 @@ def graph1000(columns):
             df = pd.DataFrame([team.to_dict() for team in teams])
             df.to_csv(output_file, index=False)
 
+            # -------------------------------
+            # Create DataFrame with averages
+            # -------------------------------
+            df = pd.DataFrame([team.to_dict() for team in teams])
+
+            # -------------------------------
+            # One chart per column
+            # -------------------------------
+            for col in columns:
+
+                plt.figure(figsize=(18, 7))
+
+                plt.bar(
+                    df["name"],
+                    df[col]
+                )
+
+                plt.xticks(rotation=90)
+                plt.ylabel(col)
+                plt.title(f"{col} After {num_seasons} Seasons")
+
+                plt.grid(axis="y", linestyle="--", alpha=0.6)
+                plt.tight_layout()
+                plt.show()
+
+
+
         for team in teams:
             team.clear_season_stats()
             team.update_strength()
 
-    # -------------------------------
+'''   # -------------------------------
     # Create DataFrame with averages
     # -------------------------------
     df = pd.DataFrame([team.to_dict() for team in teams])
@@ -69,7 +99,7 @@ def graph1000(columns):
 
         plt.grid(axis="y", linestyle="--", alpha=0.6)
         plt.tight_layout()
-        plt.show()
+        plt.show() '''
 
 
 
@@ -98,6 +128,8 @@ def experiment_50(field):
 
         for season in range(SEASONS_PER_RUN):
 
+            
+            spread_strength(teams)
             regular_season_simulate(teams)
             playoff_simulate(teams)
 
@@ -110,8 +142,7 @@ def experiment_50(field):
             for team in teams:
                 team.clear_season_stats()
                 team.update_strength()
-
-                # collect final-season value
+        # collect final-season value
         for team in teams:
             team_history[team.name].append(
                 getattr(team, field)
@@ -189,5 +220,5 @@ def experiment_50(field):
 
 
 if __name__ == "__main__":
-    #graph1000(['avg_season_wins', 'tickets'])
-    experiment_50("avg_season_wins")
+    graph1000(['strength', 'avg_strength', 'max_win_streak', 'max_loss_streak'])
+    #experiment_50("avg_strength")

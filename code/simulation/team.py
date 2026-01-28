@@ -1,5 +1,5 @@
 import random
-from code.constants import DRAFT_BOOST_COEF, DRAFT_PICK_STRENGTH, MIN_TEAM_STRENGTH_DECREASE, MAX_TEAM_STRENGTH_DECREASE, MAX_POSSIBLE_TEAM_STRENGTH
+from code.constants import DRAFT_BOOST_COEF, MIN_TEAM_STRENGTH, MAX_TEAM_STRENGTH, DRAFT_PICK_STRENGTH, MIN_TEAM_STRENGTH_DECREASE, MAX_TEAM_STRENGTH_DECREASE
 
 
 class Team:
@@ -31,6 +31,13 @@ class Team:
         self.playoff_final = 0     # Number of times reached the final
         self.playoff_championship = 0  # Number of times won the championship
 
+        # streak tracking
+        self.current_win_streak = 0
+        self.current_loss_streak = 0
+
+        self.max_win_streak = 0
+        self.max_loss_streak = 0
+
 
     # clear the season stats
     def clear_season_stats(self):
@@ -52,17 +59,29 @@ class Team:
 
     def update_strength(self):
 
-        # Decrease team strength after the season (players got old, etc.)
-        decay = random.uniform(MIN_TEAM_STRENGTH_DECREASE, MAX_TEAM_STRENGTH_DECREASE) 
-        self.strength *= (1 - decay)
+        # Aging
+        decay = random.uniform(
+            MIN_TEAM_STRENGTH_DECREASE,
+            MAX_TEAM_STRENGTH_DECREASE
+        )
+        aging_loss = self.strength * decay
 
-        # 2. Draft pick boost (absolute gain from draft)
-        coef = DRAFT_PICK_STRENGTH.get(self.season_draft_pick, 
-                                       random.uniform(DRAFT_PICK_STRENGTH.get(13), DRAFT_PICK_STRENGTH.get(14)))
-        draft_boost = coef * (MAX_POSSIBLE_TEAM_STRENGTH - self.strength) * DRAFT_BOOST_COEF
-        self.strength += draft_boost
+        # Draft value
+        coef = DRAFT_PICK_STRENGTH.get(
+            self.season_draft_pick,
+            random.uniform(
+                DRAFT_PICK_STRENGTH[13],
+                DRAFT_PICK_STRENGTH[14]
+            )
+        )
+        draft_boost = coef * (MAX_TEAM_STRENGTH - self.strength) * DRAFT_BOOST_COEF #coef * DRAFT_BOOST_COEF #
 
-        self.strength = min(MAX_POSSIBLE_TEAM_STRENGTH, round(self.strength, 2))
+        self.strength += draft_boost - aging_loss 
+
+        self.strength = max(
+            MIN_TEAM_STRENGTH,
+            min(MAX_TEAM_STRENGTH, round(self.strength, 2)))
+
 
 
     def update_playoff_rounds(self):
@@ -83,6 +102,30 @@ class Team:
         if rank == 4:
             self.playoff_championship += 1
 
+    
+    def update_streaks(self):
+        made_playoffs = self.playoff_rank >= 0
+
+        if made_playoffs:
+            # winning season
+            self.current_win_streak += 1
+            self.current_loss_streak = 0
+
+            self.max_win_streak = max(
+                self.max_win_streak,
+                self.current_win_streak
+            )
+
+        else:
+            # losing season
+            self.current_loss_streak += 1
+            self.current_win_streak = 0
+
+            self.max_loss_streak = max(
+                self.max_loss_streak,
+                self.current_loss_streak
+            )
+
 
 
 
@@ -92,6 +135,8 @@ class Team:
         self.total_loses += self.season_loses
         self.total_games += self.season_games
         self.total_seasons_played += 1
+
+        self.update_streaks()
 
         # Update averages
         self.update_averages()
@@ -151,8 +196,18 @@ class Team:
             "playoff_round_2": self.playoff_round_2,
             "playoff_round_3": self.playoff_round_3,
             "playoff_final": self.playoff_final,
-            "playoff_championship": self.playoff_championship
+            "playoff_championship": self.playoff_championship,
+
+            "current_win_streak": self.current_win_streak,
+            "current_loss_streak": self.current_loss_streak,
+            "max_win_streak": self.max_win_streak,
+            "max_loss_streak": self.max_loss_streak,
         }
     
+
+    def __eq__(self, other):
+        if isinstance(other, Team):
+            return self.name == other.name
+        return False
 
 
