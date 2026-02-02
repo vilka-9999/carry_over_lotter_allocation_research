@@ -13,7 +13,7 @@ def graph1000(columns):
     # Simulation parameters
     # -------------------------------
     num_teams = 30
-    num_seasons = 100
+    num_seasons = 1000
 
     # -------------------------------
     # Initialize teams
@@ -63,12 +63,12 @@ def graph1000(columns):
                             )
 
                 # Rotate x-axis labels
-                plt.xticks(rotation=90, fontsize=16)  # was ~8 → doubled
-                plt.yticks(fontsize=16)
+                plt.xticks(rotation=90, fontsize=18)  # was ~8 → doubled
+                plt.yticks(fontsize=18)
 
                 # Labels and title with larger font
-                plt.ylabel(col, fontsize=18)          # was ~9 → doubled
-                plt.title(f"{col} After {season} Seasons", fontsize=20)  # was ~10 → doubled
+                plt.ylabel(col.replace("_", " "), fontsize=20)          # was ~9 → doubled
+                #plt.title(f"{col.replace("_", " ")} After {season} Seasons", fontsize=22)  # was ~10 → doubled
 
                 plt.grid(axis="y", linestyle="--", alpha=0.6)
                 plt.tight_layout()
@@ -180,14 +180,14 @@ def experiment_50(field):
     )
 
     # Font size adjustments
-    plt.xticks(x, df["team"], rotation=90, fontsize=16)  # doubled from ~8
-    plt.yticks(fontsize=16)
-    plt.ylabel(field, fontsize=18)
-    plt.title(
-    f"{field} distribution after {SEASONS_PER_RUN} seasons\n"
-    f"({NUM_RUNS} independent simulations)",
-    fontsize=20
-    )
+    plt.xticks(x, df["team"], rotation=90, fontsize=18)  # doubled from ~8
+    plt.yticks(fontsize=18)
+    plt.ylabel(field.replace("_", " "), fontsize=20)
+   # plt.title(
+    #f"{field} distribution after {SEASONS_PER_RUN} seasons\n"
+    #f"({NUM_RUNS} independent simulations)",
+    #fontsize=20
+    #)
     plt.legend(fontsize=16)  # enlarge legend font
 
     plt.grid(axis="y", linestyle="--", alpha=0.6)
@@ -241,17 +241,17 @@ def graph_attribute_over_years(num_teams_to_plot, field):
         plt.plot(range(1, TOTAL_SEASONS + 1), values, marker='o', label=team_name)
 
     # Font size adjustments
-    plt.xlabel("Season", fontsize=18)
-    plt.ylabel(field, fontsize=18)
-    plt.title(
-        f"{field} over {TOTAL_SEASONS} seasons for {num_teams_to_plot} random teams",
-        fontsize=20
-    )
+    plt.xlabel("Season", fontsize=20)
+    plt.ylabel(field.replace("_", " "), fontsize=20)
+    #plt.title(
+    #    f"{field} over {TOTAL_SEASONS} seasons for {num_teams_to_plot} random teams",
+    #    fontsize=20
+    #)
     plt.xticks(
         range(1, TOTAL_SEASONS + 1, max(1, TOTAL_SEASONS // 10)),
-        fontsize=16
+        fontsize=18
     )
-    plt.yticks(fontsize=16)
+    plt.yticks(fontsize=18)
     plt.grid(axis="y", linestyle="--", alpha=0.6)
     plt.legend(fontsize=16)
     plt.tight_layout()
@@ -351,6 +351,6 @@ def edge_case_lottery_index(num_seasons=1000, num_teams=30):
 
 if __name__ == "__main__":
     #graph1000(['avg_draft_pick', 'playoff_round_1'])
-    #experiment_50("max_playoff_streak")
-    graph_attribute_over_years(2, 'lottery_index')
+    experiment_50("max_playoff_streak")
+    #graph_attribute_over_years(2, 'lottery_index')
     #edge_case_lottery_index()
