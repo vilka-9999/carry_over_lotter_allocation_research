@@ -3,7 +3,7 @@ from code.constants import DRAFT_BOOST_COEF, MIN_TEAM_STRENGTH, MAX_TEAM_STRENGT
 
 
 class Team:
-    def __init__(self, name='some_team', total_wins=0, total_loses=0, total_games=0, season_wins=0, season_loses=0, season_games=0, season_rank=0, playoff_rank=-1, tickets=0.0, strength=0, season_draft_pick = 0):
+    def __init__(self, name='some_team', total_wins=0, total_loses=0, total_games=0, season_wins=0, season_loses=0, season_games=0, season_rank=0, playoff_rank=-1, lottery_index=0.0, strength=0, season_draft_pick = 0):
         self.name = name
         self.total_wins = total_wins        # Total number of wins across all seasons
         self.total_loses = total_loses      # Total number of losses across all seasons
@@ -13,13 +13,13 @@ class Team:
         self.season_games = season_games      # number of season games
         self.season_rank = season_rank       # Current season rank 
         self.playoff_rank = playoff_rank      # Playoff rank 
-        self.tickets = tickets                      # Number of tickets
+        self.lottery_index = lottery_index                      # Number of lottery_index
         self.strength = strength                # Strength of the team
         self.season_draft_pick = season_draft_pick  # draft pick   
 
         self.total_seasons_played = 0
         self.avg_season_wins = 0
-        self.avg_tickets = 0
+        self.avg_lottery_index = 0
         self.avg_strength = 0
         self.avg_season_rank = 0
         self.avg_draft_pick = 0
@@ -32,11 +32,11 @@ class Team:
         self.playoff_championship = 0  # Number of times won the championship
 
         # streak tracking
-        self.current_win_streak = 0
-        self.current_loss_streak = 0
+        self.current_playoff_streak = 0
+        self.current_non_playoff_streak = 0
 
-        self.max_win_streak = 0
-        self.max_loss_streak = 0
+        self.max_playoff_streak = 0
+        self.max_non_playoff_streak = 0
 
 
     # clear the season stats
@@ -51,7 +51,7 @@ class Team:
     def update_averages(self):
         if self.total_seasons_played > 0:
             self.avg_season_wins = (self.avg_season_wins * (self.total_seasons_played - 1) + self.season_wins)  / self.total_seasons_played
-            self.avg_tickets = (self.avg_tickets * (self.total_seasons_played - 1) + self.tickets)  / self.total_seasons_played # if made to play off add 0 to avg tickets
+            self.avg_lottery_index = (self.avg_lottery_index * (self.total_seasons_played - 1) + self.lottery_index)  / self.total_seasons_played # if made to play off add 0 to avg lottery_index
             self.avg_strength = (self.avg_strength * (self.total_seasons_played - 1) + self.strength)  / self.total_seasons_played
             self.avg_season_rank = (self.avg_season_rank * (self.total_seasons_played - 1) + self.season_rank) / self.total_seasons_played
             self.avg_draft_pick = (self.avg_draft_pick * (self.total_seasons_played - 1) + self.season_draft_pick) / self.total_seasons_played
@@ -74,7 +74,7 @@ class Team:
                 DRAFT_PICK_STRENGTH[14]
             )
         )
-        draft_boost = coef * (MAX_TEAM_STRENGTH - self.strength) * DRAFT_BOOST_COEF #coef * DRAFT_BOOST_COEF #
+        draft_boost = coef * (MAX_TEAM_STRENGTH - self.strength) * DRAFT_BOOST_COEF #coef * DRAFT_BOOST_COEF
 
         self.strength += draft_boost - aging_loss 
 
@@ -108,22 +108,22 @@ class Team:
 
         if made_playoffs:
             # winning season
-            self.current_win_streak += 1
-            self.current_loss_streak = 0
+            self.current_playoff_streak += 1
+            self.current_non_playoff_streak = 0
 
-            self.max_win_streak = max(
-                self.max_win_streak,
-                self.current_win_streak
+            self.max_playoff_streak = max(
+                self.max_playoff_streak,
+                self.current_playoff_streak
             )
 
         else:
             # losing season
-            self.current_loss_streak += 1
-            self.current_win_streak = 0
+            self.current_non_playoff_streak += 1
+            self.current_playoff_streak = 0
 
-            self.max_loss_streak = max(
-                self.max_loss_streak,
-                self.current_loss_streak
+            self.max_non_playoff_streak = max(
+                self.max_non_playoff_streak,
+                self.current_non_playoff_streak
             )
 
 
@@ -150,7 +150,7 @@ class Team:
         return (
             f"Team: {self.name}\n"
             f"  Strength: {self.strength:.2f}\n"
-            f"  tickets: {self.tickets:.2f}\n"
+            f"  lottery_index: {self.lottery_index:.2f}\n"
             f"  Season: {self.season_wins}-{self.season_loses} "
             f"(Games: {self.season_games}, Rank: {self.season_rank})\n"
             f"  Playoff Rank: {self.playoff_rank}\n"
@@ -159,7 +159,7 @@ class Team:
             f"  Draft Pick: {self.season_draft_pick}\n"
             f"  --- Averages ---\n"
             f"  Avg Season Wins: {self.avg_season_wins:.2f}\n"
-            f"  Avg tickets: {self.avg_tickets:.2f}\n"
+            f"  Avg lottery_index: {self.avg_lottery_index:.2f}\n"
             f"  Avg Strength: {self.avg_strength:.2f}\n"
             f"  Avg Season Rank: {self.avg_season_rank:.2f}\n"
             f"  Avg Draft Pick: {self.avg_draft_pick:.2f}\n" 
@@ -181,12 +181,12 @@ class Team:
             "season_games": self.season_games,
             "season_rank": self.season_rank,
             "playoff_rank": self.playoff_rank,
-            "tickets": self.tickets,
+            "lottery_index": self.lottery_index,
             "strength": self.strength,
             "season_draft_pick": self.season_draft_pick,
             "total_seasons_played": self.total_seasons_played,
             "avg_season_wins": self.avg_season_wins,
-            "avg_tickets": self.avg_tickets,
+            "avg_lottery_index": self.avg_lottery_index,
             "avg_strength": self.avg_strength,
             "avg_season_rank": self.avg_season_rank,
             "avg_draft_pick": self.avg_draft_pick,
@@ -198,10 +198,10 @@ class Team:
             "playoff_final": self.playoff_final,
             "playoff_championship": self.playoff_championship,
 
-            "current_win_streak": self.current_win_streak,
-            "current_loss_streak": self.current_loss_streak,
-            "max_win_streak": self.max_win_streak,
-            "max_loss_streak": self.max_loss_streak,
+            "current_playoff_streak": self.current_playoff_streak,
+            "current_non_playoff_streak": self.current_non_playoff_streak,
+            "max_playoff_streak": self.max_playoff_streak,
+            "max_non_playoff_streak": self.max_non_playoff_streak,
         }
     
 

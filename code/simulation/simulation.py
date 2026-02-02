@@ -19,7 +19,7 @@ def initialize_teams(num_teams) -> List[Team]:
     random.shuffle(unique_names)
 
     # Select first num_teams names
-    selected_names = unique_names[:num_teams]
+    selected_names = [str(i) for i in range(1, num_teams + 1)]#unique_names[:num_teams]
 
     # Initialize teams (here, just returning names; replace with Team() if you have a class)
     teams = []
@@ -30,9 +30,9 @@ def initialize_teams(num_teams) -> List[Team]:
         # Normalize weakness (higher = weaker team)
         weakness = MAX_TEAM_STRENGTH - strength + 1  
         # Add randomness but bias toward weakness
-        tickets = random.randint(1, weakness * 2) * 10
+        lottery_index = random.randint(1, weakness * 2) * 10
 
-        team = Team(name=name, strength=strength, tickets=tickets)
+        team = Team(name=name, strength=strength, lottery_index=lottery_index)
         teams.append(team)
 
     return teams
@@ -162,10 +162,10 @@ def playoff_simulate(teams: List[Team]):
         round_teams = next_round
 
 
-# update tickets after season    
-def tickets_after_season(teams: List[Team]):
+# update lottery_index after season    
+def lottery_index_after_season(teams: List[Team]):
     for team in teams:
-        team.tickets = apply_rank_penalty(team.tickets, team.playoff_rank)
+        team.lottery_index = apply_rank_penalty(team.lottery_index, team.playoff_rank)
 
 
 # simulate the draft process
@@ -183,8 +183,8 @@ def draft_simulate(teams: List[Team]):
     for i in range(picks):
         if not draft_pool:
             break
-        # Weighted choice based on tickets
-        weights = [team.tickets for team in draft_pool]
+        # Weighted choice based on lottery_index
+        weights = [team.lottery_index for team in draft_pool]
         chosen = random.choices(draft_pool, weights=weights, k=1)[0]
         chosen.season_draft_pick = i + 1
         draft_pool.remove(chosen)
@@ -200,10 +200,10 @@ def draft_simulate(teams: List[Team]):
         team.season_draft_pick = picks
 
 
-# update tickets after draft
-def tickets_after_draft(teams: List[Team]):
+# update lottery_index after draft
+def lottery_index_after_draft(teams: List[Team]):
     for team in teams:
-        team.tickets = apply_draft_penalty(team.tickets, team.season_draft_pick)
+        team.lottery_index = apply_draft_penalty(team.lottery_index, team.season_draft_pick)
     
 
 def end_season(teams: List[Team]):

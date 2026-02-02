@@ -1,57 +1,57 @@
 import pandas as pd
 import re
 
-from .constants import FIRST_PICK_TICKETS_COEF, SECOND_PICK_TICKETS_COEF, THIRD_PICK_TICKETS_COEF, FOURTH_PICK_TICKETS_COEF, NO_PLAYOFFS_BONUS, ROUND_1_LOSS_COEF, ROUND_2_LOSS_COEF, ROUND_3_LOSS_COEF, FINAL_LOSS_COEF, CHAMPION_COEF
+from .constants import FIRST_PICK_LOTTERY_INDEX_COEF, SECOND_PICK_LOTTERY_INDEX_COEF, THIRD_PICK_LOTTERY_INDEX_COEF, FOURTH_PICK_LOTTERY_INDEX_COEF, NO_PLAYOFFS_BONUS, ROUND_1_LOSS_COEF, ROUND_2_LOSS_COEF, ROUND_3_LOSS_COEF, FINAL_LOSS_COEF, CHAMPION_COEF
 
 
 # === Penalty functions ===
-# These functions calculate the new coin total based on the current tickets
+# These functions calculate the new coin total based on the current lottery_index
 # and the specific event (draft pick or playoff rank).
 
-def apply_draft_penalty(tickets, pick):
+def apply_draft_penalty(lottery_index, pick):
     """
-    Applies a penalty to tickets based on the draft pick position.
-    tickets will always be rounded to an integer.
+    Applies a penalty to lottery_index based on the draft pick position.
+    lottery_index will always be rounded to an integer.
     """
     if pick == 1:
-        result = tickets * FIRST_PICK_TICKETS_COEF  # 1st pick: tickets reset to 0
+        result = lottery_index * FIRST_PICK_LOTTERY_INDEX_COEF  # 1st pick: lottery_index reset to 0
     elif pick == 2:
-        result = tickets * SECOND_PICK_TICKETS_COEF  # 2nd pick: lose 75%
+        result = lottery_index * SECOND_PICK_LOTTERY_INDEX_COEF  # 2nd pick: lose 75%
     elif pick == 3:
-        result = tickets * THIRD_PICK_TICKETS_COEF   # 3rd pick: lose 50%
+        result = lottery_index * THIRD_PICK_LOTTERY_INDEX_COEF   # 3rd pick: lose 50%
     elif pick == 4:
-        result = tickets * FOURTH_PICK_TICKETS_COEF  # 4th pick: lose 25%
+        result = lottery_index * FOURTH_PICK_LOTTERY_INDEX_COEF  # 4th pick: lose 25%
     else:
-        result = tickets  # No penalty
+        result = lottery_index  # No penalty
 
     return int(round(result))  # round to nearest integer
 
 
-def apply_rank_penalty(tickets, rank):
+def apply_rank_penalty(lottery_index, rank):
     """
     Applies a penalty or bonus based on playoff rank.
-    tickets will always be rounded to an integer.
+    lottery_index will always be rounded to an integer.
     """
     if rank == -1:
-        result = tickets + NO_PLAYOFFS_BONUS  # Didn't make playoffs: +1 coin
+        result = lottery_index + NO_PLAYOFFS_BONUS  # Didn't make playoffs: +1 coin
     elif rank == 0:
-        result = tickets * ROUND_1_LOSS_COEF    # Lost in 1st round
+        result = lottery_index * ROUND_1_LOSS_COEF    # Lost in 1st round
     elif rank == 1:
-        result = tickets * ROUND_2_LOSS_COEF   # Lost in 2nd round
+        result = lottery_index * ROUND_2_LOSS_COEF   # Lost in 2nd round
     elif rank == 2:
-        result = tickets * ROUND_3_LOSS_COEF   # Lost in 3rd round
+        result = lottery_index * ROUND_3_LOSS_COEF   # Lost in 3rd round
     elif rank == 3:
-        result = tickets * FINAL_LOSS_COEF     # Lost in final
+        result = lottery_index * FINAL_LOSS_COEF     # Lost in final
     elif rank == 4:
-        result = tickets * CHAMPION_COEF       # Won final
+        result = lottery_index * CHAMPION_COEF       # Won final
     else:
-        result = tickets
+        result = lottery_index
 
     return int(round(result))  # round to nearest integer
 
 
 # === CALCULATIONS BASED ON HISTORICAL DATA ===
-def ticketscalc_history():
+def lottery_indexcalc_history():
     # === Load Excel files ===
 
     playoff_df = pd.read_csv('data/TeamsRank_1985-2024.csv')
@@ -63,15 +63,15 @@ def ticketscalc_history():
     draft_df = draft_df.sort_values(by=["pick_team_normalized", "year"])
 
 
-    # === Calculate tickets for each team ===
-    columns = ['year', 'team_normalized', 'tickets']
+    # === Calculate lottery_index for each team ===
+    columns = ['year', 'team_normalized', 'lottery_index']
     rows = []
 
     # Iterate through each normalized team found in the playoff data
     for team_normalized in playoff_df['team_normalized'].unique():
         # Get all historical data for the current normalized team, sorted by year
         team_playoff_data = playoff_df[playoff_df['team_normalized'] == team_normalized].sort_values(by='year')
-        tickets = 0 # Initialize tickets for the current team for the calculation for this team's history
+        lottery_index = 0 # Initialize lottery_index for the current team for the calculation for this team's history
 
         # Check if team_playoff_data is empty before accessing .iloc[0]
         if team_playoff_data.empty:
@@ -80,17 +80,17 @@ def ticketscalc_history():
             
         original_team_name = team_playoff_data['team'].iloc[0]
 
-        print(f"\n--- Calculating tickets for {original_team_name} (Normalized: {team_normalized}) ---")
+        print(f"\n--- Calculating lottery_index for {original_team_name} (Normalized: {team_normalized}) ---")
 
         # Iterate through each year's performance for the team 
         for _, row in team_playoff_data.iterrows():
             year = row['year']
             rank = row['rank_playoffs']
             
-            tickets_before_rank = tickets # Store tickets before rank penalty 
+            lottery_index_before_rank = lottery_index # Store lottery_index before rank penalty 
         
-            tickets = apply_rank_penalty(tickets, rank)
-            print(f"  {year}: Rank = {rank}, tickets before rank penalty: {tickets_before_rank:.2f}, After rank penalty: {tickets:.2f}")
+            lottery_index = apply_rank_penalty(lottery_index, rank)
+            print(f"  {year}: Rank = {rank}, lottery_index before rank penalty: {lottery_index_before_rank:.2f}, After rank penalty: {lottery_index:.2f}")
 
             
             draft_row_for_team = draft_df[
@@ -104,21 +104,21 @@ def ticketscalc_history():
                 if pd.isna(pick) or not (1 <= pick <= 4): 
                     print(f"    Warning: Draft pick for {original_team_name} in {year} is missing or invalid ({pick}). Skipping draft penalty.")
                 else:
-                    tickets_before_draft = tickets 
-                    tickets = apply_draft_penalty(tickets, pick)
-                    print(f"    -> Draft pick found (Pick {pick}). tickets before draft penalty: {tickets_before_draft:.2f}, After draft penalty: {tickets:.2f}")
+                    lottery_index_before_draft = lottery_index 
+                    lottery_index = apply_draft_penalty(lottery_index, pick)
+                    print(f"    -> Draft pick found (Pick {pick}). lottery_index before draft penalty: {lottery_index_before_draft:.2f}, After draft penalty: {lottery_index:.2f}")
             else:
                 print(f"    -> No top-4 draft pick found for {original_team_name} in {year}.")
 
-            print(f"  {year}: Final tickets for year: {tickets:.2f}")
+            print(f"  {year}: Final lottery_index for year: {lottery_index:.2f}")
 
-            rows.append([year, team_normalized, round(tickets, 2)])
+            rows.append([year, team_normalized, round(lottery_index, 2)])
 
 
     print("\n=== Creating DB ===")
 
     df = pd.DataFrame(rows, columns=columns)
-    df.to_csv(f'results/tickets_based_on_existing_results.csv')
+    df.to_csv(f'results/lottery_index_based_on_existing_results.csv')
 
 
     
@@ -129,7 +129,7 @@ def ticketscalc_history():
 
 
 def main():
-    ticketscalc_history()
+    lottery_indexcalc_history()
 
 if __name__ == '__main__':
     main()
